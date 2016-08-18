@@ -1,9 +1,9 @@
 
 # Teoría de Algoritmos I
 
-Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del 2do cuatrimestre del 2016.
+Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del 2.º cuatrimestre del 2016.
 
-Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs en el aula 407.
+Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs en el aula 418.
 
 Para comunicarnos usaremos el siguiente grupo de Google: https://groups.google.com/group/fiuba-7529-alumnos.
 
@@ -19,9 +19,9 @@ Para comunicarnos usaremos el siguiente grupo de Google: https://groups.google.c
 
 ## Bibliografía
 
-  - J. Kleinberg, E. Tardos, "Algorithm Design", Addison Wesley (2006).
-  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, "Introduction to Algorithms" (tercera edición), MIT Press (2009).
-  - M. Sipser, "Introduction to the Theory of Computation" (tercera edición), Cengage Learning (2013).
+  - J. Kleinberg, E. Tardos, _Algorithm Design_, Addison Wesley (2006).
+  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (tercera edición), MIT Press (2009).
+  - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013).
 
 
 ## Régimen de cursada
