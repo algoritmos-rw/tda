@@ -1,20 +1,23 @@
-
-# Teoría de Algoritmos I
+---
+layout: default
+---
 
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del 2.º cuatrimestre del 2016.
 
 Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs en el aula 418.
 
-Para comunicarnos usaremos el siguiente grupo de Google: https://groups.google.com/group/fiuba-7529-alumnos.
+Para comunicarnos usaremos el siguiente grupo de Google: <https://groups.google.com/group/fiuba-7529-alumnos>.
 
 ## Docentes
 
 **Teórica**:
+
   - Rosita Wachenchauzer
 
 **Práctica**:
+
   - Federico Barrios
-  - Dato Simó
+  - Adeodato Simó
 
 
 ## Bibliografía
