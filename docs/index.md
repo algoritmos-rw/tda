@@ -49,4 +49,6 @@ Con las siguientes consideraciones:
 
 La materia será dictada en 32 clases a lo largo de 16 semanas. Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs cada una.
 
-Contamos con una planificación de todas las clases en el siguiente [calendario de Google](https://calendar.google.com/calendar/embed?src=1i5cqfns2a41t1rdhgvll51j70%40group.calendar.google.com&ctz=America/Argentina/Buenos_Aires), al que pueden suscribirse, imprimir o descargar.
+La planificación de la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/1nc5HHDnoOajfBULtGMPeN-SKyJxc0CavmEHjinYXXns/pubhtml?gid=1350582962&single=true),
+o en el en el siguiente [calendario de Google](https://calendar.google.com/calendar/embed?src=1i5cqfns2a41t1rdhgvll51j70%40group.calendar.google.com&ctz=America/Argentina/Buenos_Aires).
+
