@@ -8,6 +8,10 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs en el au
 
 Para comunicarnos usaremos el siguiente grupo de Google: <https://groups.google.com/group/fiuba-7529-alumnos>.
 
+## Noticias
+
+  - 19/9: publicado el enunciado del [TP1](tp1.html).
+
 ## Docentes
 
 **Teórica**:
