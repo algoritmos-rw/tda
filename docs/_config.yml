@@ -6,4 +6,5 @@ baseurl: "/tda"
 url: "https://algoritmos-rw.github.io" # the base hostname & protocol for your site
 
 # Build settings
+theme: minima
 markdown: kramdown
