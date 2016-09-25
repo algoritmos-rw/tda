@@ -12,7 +12,7 @@ Lineamientos básicos:
 
   - el trabajo se realizará en grupos de tres o cuatro personas.
 
-  - la fecha de entrega es el **lunes 10 de octubre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) a la lista de docentes: XXX.
+  - la fecha de entrega es el **lunes 10 de octubre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
 
   - el lenguaje de implementación es libre, pero se debe comunicar por correo en caso de _no_ ser uno de: C, C++, Python, Java, JavaScript, Ruby, Go, Rust, Swift, Scala, Haskell, OCaml, Clojure, D, Lua, Elixir.
 
