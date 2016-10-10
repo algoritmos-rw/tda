@@ -1,5 +1,6 @@
 ---
 layout: default
+math: true
 ---
 
 Trabajo Práctico n.º 1
@@ -25,11 +26,11 @@ Lineamientos básicos:
 
 ## Estadístico de orden _k_
 
-El estadístico de orden _k_ de un conjunto de _n_ elementos es el el _k_-ésimo elemento más pequeño. Son casos particulares de estos el máximo (_k = n-1_), el mínimo (_k = 0_) y la mediana de un conjunto (_k = n/2_). Se propone analizar varios algoritmos que computan este valor.
+El estadístico de orden _k_ de un conjunto de _n_ elementos es el el _k_-ésimo elemento más pequeño. Son casos particulares de estos el máximo $$(k = n-1)$$, el mínimo $$(k = 0)$$ y la mediana de un conjunto $$(k = \frac{n}{2})$$. Se propone analizar varios algoritmos que computan este valor.
 
   1. **Fuerza bruta**: se implementa un verificador que dado un conjunto y un candidato devuelve un booleano indicando si el valor indicado es el _k_ elemento más pequeño. El algoritmo de fuerza bruta itera todos los elementos del conjunto y verifica de a uno si es la solución. Una vez el verificador devuelve _true_, devuelve ese elemento.
 
-  2. **Ordenar y seleccionar**: ordena el conjunto mediante un algoritmo veloz de comparación y luego seleccionar el _k_ elemento del arreglo ordenado.
+  2. **Ordenar y seleccionar**: ordena el conjunto mediante un algoritmo veloz de comparación $$\mathcal{O}(n \log{n})$$ y luego seleccionar el _k_ elemento del arreglo ordenado.
 
   3. **k-selecciones**: el algoritmo de ordenamiento por selección busca el menor elemento de una secuencia y lo intercambia con el primero. Se propone realizar _k_ selecciones para encontrar el _k_ elemento más pequeño.
 
@@ -83,11 +84,11 @@ Se pide:
 
       - Grafos con y sin peso.
 
-      - Heurísticas que funcionen sin error, es decir, que siempre estimen `h(v) = R(u)`.
+      - Heurísticas que funcionen sin error, es decir, que siempre estimen $$h(v) = R(u)$$.
 
-      - Heurísticas consistentemente optimistas que siempre estimen `h(v) << R(v)`.
+      - Heurísticas consistentemente optimistas que siempre estimen $$h(v) \le R(v)$$
 
-      - Heurísticas consistentemente pesimistas que siempre estimen `h(v) >> R(v)`.
+      - Heurísticas consistentemente pesimistas que siempre estimen $$h(v) \gt R(v)$$.
 
 
 ### Notas de implementación
