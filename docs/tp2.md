@@ -51,7 +51,7 @@ Se pide implementar una solución por programación dinámica a la **versión 0-
 
 [^1]: Kleinberg y Tardos primero describen una versión restringida en la que $$v_i = w_i$$, y en la segunda mitad del capítulo describen el algoritmo para $$v_i \ne w_i$$.
 
-Dato un conjunto de elementos $$S = \{1, 2, \ldots, n\}$$ el problema consiste encontrar la sequencia $$X = (x_1, x_2, \ldots, x_n)$$ que maximice:
+Dado un conjunto de elementos $$S = \{1, 2, \ldots, n\}$$ el problema consiste encontrar la sequencia $$X = (x_1, x_2, \ldots, x_n)$$ que maximice:
 
 $$
 \sum_{i \in S} v_i x_i
