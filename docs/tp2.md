@@ -3,16 +3,28 @@ layout: default
 math: true
 ---
 
-Trabajo Práctico n.º 2
+Trabajo práctico n.º 2
 ======================
+{:.no_toc}
+
+El trabajo práctico consiste en las dos partes que se listan a continuación.
+
+Lineamientos básicos:
+
+  - el trabajo se realizará en grupos de tres o cuatro personas.
+
+  - la fecha de entrega es el **lunes 14 de noviembre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
+
+Contenidos
+==========
 {:.no_toc}
 
 1. TOC
 {:toc}
 
 
-Programación dinámica _vs._ algoritmos aproximados
-==================================================
+Programación dinámica
+=====================
 
 En esta primera mitad del trabajo práctico se examinan los algoritmos de programación dinámica que resuelven los siguientes problemas:
 
@@ -168,9 +180,6 @@ Para el informe se puede incluir una instancia de tamaño mayor: [att48_d.txt] (
 [att48_d.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_d.txt
 [att48_s.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_s.txt
 
-
-Informe
--------
 
 Flujo de redes
 ==============
