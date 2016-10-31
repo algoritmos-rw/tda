@@ -203,7 +203,7 @@ El Ing. obviamente desea maximizar sus ganancias dadas las las siguientes restri
 
 Así las cosas, el Ing. B. necesita saber los proyectos a aceptar y los expertos a contratar para maximizar sus ganancias netas (esto es, lo ganado con cada proyecto menos el monto de los salarios).
 
-[^4]: Formulación original del problema: Cormen et al. (2009), pp. 761-762 (§26-3).
+[^4]: Como referencia bibliográfica para este ejercicio se recomienda el capítulo 7.11 de Kleinberg & Tardos. El texto que presentamos sigue la formulación original en Cormen et al., pp. 761-762, ej. 26-3.
 
 Consigna
 --------
