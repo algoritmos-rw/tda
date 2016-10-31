@@ -11,6 +11,7 @@ Para comunicarnos usaremos el siguiente grupo de Google: <https://groups.google.
 ## Noticias
 
   - 19/9: publicado el enunciado del [TP1](tp1.html).
+  - 31/10: publicado el enunciado del [TP2](tp2.html).
 
 ## Docentes
 
