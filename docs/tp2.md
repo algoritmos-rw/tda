@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Trabajo Práctico n.º 2
 math: true
 ---
 
-Contenidos
-==========
+Trabajo Práctico n.º 2
+======================
 {:.no_toc}
 
 1. TOC
@@ -74,6 +73,30 @@ $$
 La solución $$X$$ se puede derivar de la llamada inicial $$P(n, W)$$.
 
 
+### Archivos de prueba ###
+{:.no_toc}
+
+Para verificar el algoritmo se pueden usar los archivos de prueba de [David Pisinger][dp]. Los archivos están clasificados por tamaño y dificultad; cada archivo incluye 1000 instancias con su solución correspondiente.
+
+Recomendaciones durante el desarrollo:
+
+  - usar inicialmente el archivo de coeficientes pequeños ([smallcoeff.tgz], 142 MiB).
+
+  - usar los archivos con $$n = 50$$ y $$R = 1000$$: _knapPI\_{0-9}\_50\_1000.csv_.
+
+  - una vez el verificada la corrección de la implementación, verificar que el tiempo de ejecución no se dispara para valores de $$n$$ mayores.[^2]
+
+  - usar para el informe el archivo de casos “difíciles” ([hardinstances.tgz], 45 MiB).
+
+El formato de todos los archivos es: XXX
+
+[^2]: Cada instancia de prueba en los archivos incluye el tiempo de ejecución que obtuvo Pisinger durante la investigación. Todos las instancias de _smallcoeff.tgz_ resolvieron en menos de 1 segundo.
+
+[dp]: http://www.diku.dk/~pisinger/codes.html
+[smallcoeff.tgz]: http://www.diku.dk/~pisinger/smallcoeff_pisinger.tgz
+[hardinstances.tgz]: http://www.diku.dk/~pisinger/hardinstances_pisinger.tgz
+
+
 El problema del viajante de comercio
 ------------------------------------
 
@@ -104,6 +127,33 @@ D(v, S) =
 \end{array}
 \right.
 $$
+
+### Archivos de prueba ###
+{:.no_toc}
+
+Para realizar pruebas del algoritmo se pueden usar, entre otros, las instancias recopiladas por [John Burkardt][jb]. Se recomienda comenzar por los dos archivos más pequeños:
+
+  - [p01.tsp] (y su solución, [p01_s.txt])
+  - [fri26.tsp] (incluye la solución en el apartado _TOUR_SECTION_)
+
+En los archivos TSP se incluye la matriz de distancias en dos formatos posibles:
+
+  - _FULL_MATRIX_: la matriz de distancias al completo.
+
+  - _LOWER_DIAG_ROW_: la mitad inferior de la matriz de distancias, esto es, los valores que quedan por debajo de la diagonal, incluyendo esta.
+
+Para el informe se puede incluir una instancia de tamaño mayor: [att48_d.txt] (y su solución, [att48_s.txt]).
+
+[jb]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/tsp.html
+
+[p01.tsp]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/p01.tsp
+[p01_s.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/p01_s.txt
+
+[fri26.tsp]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/fri26.tsp
+
+[att48_d.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_d.txt
+[att48_s.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_s.txt
+
 
 
 Informe de complejidad
