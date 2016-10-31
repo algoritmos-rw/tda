@@ -25,9 +25,9 @@ En un futuro trabajo práctico se comparará la complejidad de estos algoritmos 
 
 Por tanto, lo que se pide en esta parte es:
 
-  - dos implementaciones por programación dinámica, una para cada problema, siguiendo un formato de entrada específico
+  1. dos implementaciones por programación dinámica, una para cada problema, siguiendo un formato de entrada específico
 
-  - un breve informe con los tiempos de ejecución sobre distintas instancias del problema.
+  2. un breve informe con los tiempos de ejecución sobre distintas instancias del problema.
 
 A continuación se especifica formalmente cada problema, formato de entrada, y lineamientos para el estudio de complejidad.
 
@@ -96,11 +96,11 @@ Cada archivo CSV tiene 100 instancias de prueba del mismo tamaño y en el mismo 
 
   - la capacidad de la mochila $$W$$, por ejemplo `c 995`
 
-  - el valor óptimo conseguido por Pisinger (formato: `z: 8373`) y, en la línea siguiente, el tiempo de resolución que obtuvo (formato: `time 0.01`)
+  - el valor óptimo conseguido por Pisinger (formato: `z 8373`) y, en la línea siguiente, el tiempo de resolución que obtuvo (formato: `time 0.01`)
 
-  - _n_ líneas siguiendo el formato CSV: `num_item,valor,peso,x`,donde $$x_i$$ es 1 o 0 según el ítem se incluyó o no en la solución, respectivamente.[^3]
+  - _n_ líneas siguiendo el formato CSV: `num_item,valor,peso,x`, donde _x_ es 1 o 0 según el ítem se incluyó o no en la solución, respectivamente.[^3]
 
-  - la lína de fin de instancia, `-----`.
+  - la línea de fin de instancia, `-----`.
 
 [^2]: Cada instancia de prueba en los archivos incluye el tiempo de ejecución que obtuvo Pisinger durante la investigación. Todos las instancias de _smallcoeff.tgz_ resolvieron en menos de 1 segundo.
 
@@ -154,7 +154,7 @@ En los archivos TSP se incluye la matriz de distancias en dos formatos posibles:
 
   - _FULL_MATRIX_: la matriz de distancias al completo.
 
-  - _LOWER_DIAG_ROW_: la mitad inferior de la matriz de distancias, esto es, los valores que quedan por debajo de la diagonal, incluyendo esta.
+  - _LOWER_DIAG_ROW_: la mitad inferior de la matriz de distancias, esto es, los valores que quedan por debajo de la diagonal, incluyendo esta. (En este caso, es claro que las distancias son simétricas entre cada par de ciudades..)
 
 Para el informe se puede incluir una instancia de tamaño mayor: [att48_d.txt] (y su solución, [att48_s.txt]).
 
