@@ -184,3 +184,60 @@ Para el informe se puede incluir una instancia de tamaño mayor: [att48_d.txt] (
 Flujo de redes
 ==============
 
+Problema[^4]
+--------
+
+Para complementar sus ingresos, el Ing. F. B. planea abrir una consultoría y actuar de intermediario entre diversas empresas y profesionales para llevar a cabo sus proyectos.
+
+A través de sus contactos, F. B. obtuvo una lista de proyectos posibles $$P = \{P_1, P_2, \ldots, P_m\}$$ y se dispone ahora a contratar egresados de la Facultad para implementarlos.
+
+El Ing. obviamente desea maximizar sus ganancias dadas las las siguientes restricciones:
+
+  - cada proyecto requiere conocimientos específicos sobre una o más áreas de computación. En particular, cada proyecto  $$P_i$$ declara un conjunto de requisitos $$R_i \subseteq A$$; donde $$A$$ representa el total de las $$n$$ áreas que se enseñan durante la carrera ($$\left\vert{A}\right\vert = n$$).
+
+  - la contratación de un experto en un área determinada $$A_k$$ $$(0 \lt k \le n)$$ tiene un coste monetario de $$c_k$$.
+
+    Los expertos, no obstante, son multi-tarea, y durante el periodo de contratación pueden contribuir a múltiples proyectos simultáneamente. En otras palabras, una vez se dispone de un experto en un área $$A_k$$ no se necesita contratar a un segundo.
+
+  - cada proyecto realizado $$P_i$$ proporciona una ganancia monetaria de $$g_i : $$ si y solo si hay un experto contratado para cada una de las áreas en $$R_i$$. En caso contrario, no es posible comenzar el proyecto.
+
+Así las cosas, el Ing. B. necesita saber los proyectos a aceptar y los expertos a contratar para maximizar sus ganancias netas (esto es, lo ganado con cada proyecto menos el monto de los salarios).
+
+[^4]: Formulación original del problema: Cormen et al. (2009), pp. 761-762 (§26-3).
+
+Consigna
+--------
+
+Se pide:
+
+  1. Modelar el problema mediante un flujo de red.
+
+  2. Implementar un algoritmo que determine qué proyectos aceptar y qué expertos contratar.
+
+  3. Analizar en un breve informe la complejidad del algoritmo en términos del número de proyectos $$m$$, número de áreas $$n$$, y la cantidad total $$r$$ de requisitos por parte de todos los proyectos $$(r = \sum_{i=1}^m \left\vert{R_i}\right\vert)$$.
+
+Formato de entrada
+------------------
+
+El formato estándar para describir una instancia del problema será un archivo de $$n + m + 2$$ líneas, tal que:
+
+    N
+    M
+    c₁
+    c₂
+    ...
+    g₁ r₁₁ r₁₂ …
+    g₂ r₂₁ r₂₂ …
+    ...
+
+Por ejemplo:
+
+    3
+    2
+    16
+    13
+    9
+    20 1 2
+    10 3
+
+-----
