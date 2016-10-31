@@ -27,7 +27,7 @@ Por tanto, lo que se pide en esta parte es:
 
   - dos implementaciones por programación dinámica, una para cada problema, siguiendo un formato de entrada específico
 
-  - un breve estudio de complejidad/runtime etc. XXX
+  - un breve informe con los tiempos de ejecución sobre distintas instancias del problema.
 
 A continuación se especifica formalmente cada problema, formato de entrada, y lineamientos para el estudio de complejidad.
 
@@ -88,9 +88,23 @@ Recomendaciones durante el desarrollo:
 
   - usar para el informe el archivo de casos “difíciles” ([hardinstances.tgz], 45 MiB).
 
-El formato de todos los archivos es: XXX
+Cada archivo CSV tiene 100 instancias de prueba del mismo tamaño y en el mismo formato, separadas por `-----`. El formato de cada instancia es, línea a línea:
+
+  - el nombre de la instancia, por ejemplo _knapPI\_1\_50\_1000\_1_
+
+  - el número de ítems en el problema, por ejemplo `n 500`
+
+  - la capacidad de la mochila $$W$$, por ejemplo `c 995`
+
+  - el valor óptimo conseguido por Pisinger (formato: `z: 8373`) y, en la línea siguiente, el tiempo de resolución que obtuvo (formato: `time 0.01`)
+
+  - _n_ líneas siguiendo el formato CSV: `num_item,valor,peso,x`,donde $$x_i$$ es 1 o 0 según el ítem se incluyó o no en la solución, respectivamente.[^3]
+
+  - la lína de fin de instancia, `-----`.
 
 [^2]: Cada instancia de prueba en los archivos incluye el tiempo de ejecución que obtuvo Pisinger durante la investigación. Todos las instancias de _smallcoeff.tgz_ resolvieron en menos de 1 segundo.
+
+[^3]: En el archivo README, se usa _p_ para representar el valor (por ‘profit’) y _w_ para el peso (por ‘weight’).
 
 [dp]: http://www.diku.dk/~pisinger/codes.html
 [smallcoeff.tgz]: http://www.diku.dk/~pisinger/smallcoeff_pisinger.tgz
@@ -155,9 +169,8 @@ Para el informe se puede incluir una instancia de tamaño mayor: [att48_d.txt] (
 [att48_s.txt]: http://people.sc.fsu.edu/~jburkardt/datasets/tsp/att48_s.txt
 
 
-
-Informe de complejidad
-----------------------
+Informe
+-------
 
 Flujo de redes
 ==============
