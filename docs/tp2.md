@@ -31,7 +31,7 @@ En esta primera mitad del trabajo práctico se examinan los algoritmos de progra
   - el problema de la mochila
   - el problema del viajante de comercio
 
-ambos no polinómicos.
+ambos algoritmos no polinómicos.
 
 En un futuro trabajo práctico se comparará la complejidad de estos algoritmos con los algoritmos de aproximación correspondientes, esto es: que resuelven los mismos problemas de manera no exacta.
 
