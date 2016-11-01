@@ -191,7 +191,7 @@ Para complementar sus ingresos, el Ing. F. B. planea abrir una consultoría y ac
 
 A través de sus contactos, F. B. obtuvo una lista de proyectos posibles $$P = \{P_1, P_2, \ldots, P_m\}$$ y se dispone ahora a contratar egresados de la Facultad para implementarlos.
 
-El Ing. obviamente desea maximizar sus ganancias dadas las las siguientes restricciones:
+El Ing. obviamente desea maximizar sus ganancias dadas las siguientes restricciones:
 
   - cada proyecto requiere conocimientos específicos sobre una o más áreas de computación. En particular, cada proyecto  $$P_i$$ declara un conjunto de requisitos $$R_i \subseteq A$$; donde $$A$$ representa el total de las $$n$$ áreas que se enseñan durante la carrera ($$\left\vert{A}\right\vert = n$$).
 
