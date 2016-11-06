@@ -18,6 +18,10 @@ $content-width: 750px !default;
 @import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css);
 @import "minima";
 
+.bigfoot-footnote {
+  font-size: $base-font-size * 0.85;
+}
+
 a:hover, a:active {
   color: $brand-color;
   text-decoration: underline;
