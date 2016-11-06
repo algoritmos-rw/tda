@@ -16,7 +16,7 @@ Lineamientos básicos:
   - la fecha de entrega es el **lunes 14 de noviembre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
 
 Contenidos
-==========
+----------
 {:.no_toc}
 
 1. TOC
