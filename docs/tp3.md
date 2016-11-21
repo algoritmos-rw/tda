@@ -32,7 +32,7 @@ demostrar que son NP-Completos.
 
   2. Se tiene un grafo dirigido y pesado G, cuyas aristas tienen pesos que pueden ser negativos. Se pide devolver si el grafo tiene algún ciclo con peso exactamente igual a cero.
 
-  3. Se tiene un conjunto de $$n$$ tareas, cada una con un tiempo de ejecución $$t_i \in R_+$$, una fecha límite de finalización $$d_i \in R_+$$ y una ganancia $$v_i \in R_+$$ que será otorgada si se finaliza antes que su tiempo límite. Se pide devolver si existe alguna planificación que obtenga una ganancia total $$k \in R_+$$ sabiendo que no se pueden ejecutar dos tareas a la vez.
+  3. Se tiene un conjunto de $$n$$ tareas, cada una con un tiempo de ejecución $$t_i \in R_+$$, una fecha límite de finalización $$d_i \in R_+$$ y una ganancia $$v_i \in R_+$$ que será otorgada si se finaliza antes que su tiempo límite. Se pide devolver si existe alguna planificación que obtenga una ganancia total mayor o igual a $$k \in R_+$$ sabiendo que no se pueden ejecutar dos tareas a la vez.
 
   4. Se tiene un conjunto de n tareas, cada una con un tiempo de ejecución igual a 1, una fecha límite de finalización $$d_i \in N$$ y una ganancia $$v_i \in R_+$$ que será otorgada si se finaliza antes que su tiempo límite. Se pide devolver si existe alguna planificación que obtenga una ganancia total $$k \in R_+$$ sabiendo que no se pueden ejecutar dos tareas a la vez.
 
