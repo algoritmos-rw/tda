@@ -13,7 +13,7 @@ Lineamientos básicos:
 
   - el trabajo se realizará en grupos de tres o cuatro personas.
 
-  - la fecha de entrega es el **lunes 2 de diciembre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
+  - la fecha de entrega es el **viernes 2 de diciembre de 2016**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
 
 Contenidos
 ----------
