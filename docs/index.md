@@ -2,17 +2,13 @@
 layout: default
 ---
 
-Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del 2.º cuatrimestre del 2016.
+Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del primer cuatrimestre del 2017.
 
-Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs en el aula 418.
+Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula a definir).
 
-Para comunicarnos usaremos el siguiente grupo de Google: <https://groups.google.com/group/fiuba-7529-alumnos>.
 
 ## Noticias
-
-  - 21/11: publicado el enunciado del [TP3](tp3.html).
-  - 31/10: publicado el enunciado del [TP2](tp2.html).
-  - 19/9: publicado el enunciado del [TP1](tp1.html).
+  - 6/3: Completar el [siguiente formulario](https://goo.gl/forms/LoEZ1AFvjAEtOQV32) para registrar sus datos y poder darlos de alta en el grupo de la materia.
 
 ## Docentes
 
@@ -24,6 +20,8 @@ Para comunicarnos usaremos el siguiente grupo de Google: <https://groups.google.
 
   - Federico Barrios
   - Adeodato Simó
+  - Tobías Lichtig
+  - Lucas Ludueño
 
 
 ## Bibliografía
@@ -55,5 +53,4 @@ Con las siguientes consideraciones:
 
 La materia será dictada en 32 clases a lo largo de 16 semanas. Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs cada una.
 
-La planificación de la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/1nc5HHDnoOajfBULtGMPeN-SKyJxc0CavmEHjinYXXns/pubhtml?gid=1350582962&single=true),
-o en el en el siguiente [calendario de Google](https://calendar.google.com/calendar/embed?src=1i5cqfns2a41t1rdhgvll51j70%40group.calendar.google.com&ctz=America/Argentina/Buenos_Aires).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/1aKBEMrplAu5JInOFGPz-lEHsXj7W_iL6_x5efivOzD4/pubhtml?gid=1350582962&single=true).

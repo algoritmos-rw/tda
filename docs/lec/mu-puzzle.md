@@ -1,6 +1,5 @@
 ---
 layout: default
-title: The MU-puzzle
 excerpt: |
   Chapter I from Gödel, Escher, Bach: An Eternal Golden Braid.
 permalink: /:path/:basename/
@@ -168,7 +167,7 @@ Imagine a genie who has all the time in the world, and who enjoys using it to pr
 
   - Step 1: Apply every applicable rule to the axiom *MI*. This yields two new theorems: **MIU**, **MII**.
 
-  - Step 2: Apply every applicable rule to the theorems produced in step 1. This yields three new theorems: **MIIU**, **MIUIU**, **MIIII**. 
+  - Step 2: Apply every applicable rule to the theorems produced in step 1. This yields three new theorems: **MIIU**, **MIUIU**, **MIIII**.
 
   - Step 3: Apply every applicable rule to the theorems produced in step 2. This yields five new theorems: **MIIIIU**, **MIIUIIU**, **MIUIUIUIU**, **MIIIIIIII**, **MUI**.
 
@@ -186,4 +185,3 @@ When you have a decision procedure, then you have a very concrete characterizati
 Incidentally, one requirement on formal systems is that the set of _axioms_ must be characterized by a decision procedure—there must be a litmus test for axiomhood. This ensures that there is no problem in getting off the ground at the beginning, at least. That is the difference between the set of axioms and the set of theorems: the former always has a decision procedure, but the latter may not.
 
 I am sure you will agree that when you looked at the MIU-system for the first time, you had to face this problem exactly. The lone axiom was known, the rules of inference were simple, so the theorems had been implicitly characterized-and yet it was still quite unclear what the consequences of that characterization were. In particular, it was still totally unclear whether **MU** is, or is not, a theorem.
-
