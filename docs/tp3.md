@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo práctico n.º 3
@@ -102,4 +101,5 @@ Para implementar este método se debe reutilizar el grafo implementado en el tra
 
 [^2]: Otra referencia para este problema es el capítulo 9.2.3 de "Algorithms" por Dasgupta, Papadimitriou y Vazirani (1ra ed.) Ed. McGraw-Hill Education.
 
+{% include math.html %}
 {% include footnotes.html %}

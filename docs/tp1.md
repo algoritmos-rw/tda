@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo Práctico n.º 1
@@ -214,3 +213,5 @@ public class BFS extends Caminos {
     protected Arista edge_to(int v) { return edge[v]; }
 }
 ```
+
+{% include math.html %}
