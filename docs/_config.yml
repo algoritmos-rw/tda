@@ -11,3 +11,5 @@ markdown: kramdown
 
 kramdown:
   footnote_backlink: "&#x21A9;&#xFE0E;"
+
+exclude: ["Gemfile"]
