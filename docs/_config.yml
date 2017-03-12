@@ -8,6 +8,7 @@ url: "https://algoritmos-rw.github.io" # the base hostname & protocol for your s
 # Build settings
 theme: minima
 markdown: kramdown
+permalink: pretty
 
 kramdown:
   footnote_backlink: "&#x21A9;&#xFE0E;"
