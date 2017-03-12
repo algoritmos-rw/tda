@@ -239,3 +239,5 @@ Por ejemplo:
     9
     20 1 2
     10 3
+
+{% include footnotes.html %}
