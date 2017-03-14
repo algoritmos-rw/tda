@@ -37,7 +37,7 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula a 
   - S. Skiena, _The Algorithm Design Manual_, (segunda edición) (2008).
   - U. Manber, _Introduction to Algorithms, A Creative Approach_, Addison Wesley (1989).
   - P. Morin, _Open Data Structures (in pseudocode)_, (edición 0.1GB) [[descarga gratuita](http://opendatastructures.org/)].
-  - I. Parberry, W. Gasarch, _Problems in Algorithms_ (2002) [[descarga gratuita](http://larc.unt.edu/ian/books/free/poa.pdf)].
+  - I. Parberry, W. Gasarch, _Problems in Algorithms_ (2002) [[descarga disponible](http://larc.unt.edu/ian/books/free/)].
 
 
 ## Régimen de cursada
