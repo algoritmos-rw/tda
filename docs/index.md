@@ -26,9 +26,18 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula a 
 
 ## Bibliografía
 
+### Recomendada
   - J. Kleinberg, E. Tardos, _Algorithm Design_, Addison Wesley (2006).
   - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (tercera edición), MIT Press (2009).
   - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013).
+
+### Sugerida
+  - S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani, _Algorithms_ (2006) [[descarga gratuita](http://cseweb.ucsd.edu/~dasgupta/book/)].
+  - J. Erickson, _Models of Computation_ (2015) [[descarga gratuita](http://jeffe.cs.illinois.edu/teaching/algorithms/)].
+  - S. Skiena, _The Algorithm Design Manual_, (segunda edición) (2008).
+  - U. Manber, _Introduction to Algorithms, A Creative Approach_, Addison Wesley (1989).
+  - P. Morin, _Open Data Structures (in pseudocode)_, (edición 0.1GB) [[descarga gratuita](http://opendatastructures.org/)].
+  - I. Parberry, W. Gasarch, _Problems in Algorithms_ (2002) [[descarga gratuita](http://larc.unt.edu/ian/books/free/poa.pdf)].
 
 
 ## Régimen de cursada
