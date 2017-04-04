@@ -40,7 +40,7 @@ orden de mérito para cada especialidad.
 
 Se pide:
 
-1. Reducir el problema de los matrimonios estables descriptos en la bibliografía al problema de la asignación genérico de residencias.
+1. Reducir el problema de la asignación genérica de residencias al problema de los matrimonios estables descriptos en la bibliografía.
 2. Implementar un algoritmo que resuelva el problema considerando la simplificación de que no existan especialidades.
 3. Implementar un programa que genere instancias aleatorias del problema simplificado dados los parámetros $$n$$
    (cantidad de aplicantes) y $$m$$ (cantidad de hospitales).
