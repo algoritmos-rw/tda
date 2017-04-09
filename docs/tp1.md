@@ -40,14 +40,14 @@ orden de mérito para cada especialidad.
 
 Se pide:
 
-1. Implementar un programa que genere instancias aleatorias del problema simplificado dados los parámetros $$n$$
-   (cantidad de aplicantes) y $$m$$ (cantidad de hospitales). Este deberá generar:
+1. Considerando la simplificación de que no existan especialidades, implementar un programa que genere instancias aleatorias del
+  problema dados los parámetros $$n$$ (cantidad de aplicantes) y $$m$$ (cantidad de hospitales). Este deberá generar:
       - Un arreglo E de $$n$$ listas de tamaño $$m$$ que representan las preferencias de cada estudiante.
       - Un arreglo H de $$m$$ listas de tamaño $$n$$ que representan el orden de mérito para cada hospital.
       - Un arreglo Q de tamaño $$m$$ que modele la cantidad de vacantes de cada hospital.
     Los problemas deben ser exportados a un archivo cuya estructura está descripta al final de la presente consigna.
-2. Reducir el problema de la asignación genérica de residencias al problema de los matrimonios estables descriptos en la bibliografía.
-3. Implementar un algoritmo que resuelva el problema considerando la simplificación de que no existan especialidades.
+2. Reducir el problema simplificado de la asignación genérica de residencias al problema de los matrimonios estables descriptos en la bibliografía.
+3. Implementar un algoritmo que resuelva el problema simplificado.
 4. Simular la ejecución del algoritmo ante entradas generadas aleatoriamente con
     1. $$n$$ = $$m$$ = 100
     2. $$n$$ = $$m$$ = 1000
@@ -119,13 +119,13 @@ Como ejemplo en Python, el TAD Grafo podría plantearse así:
 
 ```python
 class Digraph:
-  """Grafo no dirigido con un número fijo de vértices.
+  """Grafo dirigido con un número fijo de vértices.
 
   Los vértices son siempre números enteros no negativos. El primer vértice
   es 0.
 
   El grafo se crea vacío, se añaden las aristas con add_edge(). Una vez
-  creadas, las aristas no se pueden eliminar, pero siempre se puede añadir
+  creadas, las aristas no se pueden eliminar, pero siempre se pueden añadir
   nuevas aristas.
   """
   def __init__(g, V):
