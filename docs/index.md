@@ -37,6 +37,7 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula a 
   - S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani, _Algorithms_ (2006) [[descarga gratuita](http://cseweb.ucsd.edu/~dasgupta/book/)].
   - J. Erickson, _Models of Computation_ (2015) [[descarga gratuita](http://jeffe.cs.illinois.edu/teaching/algorithms/)].
   - R. Sedgewick, K. Wayne, _Algorithms_ (cuarta edición), Addison Wesley (2011).
+  - M. A. Weiss, _Data Structures and Algorithm Analysis in Java_  (tercera edición), Pearson (2012).
   - S. Skiena, _The Algorithm Design Manual_, (segunda edición) (2008).
   - U. Manber, _Introduction to Algorithms, A Creative Approach_, Addison Wesley (1989).
   - P. Morin, _Open Data Structures (in pseudocode)_, (edición 0.1GB) [[descarga gratuita](http://opendatastructures.org/)].
