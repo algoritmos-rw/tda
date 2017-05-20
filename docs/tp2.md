@@ -3,7 +3,7 @@ layout: default
 math: true
 ---
 
-Trabajo Práctico n.º 1
+Trabajo Práctico n.º 2
 ======================
 {:.no_toc}
 
@@ -13,7 +13,7 @@ Lineamientos básicos:
 
   - el trabajo se realizará en grupos de tres personas.
 
-  - la fecha de entrega es el **viernes 2 de junio de 2017**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
+  - la fecha de entrega es el **lunes 5 de junio de 2017**. Se debe entregar en el horario de clase en papel (informe + `código en monoespacio`), más una entrega en digital de código (.zip) e informe (.pdf) al correo de entregas del curso: `tps.7529rw@gmail.com`.
 
   - el lenguaje de implementación es libre, pero se debe comunicar por correo en caso de _no_ ser uno de: C, Python, Java, JavaScript, Ruby.
 
@@ -45,14 +45,16 @@ demostrar que son NP-Completos.
 4. En teoría de grafos, un camino hamiltoniano es un camino que visita cada vértice del grafo exactamente una vez.
    Se pide un algoritmo que indique si un digrafo acíclico D tiene un camino hamiltoniano o no.
 
-5. KT ej. 8.19 (a)
+5. Se tiene un grafo dirigido y pesado G, cuyas aristas tienen pesos que pueden ser negativos.
+   Se pide devolver verdadero o falso de acuerdo a si el grafo tiene algún ciclo con peso negativo.
 
-6. KT ej. 8.19 (b)
+6. Se tiene un grafo dirigido y pesado G, cuyas aristas tienen pesos que pueden ser negativos.
+   Se pide devolver verdadero o falso de acuerdo a si el grafo tiene algún ciclo con exactamente igual a cero.
 
 ## Algoritmos de camino mínimo
 
 Un grupo de conocidos inversores ha logrado modelar un dinámico sistema financiero usando un grafo dirigido.
-En este, los vértices son modelados como monedas, y sus aristas por unos valores relacionados a las tasas de cambio entre
+En este los vértices son modelados como monedas y sus aristas por unos valores relacionados a las tasas de cambio entre
 ellas, de manera tal que el camino mínimo entre dos monedas represente la manera óptima de cambiar dinero de una en
 otra.<sup>[1](#arbitrage)</sup>
 
@@ -61,13 +63,15 @@ para asesoramiento.
 
 Se pide, entonces:
 
-1. Escribir en un breve informe (máximo cinco párrafos), las ventajas y desventajas de los tres algoritmos de camino mínimo
+1. Escribir un breve informe (máximo cinco párrafos), explicando las ventajas y desventajas de los tres algoritmos de camino mínimo
    vistos en el curso (Dijkstra, Bellman-Ford y Floyd-Warshall). Explicar el principio de funcionamiento de cada uno y a qué
    técnica de programación responde.
-2. Escribir un programa que dado un número $$n$$ genere un digrafo completo de $$n$$ vértices (y por tanto $$n^2$$ aristas), con todos
+2. El hecho de encontrar ciclos negativos en este problema significa que podríamos explotar el tipo de cambio para
+   potencialmente ganar dinero infinito. Explicar cómo se identificaría esta situación usando los algoritmos descriptos.
+3. Escribir un programa que dado un número $$n$$ genere un digrafo completo de $$n$$ vértices (y por lo tanto $$n (n-1)$$ aristas), con todos
    pesos positivos.
-3. Implementar los algoritmos de Dijkstra, Bellman-Ford y Floyd-Warshall para encontrar caminos mínimos en grafos.
-4. Extraer breves conclusiones (máximo dos párrafos) sobre el rendimiento de cada algoritmo ante diferentes tamaños de la entrada
+4. Implementar los algoritmos de Dijkstra, Bellman-Ford y Floyd-Warshall para encontrar caminos mínimos en grafos.
+5. Extraer breves conclusiones (máximo dos párrafos) sobre el rendimiento de cada algoritmo ante diferentes tamaños de la entrada
   comparándolo con su complejidad computacional teórica.
 
 <a name="arbitrage">1</a>: Para analizar más en detalle este modelo, consultar "Algorithms", R. Sedgewick, K. Wayne, (cuarta edición), cap. 4.4 "Arbitrage", pp: 679-681.
@@ -75,7 +79,7 @@ Se pide, entonces:
 
 ## Aclaraciones generales
 
-1. El informe de todo el trabajo no debe superar dos carillas de extensión, y deberá incluir las instrucciones para ejecutar todos
+1. El informe de todo el trabajo no debe superar las cuatro carillas de extensión, y deberá incluir las instrucciones para ejecutar todos
   los programas desarrollados.
 2. Para la implementación de los algoritmos se podrán usar todo tipo de bibliotecas, excepto de grafos.
 3. Los grafos deberán ser generados en el formato propuesto por Sedgewick, en donde los vértices estarán nombrados según
