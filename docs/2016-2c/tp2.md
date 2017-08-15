@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo práctico n.º 2
@@ -239,3 +238,6 @@ Por ejemplo:
     9
     20 1 2
     10 3
+
+{% include math.html %}
+{% include footnotes.html %}

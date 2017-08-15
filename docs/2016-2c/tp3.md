@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo práctico n.º 3
@@ -101,3 +100,6 @@ Para aproximar el **problema del viajante de comercio** usaremos el algoritmo de
 Para implementar este método se debe reutilizar el grafo implementado en el trabajo práctico 1, agregándole una primitiva para encontrar un árbol de tendido mínimo usando los algoritmos de Prim o Kruskal.
 
 [^2]: Otra referencia para este problema es el capítulo 9.2.3 de "Algorithms" por Dasgupta, Papadimitriou y Vazirani (1ra ed.) Ed. McGraw-Hill Education.
+
+{% include math.html %}
+{% include footnotes.html %}
