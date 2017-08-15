@@ -1,0 +1,96 @@
+//
+// Layout
+//
+//
+
+$footer-padding: $spacing-unit / 4;
+
+.page-content {
+  padding-bottom: 0;
+}
+
+.site-footer {
+  margin: 0 auto;
+  padding: $footer-padding 0;
+  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+}
+
+footer div.wrapper {
+  padding: 0 $footer-padding;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0.75em;
+  }
+}
+
+
+//
+//
+// Links
+//
+
+a:visited, a:hover {
+  color: $brand-color;
+}
+
+a.site-title {
+  text-decoration: none;
+}
+
+
+//
+// Headers
+//
+
+h1, h2, h3, h4 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.296rem !important;
+}
+
+h2 {
+  font-size: 1.215rem !important;
+}
+
+h3 {
+  font-size: 1.138rem !important;
+}
+
+h4 {
+  font-size: 1.014rem !important;
+}
+
+
+//
+// Code
+//
+
+code {
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+pre {
+  margin-left: 2em;
+}
+
+.highlighter-rouge .highlight {
+  border: none;
+  background-color: #f3f3f3;
+}
+
+code.highlighter-rouge {
+  padding: 1pt 3pt;
+  white-space: nowrap;
+  background-color: #f3f3f3;
+}
+
+code.wrap {
+  white-space: normal ! important;
+}
