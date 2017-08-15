@@ -1,7 +1,3 @@
----
-layout: default
----
-
 Trabajo Práctico n.º 3
 ======================
 {:.no_toc}
