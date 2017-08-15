@@ -3,12 +3,6 @@ Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA.
 Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula 506).
 
 
-## Noticias
-  - 12/6: Subido el [enunciado del TP3](tp3.md).
-  - 22/5: Subido el [enunciado del TP2](tp2.md).
-  - 5/4: Subido el [enunciado del TP1](tp1.md).
-  - 6/3: Completar el [siguiente formulario](https://goo.gl/forms/LoEZ1AFvjAEtOQV32) para registrar sus datos y poder darlos de alta en el grupo de la materia.
-
 ## Docentes
 
 **Teórica**:
