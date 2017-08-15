@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo Práctico n.º 2
@@ -192,4 +191,4 @@ public class Dijkstra implements ShortestPathAlgorithm {
 
 }
 
-```
+{% include math.html %}

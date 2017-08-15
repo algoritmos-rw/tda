@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo Práctico n.º 1
@@ -211,3 +210,5 @@ public class Tarjan {
     public Set<Integer> getArticulationPoints()  { /* ... */ }
 }
 ```
+
+{% include math.html %}

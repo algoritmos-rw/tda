@@ -185,3 +185,5 @@ When you have a decision procedure, then you have a very concrete characterizati
 Incidentally, one requirement on formal systems is that the set of _axioms_ must be characterized by a decision procedure—there must be a litmus test for axiomhood. This ensures that there is no problem in getting off the ground at the beginning, at least. That is the difference between the set of axioms and the set of theorems: the former always has a decision procedure, but the latter may not.
 
 I am sure you will agree that when you looked at the MIU-system for the first time, you had to face this problem exactly. The lone axiom was known, the rules of inference were simple, so the theorems had been implicitly characterized-and yet it was still quite unclear what the consequences of that characterization were. In particular, it was still totally unclear whether **MU** is, or is not, a theorem.
+
+{% include footnotes.html %}

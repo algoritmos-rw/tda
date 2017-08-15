@@ -1,6 +1,5 @@
 ---
 layout: default
-math: true
 ---
 
 Trabajo Práctico n.º 3
@@ -76,3 +75,5 @@ indentificadores desde 0 hasta $$V - 1$$, y los archivos de están confeccionado
 <a name="karp-ss">3</a>: Karp, R.: _Reducibility Among Combinatorial Problems_ (1972), "Complexity of Computer Computations". New York: Plenum. pp. 85–103.
 
 <a name="clrs-ss">4</a>: Cormen, T.; Leiserson, C.; Rivest, R.; Stein, C.: _Introduction to Algorithms_ (tercera edición), MIT Press (2009), cap. 35.5 "The subset-sum problem", pp.: 1128-1134.
+
+{% include math.html %}

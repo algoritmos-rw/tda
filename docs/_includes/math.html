@@ -1,0 +1,17 @@
+<script type="text/javascript">
+  function doKaTeX() {
+      document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+        el.outerHTML = katex.renderToString(el.textContent, {displayMode: false});
+      });
+
+      document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+        el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+      });
+  }
+</script>
+
+<script defer onload="doKaTeX();"
+        src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
