@@ -10,6 +10,10 @@ theme: minima
 markdown: kramdown
 permalink: pretty
 
+# XXX Remove
+header_pages:
+  - /none
+
 kramdown:
   footnote_backlink: "&#x21A9;&#xFE0E;"
 
