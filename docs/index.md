@@ -8,9 +8,9 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula 50
 
 
 ## Noticias
-  - 12/6: Subido el [enunciado del TP3](https://algoritmos-rw.github.io/tda/tp3/).
-  - 22/5: Subido el [enunciado del TP2](https://algoritmos-rw.github.io/tda/tp2/).
-  - 5/4: Subido el [enunciado del TP1](https://algoritmos-rw.github.io/tda/tp1/).
+  - 12/6: Subido el [enunciado del TP3](tp3.md).
+  - 22/5: Subido el [enunciado del TP2](tp2.md).
+  - 5/4: Subido el [enunciado del TP1](tp1.md).
   - 6/3: Completar el [siguiente formulario](https://goo.gl/forms/LoEZ1AFvjAEtOQV32) para registrar sus datos y poder darlos de alta en el grupo de la materia.
 
 ## Docentes
