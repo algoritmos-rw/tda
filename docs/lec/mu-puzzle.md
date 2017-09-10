@@ -1,5 +1,4 @@
 ---
-layout: default
 excerpt: |
   Chapter I from Gödel, Escher, Bach: An Eternal Golden Braid.
 permalink: /:path/:basename/
