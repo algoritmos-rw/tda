@@ -1,6 +1,9 @@
-Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. La información que se presenta es respecto a la cursada del primer cuatrimestre del 2017.
+Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
+La información que se presenta es respecto a la cursada del primer cuatrimestre del 2018.
 
-Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula 506).
+Las clases se dictarán de 19 a 22 hs los días lunes (práctica) y miércoles (teórica), aula a definir.
+
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vQsvqw4ziCTxepJR7Ytcc6iwhC0-phxFIKZHB-u_h657sh2yeMrFSAJ7G-aKrC8gciS29bFdpls_6yz/pubhtml?gid=8&single=true).
 
 
 ## Docentes
@@ -11,11 +14,12 @@ Las clases se dictarán los lunes y viernes en el horario de 19 a 22 hs (aula 50
 
 **Práctica**:
 
+  - Víctor Podberezski
   - Federico Barrios
-  - Adeodato Simó
   - Tobías Lichtig
   - Lucas Ludueño
-  - Pablo Murck
+  - Jonathan Moguilevsky
+  - Rocío Gallo
 
 
 ## Bibliografía
@@ -52,10 +56,3 @@ Con las siguientes consideraciones:
   - La fecha de la exposición oral será pactada con la Profesora al finalizar las clases de la materia.
   - La nota de la cursada será el promedio de la nota de los tres trabajos prácticos.
   - La nota final corresponde a una ponderación entre la nota de la cursada, la nota de la exposición oral y la nota del examen integrador.
-
-
-## Calendario
-
-La materia será dictada en 32 clases a lo largo de 16 semanas. Cada clase estará dividida en una parte teórica y una práctica, de 1:30 hs cada una.
-
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/1aKBEMrplAu5JInOFGPz-lEHsXj7W_iL6_x5efivOzD4/pubhtml?gid=1350582962&single=true).
