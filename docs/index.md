@@ -5,6 +5,7 @@ Las clases se dictarán de 19 a 22 hs los días lunes (práctica) y miércoles (
 
 El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vQsvqw4ziCTxepJR7Ytcc6iwhC0-phxFIKZHB-u_h657sh2yeMrFSAJ7G-aKrC8gciS29bFdpls_6yz/pubhtml?gid=8&single=true).
 
+Formulario de inscripción al grupo de comunicación [1er Cuat. 2008](https://docs.google.com/forms/d/e/1FAIpQLScoY9eEC_cNBLLxRLvpfKv5WFt-m_n_LH6A1rel_fpJAx-Hug/viewform)
 
 ## Docentes
 
