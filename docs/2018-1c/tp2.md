@@ -17,6 +17,8 @@ Trabajo Práctico 2
 
 ## Parte 1: Spy Vs Spy
 
+![Spy Vs Spy](/images/spyvsspy.png)
+
 Dos Agentes secretos intentan hacerse con unos informes clasificados. El espía 1 - que es el que los tiene - se encuentra en un punto de la ciudad escondido y tiene que ir al aeropuerto. El espía 2 se encuentra en otro punto de la ciudad y desea interceptarlo. Para eso tiene que llegar al aeropuerto antes que su rival y emboscarlo.
 
 1. Dado un mapa de una ciudad, las ubicaciones de los espías y el aeropuerto determine quién se quedará con los informes.
@@ -76,6 +78,6 @@ Dar un algoritmo eficiente (pseudocódigo de alto nivel) para definir en qué or
 
 Una universidad quiere dictar un conjunto de cursos C1, C2 … Cn donde cada curso se puede dar solo en el intervalo de tiempo Ti, ya que los docentes tienen poca flexibilidad horaria. Puede que varios cursos se den a la vez, por ejemplo el curso 1 puede dictarse de 3 a 6 y el curso 2 de 4 a 8. Conocemos el horario de inicia y finalización de cada uno de los cursos. El objetivo es ver cuál es la menor cantidad de aulas necesarias para acomodar todos los cursos (suponer que todas las aulas son iguales). 
 
-1 Dar un algoritmo eficiente (pseudocódigo de alto nivel) que resuelva el problema.
-1 Reducir el problema a una instancia de coloreo de grafos, en su versión de optimización (minimizar la cantidad de colores).
-1 A partir de los dos puntos anteriores, ¿podemos asegurar que P = NP? ¿Por qué?
+1. Dar un algoritmo eficiente (pseudocódigo de alto nivel) que resuelva el problema.
+1. Reducir el problema a una instancia de coloreo de grafos, en su versión de optimización (minimizar la cantidad de colores).
+1. A partir de los dos puntos anteriores, ¿podemos asegurar que P = NP? ¿Por qué?
