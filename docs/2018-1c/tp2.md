@@ -17,7 +17,7 @@ Trabajo Práctico 2
 
 ## Parte 1: Spy Vs Spy
 
-![Spy Vs Spy](/images/spyvsspy.png)
+![Spy Vs Spy](/tda/images/spyvsspy.png)
 
 Dos Agentes secretos intentan hacerse con unos informes clasificados. El espía 1 - que es el que los tiene - se encuentra en un punto de la ciudad escondido y tiene que ir al aeropuerto. El espía 2 se encuentra en otro punto de la ciudad y desea interceptarlo. Para eso tiene que llegar al aeropuerto antes que su rival y emboscarlo.
 
