@@ -34,7 +34,7 @@ Podemos modelizar el juego como:
 * Por cada turno que pasa el equipo “B” recibe un punto por cada barco que siga en el juego
 * Los barcos permanecen en el juego y avanzan siempre que conserven puntos de vida.
 * Los puntos de vida y la cantidad de daño son valores enteros positivos.
-* El objetivo de “A” es minimizar la cantidad de puntos logrados por “B”
+* El objetivo de “B” es minimizar la cantidad de puntos logrados por “A”
 
 Tenemos 2 amigos que usaran el juego. “Greedo” y “Dinámico”. Jugarán partidas entre ellos alternando entre el bando “A” y “B”. Siempre el juego se realizará de a pares conservando  la misma disposición de tablero y fichas (lanzaderas y barcos).
 
@@ -96,3 +96,32 @@ El mapa de la red se debe obtener de un archivo llamado “redsecreta.map” con
 * La capacidad son números enteros.
 * La fuente estará etiquetada como el número 0 (cero)
 * El sumidero estará etiquetado como el número 1 (uno)
+
+## Aclaraciones generales:
+
+En esta sección agregaremos aclaraciones y correcciones que surgen de consultas en la clase.
+
+### Una batalla naval:
+
+* (CORRECCION) Se modifica en el enunciado
+
+	* El objetivo de “A” es minimizar la cantidad de puntos logrados por “B”
+
+	por:
+	
+	* El objetivo de “B” es minimizar la cantidad de puntos logrados por “A”
+
+### Sabotaje:
+
+* (ACLARACION) el sabotaje esperado es en una arista de la red
+* (ACLARACION) Las capacidades de cada arista pueden o no ser diferentes.
+* (CORRECCION) En la definicion del archivo "redsecreata.map deberia decir:
+
+	Los **vertices** están etiquetadas por números enteros
+	
+	Ejemplo de linea del archivo:
+	
+	0 4 80
+	
+	Que significa "la fuente esta unida al vertice 4 y su capacidad es 80
+	

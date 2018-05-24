@@ -1,13 +1,9 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2018.
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2018.
 
 Las clases se dictarán de 19 a 22 hs los días lunes (práctica) y miércoles (teórica), aula a definir.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vQsvqw4ziCTxepJR7Ytcc6iwhC0-phxFIKZHB-u_h657sh2yeMrFSAJ7G-aKrC8gciS29bFdpls_6yz/pubhtml?gid=8&single=true).
-
-Formulario de inscripción al grupo de comunicación [1er Cuat. 2018](https://docs.google.com/forms/d/e/1FAIpQLScoY9eEC_cNBLLxRLvpfKv5WFt-m_n_LH6A1rel_fpJAx-Hug/viewform)
-
-Formulario de inscripción grupos de trabajos prácticos [aquí](https://docs.google.com/forms/d/e/1FAIpQLSdY-5rRQdNW_Vj-yGKO80CY5_A2P-apEwkTKvRHHQi1LEz-gg/viewform)
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vTO1FhZNyuk6dD5SN0Y5D67CrRBWqmAb7FWYWhAV3DGC9E5lnIPkv1ezM3g2hA10EPHA4c8YII6UBlJ/pubhtml?gid=8&single=true).
 
 
 ## Docentes
@@ -19,12 +15,9 @@ Formulario de inscripción grupos de trabajos prácticos [aquí](https://docs.go
 **Práctica**:
 
   - Víctor Podberezski
-  - Federico Barrios
-  - Tobías Lichtig
   - Lucas Ludueño
-  - Jonathan Moguilevsky
   - Rocío Gallo
-
+  - Ezequiel Werner
 
 ## Bibliografía
 
