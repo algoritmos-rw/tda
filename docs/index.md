@@ -1,7 +1,7 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
 La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2018.
 
-Las clases se dictarán de 19 a 22 hs los días lunes (práctica) y miércoles (teórica), aula a definir.
+Las clases se dictarán de 19 a 22 hs los días lunes (práctica) en el aula 509 y miércoles (teórica) en el aula 302.
 
 El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vTO1FhZNyuk6dD5SN0Y5D67CrRBWqmAb7FWYWhAV3DGC9E5lnIPkv1ezM3g2hA10EPHA4c8YII6UBlJ/pubhtml?gid=8&single=true).
 
