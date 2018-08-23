@@ -5,6 +5,7 @@ Las clases se dictarán de 19 a 22 hs los días lunes (práctica) y miércoles (
 
 El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vTO1FhZNyuk6dD5SN0Y5D67CrRBWqmAb7FWYWhAV3DGC9E5lnIPkv1ezM3g2hA10EPHA4c8YII6UBlJ/pubhtml?gid=8&single=true).
 
+Formulario de validación de inscripción [2do Cuat. 2018] (https://goo.gl/forms/SNXmV6ObGDxXZLzL2)
 
 ## Docentes
 
