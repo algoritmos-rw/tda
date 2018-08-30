@@ -7,6 +7,8 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
 
 Formulario de validación de inscripción [2do Cuat. 2018](https://goo.gl/forms/SNXmV6ObGDxXZLzL2).
 
+Formulario de inscripción de grupos para los trabajos prácticos [aquí](https://goo.gl/forms/wfTcxfS7AhOHQEFi1)
+
 ## Docentes
 
 **Teórica**:
