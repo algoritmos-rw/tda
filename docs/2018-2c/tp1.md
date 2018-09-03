@@ -33,7 +33,7 @@ Se solicita:
   - N = 10, M = 10, X = 1, Y = 1
   - N = 10, M = 5, X = 2, Y = 2
   - N = 10, M = 5, X = 2, Y = 1
-1. Compare la complejidad teórica con la del algortimo programado.
+1. Compare la complejidad teórica con la del algoritmo programado.
 
 ### Información adicional:
 - Cada recital contará con un archivo llamado “recital_[nro]”. en cada línea estarán en forma ordenada decreciente sus preferencias de bandas.
