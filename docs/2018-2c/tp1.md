@@ -30,9 +30,9 @@ Se solicita:
 1. Analice las condiciones para que el algoritmo propuesto retorna un matching estable y/o perfecto.  
 1. Suponga que los organizadores pueden tener preferencias similares sobre diferentes bandas y visceversa. ¿Cómo afecta esto en el algoritmo? ¿Considere que en caso de empate el involucrado decida desempatar tirando una moneda. ¿Cómo se ve afectado el proceso?
 1. Programe la solución propuesta en el punto 1. Genere archivos random y ejecute el programa para los siguientes valores de N, M, X e Y. ¿Qué ocurre en cada caso?:
-  1. N = 10, M = 10, X = 1, Y = 1
-  1. N = 10, M = 5, X = 2, Y = 2
-  1. N = 10, M = 5, X = 2, Y = 1
+  - N = 10, M = 10, X = 1, Y = 1
+  - N = 10, M = 5, X = 2, Y = 2
+  - N = 10, M = 5, X = 2, Y = 1
 1. Compare la complejidad teórica con la del algortimo programado.
 
 ### Información adicional:
