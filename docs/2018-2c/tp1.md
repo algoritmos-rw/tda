@@ -64,4 +64,4 @@ Se conoce a este procedimiento como "criba de Eratóstenes".
 
 - Debe devolver:
   * Lista de los números primos desde 2 hasta “N”.
-  * Tiempo total de ejecucion
+  * Tiempo total de ejecución
