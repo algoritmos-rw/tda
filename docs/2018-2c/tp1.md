@@ -26,18 +26,13 @@ Los organizadores se comunican con las bandas para ofrecerles participar y puede
 Se solicita:
 
 1. Utilizar una variante de Gale-Shapley para resolver el problema. Explicarlo y presentar el pseudocódigo.
-
 1. Analizar y justificar la complejidad del algoritmo
-
 1. Analice las condiciones para que el algoritmo propuesto retorna un matching estable y/o perfecto.  
-
 1. Suponga que los organizadores pueden tener preferencias similares sobre diferentes bandas y visceversa. ¿Cómo afecta esto en el algoritmo? ¿Considere que en caso de empate el involucrado decida desempatar tirando una moneda. ¿Cómo se ve afectado el proceso?
-
 1. Programe la solución propuesta en el punto 1. Genere archivos random y ejecute el programa para los siguientes valores de N, M, X e Y. ¿Qué ocurre en cada caso?:
-
   * N = 10, M = 10, X = 1, Y = 1
   * N = 10, M = 5, X = 2, Y = 2
-  * N = 10, M = 5, X = 2, Y = 11
+  * N = 10, M = 5, X = 2, Y = 1
 1. Compare la complejidad teórica con la del algortimo programado.
 
 ### Información adicional:
@@ -55,15 +50,10 @@ Iniciaba escribiendo todos los numeros de 1 a N. Luego en forma creciente partie
 Se conoce a este procedimiento como "criba de Eratóstenes".
 
 1. Describa en pseudocódigo el algoritmo (procure realizar la solución más eficiente posible. Investigue!)
-
 1. Analice y justifique su complejidad.
-
 1. Describa en pseudocódigo el algoritmo de fuerza bruta para calcular los números primos y analice y justifique su complejidad.
-
 1. Programe ambas soluciones (punto 1 y 3).
-
 1. Grafique los tiempos de ejecución de ambos algoritmos para los siguientes valores de N: 100, 1.000, 10.000, 100.000, 1.000.000, 10.000.000
-
 1. Analice los resultados obtenidos en base a la complejidad teórica de los mismos.
 
 ### Información adicional:
