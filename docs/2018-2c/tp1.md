@@ -60,7 +60,7 @@ Se conoce a este procedimiento como "criba de Eratóstenes".
 
 - El algoritmo debe recibir por parámetro:
   *  número “N”.
-  * “fuerza bruta” o “Erastóstenes”
+  * F (fuerza bruta) o E (Erastóstenes)
 
 - Debe devolver:
   * Lista de los números primos desde 2 hasta “N”.
