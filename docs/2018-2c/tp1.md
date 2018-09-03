@@ -38,7 +38,7 @@ Se solicita:
   * N = 10, M = 10, X = 1, Y = 1
   * N = 10, M = 5, X = 2, Y = 2
   * N = 10, M = 5, X = 2, Y = 11
-6. Compare la complejidad teórica con la del algortimo programado.
+1. Compare la complejidad teórica con la del algortimo programado.
 
 ### Información adicional:
 - Cada recital contará con un archivo llamado “recital_[nro]”. en cada línea estarán en forma ordenada decreciente sus preferencias de bandas.
@@ -66,9 +66,9 @@ Se conoce a este procedimiento como "criba de Eratóstenes".
 
 1. Analice los resultados obtenidos en base a la complejidad teórica de los mismos.
 
-###Información adicional:
+### Información adicional:
 
-- El algoritmo debe poder recibir por parámetro:
+- El algoritmo debe recibir por parámetro:
   *  número “N”.
   * “fuerza bruta” o “Erastóstenes”
 
