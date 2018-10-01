@@ -34,8 +34,8 @@ Resolver el problema utilizando diferentes algoritmos para calcular la envoltura
 
 Para cada algoritmo se solicita:
 
-1. Explicar el método, presente el pseudocódigo y las estructuras a utilizar.
-1. Calcular y explicar la complejidad de su algoritmo
+1. Explicar el método, presentar el pseudocódigo y las estructuras a utilizar.
+1. Calcular y explicar la complejidad de su algoritmo (tiempo y espacio)
 1. Programar la solución.
 1. Explique y analice la reducción polinomial realizada para el problema planteado. Podemos afirmar que nuestro problema es P (desarrolle)?
 
