@@ -40,7 +40,7 @@ c. Programar el algoritmo.
 
 3) Determinar si los códigos presentados se ajustan a la complejidad indicada en los puntos 1 y 2.
 
-5) (optativo) presentar una visualización gráfica de los laberintos gráfica.
+4) (optativo) presentar una visualización gráfica de los laberintos gráfica.
 
 
 ### Formato de los archivos y parámetros del programa:
