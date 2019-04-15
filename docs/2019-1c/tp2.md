@@ -32,9 +32,9 @@ Se debe construir:
     
 Para cada algoritmo se solicita:
 
-a. Presentar y explicar algoritmo en pseudocodigo.
-b. Determinar la complejidad del algoritmo
-c. Programar el algoritmo.
+ a. Presentar y explicar algoritmo en pseudocodigo.  
+ b. Determinar la complejidad del algoritmo.  
+ c. Programar el algoritmo.  
 
 (!) Evaluar si conviene representar el problema utilizando conjuntos disjuntos.
 
