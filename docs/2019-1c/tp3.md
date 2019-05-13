@@ -20,13 +20,13 @@ Trabajo Práctico 3
 
 Nos solicitan crear un prototipo para un juego de estrategia en turnos de 2 jugadores a utilizar en una computadora. En el mismo dos superpotencias se pelean por la dominación global. El tablero es un mapa donde existen diferentes ciudades. Cada ciudad se interconecta con otras mediantes rutas de comercio. Algunas ciudades producen la conocida como “especia”. Cada superpotencia tiene una metrópoli central donde debe trasladar “especia” para transformarla en tropas o almacenarla.
 
-###Separación inicial del tablero:
+### Separación inicial del tablero:
 
 Se presenta el mapa con la configuración inicial. Cada potencia tendra controlada su metropoli.
 Luego debe entregar un listado de ciudades ordenadas por preferencia. Se irán pareando las preferencias. Si en el mismo turno eligen la misma ciudad, esa ciudad queda sin control. Si eligen una ciudad diferente, se quedará cada uno controlando la seleccionado, a menos que la misma ya esté controlada por el rival.
 Cada ciudad controlada inicialmente recibe 1 ejército.
 
-###Juego:
+### Juego:
 
 Cada turno tiene varias fases:
 
@@ -34,7 +34,7 @@ Cada turno tiene varias fases:
 - Producción: Las potencias pueden almacenar la especia o transformar 1 unidad de especia en 2 ejércitos. También pueden transformar unidades de ejército en 1 de especia. Las potencias deben ubicar sus ejércitos en las ciudades que controlan. Pueden distribuir sus ejércitos como quieran. Los ejércitos transformados en especia no se pueden usar en ese turno. Como máximo se pueden transformar 5 ejercitos en especia.
 - Ataques: Cada potencia define con cuantos ejércitos atacarán a las ciudades de la superpotencia contraria. Los ataques solo se pueden realizar entre ciudades con rutas comerciales. Las batallas se realizan en simultáneo. Gana el que tenga más ejércitos. Se eliminan los ejércitos de ambos equipos que igualan (si la batalla es 5 contra 4, cada potencia elimina 4 ejércitos). Si gana el atacante pasa los ejércitos sobrantes a la ciudad controlada. Si gana el defensor, se queda en la ciudad con los ejércitos restantes. Si hay empate y la ciudad queda sin defensas la misma pasa a estar sin control. Podrá ser atacada en la próxima ronda por ambos bandos y se utilizaran las mismas reglas de combate (el que gana se queda con la ciudad). La ciudad metrópoli no se puede atacar.
 
-###Fin de juego:
+### Fin de juego:
 
 El juego termina cuando alguno de estos criterios se cumplen:
 
@@ -42,7 +42,7 @@ El juego termina cuando alguno de estos criterios se cumplen:
 - La metrópoli rival queda desconectada del resto de las ciudades productoras propias.
 - Se cumplen 50 turnos desde el inicio de la partida
  
-####Criterios de desempate:
+#### Criterios de desempate:
 
 Si algunos de los criterios de fin de juego se cumple, pero para ambos superpotencias. El desempate se realiza de la siguiente forma:
 
@@ -52,13 +52,13 @@ Si algunos de los criterios de fin de juego se cumple, pero para ambos superpote
 - Si aún hay empate, termina en empate.
 
 
-###Formato de archivos y parámetros del programa
+### Formato de archivos y parámetros del programa
 
 Con el objectivo de poder correr simulaciones entre diferentes grupos, es indispensable que se cumplan los formatos solicitados para evitar problemas de interfaces. Se ejecutará un programa en bash o similar para ejecutar las partidas.
 
 Todos los archivos son de tipo texto. Con un registro por línea y separados por coma (sin espacio entre ellos)
 
-####Tablero:
+#### Tablero:
 El tablero de juego se encontrará definido en 2 archivos:
 - Ciudades.txt: contiene los nombres de las ciudades y la cantidad de especia que genera (valor entero mayor o igual a 0). La primera y segunda ciudad corresponden a las metrópolis del primer y segundo jugador respectivamente. 
 
@@ -81,7 +81,7 @@ Ejemplo:
 	Buenos Aires,Rio de Janeiro,4
 	...
 
-####separación inicial del tablero:
+#### Separación inicial del tablero:
 - se deberá entregar un programa “selección” que reciba por parámetros ciudades.txt y rutas.txt y si es el jugador 1 o 2. La salida es un archivo con priorización de las ciudades a controlar.
 
 Ejemplo:
@@ -112,13 +112,13 @@ Ejemplo:
     Roma,1
     …
 
-####Recoleccion:
+#### Recoleccion:
 El programa llamado “recolectar” recibe por parametro el numero de jugador,  los archivos del mapa y las ciudad dominada por el jugador y devolverá un archivo llamado cosecha1.txt y cosecha2.txt respectivamente con el valor numérico de la especia recolectada más la disponible de turnos anteriores (se encuentra en el archivo con el mismo nombre que debe sobreescribir. 
 
-####Producción:
+#### Producción:
 El programa “producir” recibe por parametro el numero de jugador, los archivos del mapa, imperio y cosecha propia y rival. Deberá generar archivos de cosecha e imperio temporales con el consumo e implantación de ejércitos. Los nombre serán “cosecha[nrojugador]_temp.txt” e “imperio[nrojugador]_temp.txt”
 
-####Ataque:
+#### Ataque:
 Se deberá llamar al programa “tactica” que recibe  por parámetro el número de jugador, los archivos del mapa, imperio y cosecha propia y rival, deberá generar los archivo ataque[nrojugador].txt que contendrá los ataque de ciudades a otras del rival en ciudades conectadas por rutas. Para cada ataque indicará con cuántos ejércitos ataca.
 
 El formato del archivo de salida será:
@@ -126,13 +126,13 @@ El formato del archivo de salida será:
 	Roma,Paris,4
 	Rio de Janeiro,Buenos Aires,3
  
-####Contienda:
-El programa contienda resolverá las batallas y actualizará los archivos de imperio de cada jugador. Toma como parámetros los archivos de mapa, imperio y de ataque. Debe resolver los ataques teniendo en cuenta que los soldados utilizados para atacar que parte de una ciudad no estarán en la defensa en ese turno.
+#### Contienda:
+El programa "contienda" resolverá las batallas y actualizará los archivos de imperio de cada jugador. Toma como parámetros los archivos de mapa, imperio y de ataque. Debe resolver los ataques teniendo en cuenta que los soldados utilizados para atacar que parte de una ciudad no estarán en la defensa en ese turno.
 
-####Ganador:
-El programa ganador recibe el número de turno, los archivos de mapa, imperio y cosecha de ambos jugadores. Verifica si hay un ganador de acuerdo a los criterios de victoria. Retorna un archivo ganador.txt que tendrá el nombre del ganador o estará vacío si no lo hay.
+#### Ganador:
+El programa "ganador" recibe el número de turno, los archivos de mapa, imperio y cosecha de ambos jugadores. Verifica si hay un ganador de acuerdo a los criterios de victoria. Retorna un archivo ganador.txt que tendrá el nombre del ganador o estará vacío si no lo hay.
 
-###Pseudocódigo del juego:
+### Pseudocódigo del juego:
 (ATENCION: Es a modo ilustrativo. Los procesos deben ser programas independientes)
 
 	//genera seleccion1.txt
@@ -177,7 +177,7 @@ El programa ganador recibe el número de turno, los archivos de mapa, imperio y 
 	
 	Hasta ronda=maximarondas o hay ganador
 
-###Tareas:
+### Tareas:
 
 1. Diseñe los algoritmos para que se pueda jugar este juego (Genere 2 estrategias para poder probar jugar. Una las mas competitiva posible y otra “dummy” para probar como funciona. LOS PROGRAMAS DEBEN TENER EL MISMO NOMBRE Y ESTAR EN DIFERENTE DIRECTORIO)
 1. Explique qué algoritmos utilizados en clase puede utilizar y cuales investigó por su cuenta.
@@ -209,7 +209,7 @@ Se pide:
 
 (no se debe programar este ejercicio)
 
-##Parte 3: Clases de Complejidad
+## Parte 3: Clases de Complejidad
 
 A. Responda a las siguientes preguntas teóricas. Sea conciso y justifique claramente
 
