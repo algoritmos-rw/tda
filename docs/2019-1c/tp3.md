@@ -73,12 +73,13 @@ Ejemplo:
 	…
 
 
-- rutas.txt: contiene las rutas de comercio que unen a las diferentes ciudades. Las rutas son en ambos sentidos. Tiene la capacidad máxima de transporte de la ciudad.
+- rutas.txt: contiene las rutas de comercio que unen a las diferentes ciudades. Las rutas son en el sentido dado por el par de ciudades. Tiene la capacidad máxima de transporte de la ciudad.
 
 Ejemplo:
 
 	Paris,Roma,3
 	Buenos Aires,Rio de Janeiro,4
+	Rio de Janeiro,Buenos Aires,3
 	...
 
 #### Separación inicial del tablero:
