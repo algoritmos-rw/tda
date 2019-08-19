@@ -1,13 +1,15 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2019.
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2019.
 
 Las clases se dictarán de 19 a 22 hs los días lunes (práctica) en el aula 509 y miércoles (teórica) en el aula 302.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRaoXs6hrmYdAiul6p0swshGQXGWN2JoCJ2cxGEDzC_nmKrgBUV8jyKeB-xNXUoRWEl1XwX5HGL1iHX/pubhtml?gid=8&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSbCWnZCvDTDO_yJrB6nXr0rxcq3QDOEnOLnYmXw83o535A9YJWrbGQyqRaMPFcKoUwqcZK5nOVGYc/pubhtml?gid=8&single=true).
 
-Formulario de validación de inscripción [1er Cuat. 2019](https://goo.gl/forms/JS1ajL4N12bMMevB2).
 
-Formulario de inscripción de [grupo de TP1](https://goo.gl/forms/1xPTA1d4se2PDAC73)
+
+Formulario de validación de inscripción [2do Cuat. 2019](https://forms.gle/ksYNApZmgHvXh1mV7).
+
+Formulario de inscripción de [grupo de TP1](https://forms.gle/YzKKxYNQLvAyW78P8)
 
 ## Docentes
 
@@ -19,7 +21,6 @@ Formulario de inscripción de [grupo de TP1](https://goo.gl/forms/1xPTA1d4se2PDA
 
   - Víctor Podberezski
   - Lucas Ludueño
-  - Rocío Gallo
   - Ezequiel Werner
   - Federico del Mazo
   - Agustín Gaillard
@@ -52,9 +53,11 @@ Para aprobar la materia, el alumno deberá aprobar:
 
 Con las siguientes consideraciones:
 
-  - Se contemplan eventuales reentregas tras la corrección incial cuya fecha de presentación se pactará con los docentes pero que no podrá superar la finalización del cuatrimestre.
-  - Desaprobar un trabajo práctico implica desaprobar la cursada y por lo tanto la materia.
-  - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación del trabajo práctico.
-  - La última clase del cuatrimestre se establecerá como fecha de la exposición oral. De no poder presentarse, una alternativa será pactada con la Profesora al finalizar las clases de la materia.
+  - Las clases no son obligatorias, pero se recomienda la asistencia.
+  - Este es un curso presencial, por lo que las correcciones se entregarán en clase.
+  - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega. 
+  - La no aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
+  - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico.
+  - La última clase del cuatrimestre se establecerá como fecha de la exposición oral. De no poder presentarse o no contar aun con todos los trabajos practicos aprobado, será pactada una fecha alternativa con el cuerpo docente al finalizar las clases de la materia.
   - La nota de la cursada será el promedio de la nota de los tres trabajos prácticos.
   - La nota final corresponde a una ponderación entre la nota de la cursada, la nota de la exposición oral y la nota del examen integrador.
