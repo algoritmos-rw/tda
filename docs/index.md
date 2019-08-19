@@ -56,7 +56,7 @@ Con las siguientes consideraciones:
   - Las clases no son obligatorias, pero se recomienda la asistencia.
   - Este es un curso presencial, por lo que las correcciones se entregarán en clase.
   - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega. 
-  - La no aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
+  - No aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
   - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico.
   - La última clase del cuatrimestre se establecerá como fecha de la exposición oral. De no poder presentarse o no contar aun con todos los trabajos practicos aprobado, será pactada una fecha alternativa con el cuerpo docente al finalizar las clases de la materia.
   - La nota de la cursada será el promedio de la nota de los tres trabajos prácticos.
