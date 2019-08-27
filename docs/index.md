@@ -24,23 +24,23 @@ Calendario de trabajos prácticos:
     <tbody>
     <tr>
       <td><strong>TP1</strong></td>
-      <td><strong>02/09</strong></td>
-      <td><strong>16/09</strong></td>
-      <td><strong>07/10</strong></td>
-      <td><strong>21/10</strong></td>
+      <td><strong>28/08</strong></td>
+      <td><strong>11/09</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>16/10</strong></td>
     </tr>
     <tr>
       <td><strong>TP2</strong></td>
-      <td><strong>16/09</strong></td>
-      <td><strong>07/10</strong></td>
-      <td><strong>28/10</strong></td>
-      <td><strong>18/11</strong></td>
+      <td><strong>11/09</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>23/10</strong></td>
+      <td><strong>13/11</strong></td>
     </tr>
     <tr>
       <td><strong>TP3</strong></td>
-      <td><strong>07/10</strong></td>
-      <td><strong>28/10</strong></td>
-      <td><strong>18/11</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>23/10</strong></td>
+      <td><strong>13/11</strong></td>
       <td><strong>09/12</strong></td>
     </tr>
   </tbody>
