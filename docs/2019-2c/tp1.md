@@ -92,9 +92,12 @@ Ejemplo:
 Los emparejamientos se tienen que guardar en el archivo “resultado.txt”. Debe ser un archivo de texto donde se muestre una pareja por línea y separado por comas. Primero los pacientes y luego los donantes.
 
 Los parámetros de ejecución del programa son 3:
-Cantidad de pacientes: valor numérico
-Cantidad de donantes: valor numérico
-Quién es el solicitante: puede tomar el valor de “p”: paciente o “d”: donante (sin comillas, solo la letra)
+
+* Cantidad de pacientes: valor numérico
+
+* Cantidad de donantes: valor numérico
+
+* Quién es el solicitante: puede tomar el valor de “p”: paciente o “d”: donante (sin comillas, solo la letra)
 
 ### Información extra:
 Este es una super simplificación de una aplicación real ( https://stanford.edu/~alroth/papers/kidney.qje.pdf)  que le valió el nobel de 2012 a Alvin Roth ( https://www.nobelprize.org/prizes/economic-sciences/2012/roth/facts/ )
