@@ -3,13 +3,50 @@ La información que se presenta es respecto a la cursada del segundo cuatrimestr
 
 Las clases se dictarán de 19 a 22 hs los días lunes (práctica) en el aula 509 y miércoles (teórica) en el aula 302.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSbCWnZCvDTDO_yJrB6nXr0rxcq3QDOEnOLnYmXw83o535A9YJWrbGQyqRaMPFcKoUwqcZK5nOVGYc/pubhtml?gid=8&single=true).
-
-
-
 Formulario de validación de inscripción [2do Cuat. 2019](https://forms.gle/ksYNApZmgHvXh1mV7).
 
 Formulario de inscripción de [grupo de TP1](https://forms.gle/YzKKxYNQLvAyW78P8)
+
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSbCWnZCvDTDO_yJrB6nXr0rxcq3QDOEnOLnYmXw83o535A9YJWrbGQyqRaMPFcKoUwqcZK5nOVGYc/pubhtml?gid=8&single=true).
+
+Calendario de trabajos prácticos:
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <td><strong>Trabajo</strong></td>
+        <td><strong>Presentación/Enunciado</strong></td>
+        <td><strong>Entrega</strong></td>
+        <td><strong>1era Reentrega</strong></td>
+        <td><strong>2da Reentrega</strong></td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><strong>TP1</strong></td>
+      <td><strong>28/08</strong></td>
+      <td><strong>11/09</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>16/10</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TP2</strong></td>
+      <td><strong>11/09</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>23/10</strong></td>
+      <td><strong>13/11</strong></td>
+    </tr>
+    <tr>
+      <td><strong>TP3</strong></td>
+      <td><strong>02/10</strong></td>
+      <td><strong>23/10</strong></td>
+      <td><strong>13/11</strong></td>
+      <td><strong>09/12</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana posterior a su entrega.**
 
 ## Docentes
 
