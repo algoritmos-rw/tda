@@ -58,7 +58,6 @@ Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana pos
 
   - Víctor Podberezski
   - Lucas Ludueño
-  - Ezequiel Werner
   - Federico del Mazo
   - Agustín Gaillard
 
