@@ -19,12 +19,12 @@ Trabajo Práctico 1
 
 ## Parte 1: Un problema de ausentismo
 
-Una empresa de tercerizacion laboral nos convoca para que le ayudemos con un problema de ausentismo laboral. Tiene un conjunto "n" de empleados que realizan tareas en diferentes puntos de la ciudad. Cada uno de ellos deben estar durante un lapso de tiempo en la ubicacion establecida.
-La direccion de la empresa sospecha que algunos de sus empleados suelen faltar a alguno de esos turnos. Para verificarlo contrataron a la empresa "Dystopian Technologies Inc." (DTI) Esta empresa implanta un microchip con un codigo unico en cada empleado. Mediante rastreo satelital pueden conocer donde se encuentra cada implantado en un momento determinado "tx". Ante la consulta de una lista de codigos de empleados DTI retornara que cuales no estan dentro de su area de trabajo. 
+Una empresa de tercerización laboral nos convoca para que le ayudemos con un problema de ausentismo laboral. Tiene un conjunto "n" de empleados que realizan tareas en diferentes puntos de la ciudad. Cada uno de ellos deben estar durante un lapso de tiempo en la ubicación establecida.
+La dirección de la empresa sospecha que algunos de sus empleados suelen faltar a alguno de esos turnos. Para verificarlo contrataron a la empresa "Dystopian Technologies Inc." (DTI) Esta empresa implanta un microchip con un código único en cada empleado. Mediante rastreo satelital pueden conocer donde se encuentra cada implantado en un momento determinado "tx". Ante la consulta de una lista de códigos de empleados DTI retornará cuales no están dentro de su area de trabajo. 
 
 Se pide:
 
-1. Teniendo en cuenta que cada consulta tiene un costo elevado, construir un algoritmo que minimice el costo total y en forma eficiente detecte si alguien no cumplio con su obligacion.
+1. Teniendo en cuenta que cada consulta tiene un costo elevado, construir un algoritmo que minimice el costo total y en forma eficiente detecte si alguien no cumplió con su obligación.
 1. Determinar que tipo de algoritmo es. Justificar
 1. Explicar detalladamente la complejidad total del algoritmo armado.
 
@@ -37,28 +37,28 @@ Se pide:
 
 ## Parte 2: Una nueva regulación industrial.
 
-Según una nueva regulación industrial un fabricante debe rotular cada lote que produce segun un valor numérico que lo caracteriza. Cada lote esta conformado por "n" piezas. A cada una de ellas se le realiza una medicion de volumen.
-La regulación considera que el lote es válido si mas de la mitad de las piezas tienen el mismo volumen. En ese caso el rótulo deberá ser ese valor. De lo contrario el lote se descarta.
+A raiz de una nueva regulación industrial un fabricante debe rotular cada lote que produce según un valor numérico que lo caracteriza. Cada lote está conformado por "n" piezas. A cada una de ellas se le realiza una medición de volumen.
+La regulación considera que el lote es válido si más de la mitad de las piezas tienen el mismo volumen. En ese caso el rótulo deberá ser ese valor. De lo contrario el lote se descarta.
 
-Actualmente cuentan con el proceso "A" que consiste en para cada pieza del lote contar cuantas de las restantes tienen el mismo volumen. Si alguna de las piezas corresponde al "elemento mayoritario"(!), lo rotula. De los contrario lo rechaza.
+Actualmente cuentan con el proceso "A" que consiste en para cada pieza del lote contar cuantas de las restantes tienen el mismo volumen. Si alguna de las piezas corresponde al "elemento mayoritario", lo rotula. De lo contrario lo rechaza.
 
-Un consultor informatico (que no cursó TDA) impulsa una solucion (proceso "B") que considera la mas eficiente: ordenar las piezas por volumen y con ello luego reducir el tiempo de busqueda del elemento mayoritario.
+Un consultor informático (que no cursó TDA) impulsa una solución (proceso "B") que considera la más eficiente: ordenar las piezas por volumen y con ello luego reducir el tiempo de búsqueda del elemento mayoritario.
 
-Nos contratan para construir una solucion mejor (proceso "C"). 
+Nos contratan para construir una solución mejor (proceso "C"). 
 
 Se pide:
 
-1. Exprese mediante pseudocodigo el proceso "A". 
-1. Explique si la sugerencia del consultor realmente puede mejorar el proceso. En caso afirmativo, arme el pseudocodigo que lo ilustre.
-1. Proponga el proceso "C" como un algoritmo superador (ayuda: utilice división y conquista). Expliquelo detalladamente y brinde pseudocódigo.
+1. Exprese mediante pseudocódigo el proceso "A". 
+1. Explique si la sugerencia del consultor realmente puede mejorar el proceso. En caso afirmativo, arme el pseudocódigo que lo ilustre.
+1. Proponga el proceso "C" como un algoritmo superador (ayuda: utilice división y conquista). Explíquelo detalladamente y brinde pseudocódigo.
 1. Calcule, explique y compare las complejidades temporales y espaciales de cada uno de los 3 procesos.
 1. Programe las 3 soluciones
 
-ATENCION: Para el algoritmo con división y conquista presenta relacion de recurrencia. Calcule la complejidad tanto mediante el metodo maestro como desenrrollando la recurrencia.
+ATENCION: Para el algoritmo con división y conquista presentar relacion de recurrencia. Calcule la complejidad tanto mediante el método maestro como desenrrollando la recurrencia.
 
 ### Interface de los programas:
 
-El archivo del lote es de tipo texto. Debe contener un valor entero numerico por linea que representa el volumen de cada pieza.
+El archivo del lote es de tipo texto. Debe contener un valor entero numérico por linea que representa el volumen de cada pieza.
 Ejemplo:
 
 	110
