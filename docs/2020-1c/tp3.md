@@ -19,7 +19,7 @@ Trabajo Práctico 3
 
 ## Parte 1: Manifestaciones seguras
 
-En una decisión temeraria una ciudad decidió autorizar un conjunto de n manifestaciones el mismo día y horas. Cada minifestación comienza en un punto de reunión y tiene un destino final. Para evitar enfrentamientos y confusiones desean que cada ruta sea aislada de las otras. Contamos con el mapa de la ciudad que incluye todos los caminos e intersecciones por lo que pueden ir las marchas. Nos piden que elaboremos un algoritmo que retorne los caminos a seguir para cada manifestación de modo que no haya riesgo de un cruce (si es posible).  
+En una decisión temeraria una ciudad decidió autorizar un conjunto de n manifestaciones el mismo día y horas. Cada manifestación comienza en un punto de reunión y tiene un destino final. Para evitar enfrentamientos y confusiones desean que cada ruta sea aislada de las otras. Contamos con el mapa de la ciudad que incluye todos los caminos e intersecciones por lo que pueden ir las marchas. Nos piden que elaboremos un algoritmo que retorne los caminos a seguir para cada manifestación de modo que no haya riesgo de un cruce (si es posible).  
  
 Se pide:
 
@@ -28,6 +28,7 @@ Se pide:
 ### Información adicional:
 
 AYUDA 1: El problema se puede ver como "Node-disjoint directed path problem"
+
 AYUDA 2: Pruebe con "3-SAT"
 
 ## Parte 2: División de Bienes
@@ -42,4 +43,5 @@ Se pide:
 ### Información adicional:
 
 AYUDA 1: El problema genérico se conoce como "Number Partitioning".
-AYUDA 2: Pruebe con "subset sum"
+
+AYUDA 2: Pruebe con "subset sum".
