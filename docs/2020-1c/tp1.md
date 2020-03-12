@@ -19,21 +19,33 @@ Trabajo Práctico 1
 
 ## Parte 1: Un problema de ausentismo
 
-Una empresa de tercerización laboral nos convoca para que le ayudemos con un problema de ausentismo laboral. Tiene un conjunto "n" de empleados que realizan tareas en diferentes puntos de la ciudad. Cada uno de ellos deben estar durante un lapso de tiempo en la ubicación establecida.
-La dirección de la empresa sospecha que algunos de sus empleados suelen faltar a alguno de esos turnos. Para verificarlo contrataron a la empresa "Dystopian Technologies Inc." (DTI) Esta empresa implanta un microchip con un código único en cada empleado. Mediante rastreo satelital pueden conocer donde se encuentra cada implantado en un momento determinado "tx". Ante la consulta de una lista de códigos de empleados DTI retornará cuales no están dentro de su area de trabajo. 
+Una empresa de tercerización laboral nos convoca para que le ayudemos con un problema de ausentismo laboral. Tiene un conjunto de n empleados que realizan tareas en diferentes puntos de la ciudad. El turno de cada empleado i comienza en Ti(i) y termina en Tf(i) y durante todo ese lapso tiene que estar en la ubicación establecida. 
+La dirección de la empresa sospecha que algunos de sus empleados suelen faltar sin aviso. Para verificarlo contrataron a la empresa “Dystopian Technologies Inc.” (DTI). Esta empresa implanta un microchip con un código único en cada empleado. Mediante rastreo satelital pueden conocer dónde se encuentra cada implantado en cualquier momento. Además posee el cronograma completo de las tareas. 
 
+DTI brinda un sistema que mediante una consulta (encendido / apagado) nos devolverá cuáles empleados aún no controlados y en horario de trabajo se encuentran en su sitio y cuáles no.
+ 
 Se pide:
 
-1. Teniendo en cuenta que cada consulta tiene un costo elevado, construir un algoritmo que minimice el costo total y en forma eficiente detecte si alguien no cumplió con su obligación.
+1. Escribir un algoritmo para que DTI rastree que todos los empleados estén en sus puestos en algún momento de su turno. Como DTI cobra por cada encendido / apagado, la cantidad de encendidos debe ser mínima. El programa debe correr además en tiempo mínimo.
+
 1. Determinar que tipo de algoritmo es. Justificar
+
 1. Explicar detalladamente la complejidad total del algoritmo armado.
 
-### Información extra:
+1. Justificar detalladamente que la solución obtenida es óptima (mínima cantidad de encendidos / apagados).
 
-* Se puede discretizar los tiempos en unidades. Siendo t=0 el tiempo desde donse de puede consultar. 
-* Cada empleado i comienza su turno en Ti(i) y finaliza en Tf(i).
-* La lista de los empleados se encuentra ordenada por tiempo de inicio del turno.
-* El tiempo de consulta a la empresa DTI es O(1).
+Se recibe:
+
+Una lista con los datos de cada uno de los n empleados (nombre, posición, ti, tf).
+
+### Consideraciones:
+
+* Los tiempos informados son enteros de 0 en adelante.
+* DTI les cobra por cada encendido / apagado.
+* Cada encendido / apagado es casi instantáneo y se lo programa para algún valor de t entero.
+* Cada encendido / apagado (y su consecuente rastreo) es O(1).
+* El empleado una vez en su puesto no se retira hasta concluir su turno
+
 
 ## Parte 2: Una nueva regulación industrial.
 

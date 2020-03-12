@@ -45,3 +45,15 @@ Se pide:
 AYUDA 1: El problema genérico se conoce como "Number Partitioning".
 
 AYUDA 2: Pruebe con "subset sum".
+
+## Parte 3: Un poco de teoría.
+
+1. Defina y explique (si es necesario con ejemplos) qué significa que un problema sea P, NP, NP-Completo y NP-Hard
+
+1. Tenemos un problema A, un problema B y una caja negra NA y NB que resuelven el problema A y B respectivamente. Sabiendo que B es NP
+
+   1. Qué podemos decir de A si utilizamos NA para resolver el problema B (asumimos que la reducción realizada para adaptar el problema B al problema A el polinomial)
+
+   1. Qué podemos decir de A si utilizamos NB para resolver el problema A (asumimos que la reducción realizada para adaptar el problema A al problema B el polinomial)
+
+   1. Qué pasa con los puntos anteriores si no conocemos la complejidad de B, pero sabemos que A es P?.
