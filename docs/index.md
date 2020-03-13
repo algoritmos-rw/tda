@@ -1,13 +1,13 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
 La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2019.
 
-Las clases se dictarán de 19 a 22 hs los días lunes (práctica) en el aula 509 y miércoles (teórica) en el aula 302.
+Las clases se dictarán de 19 a 22 hs los días lunes (teórica) en el aula 509 y miércoles (práctica) en el aula 302.
 
-Formulario de validación de inscripción [2do Cuat. 2019](https://forms.gle/ksYNApZmgHvXh1mV7).
+Formulario de validación de inscripción [1er Cuat. 2020](https://forms.gle/Hxi22PoLytvom17n8).
 
-Formulario de inscripción de [grupo de TP1](https://forms.gle/YzKKxYNQLvAyW78P8)
+Formulario de inscripción de [grupo de TP1](https://forms.gle/kgRUjWF1EbLja1q46)
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSSbCWnZCvDTDO_yJrB6nXr0rxcq3QDOEnOLnYmXw83o535A9YJWrbGQyqRaMPFcKoUwqcZK5nOVGYc/pubhtml?gid=8&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSBr-Z_buHz4qEIR3WozwkgZobRt6dVczZiNISrNmwKXY_7HNCFTmDWpC_CesC2ZamLillGUStuziJs/pubhtml?gid=8&single=true).
 
 Calendario de trabajos prácticos:
 
@@ -24,24 +24,24 @@ Calendario de trabajos prácticos:
     <tbody>
     <tr>
       <td><strong>TP1</strong></td>
-      <td><strong>28/08</strong></td>
-      <td><strong>11/09</strong></td>
-      <td><strong>02/10</strong></td>
-      <td><strong>16/10</strong></td>
+      <td><strong>08/04</strong></td>
+      <td><strong>22/04</strong></td>
+      <td><strong>20/05</strong></td>
+      <td><strong>08/07</strong></td>
     </tr>
     <tr>
       <td><strong>TP2</strong></td>
-      <td><strong>11/09</strong></td>
-      <td><strong>02/10</strong></td>
-      <td><strong>23/10</strong></td>
-      <td><strong>13/11</strong></td>
+      <td><strong>29/04</strong></td>
+      <td><strong>13/05</strong></td>
+      <td><strong>03/06</strong></td>
+      <td><strong>08/07</strong></td>
     </tr>
     <tr>
       <td><strong>TP3</strong></td>
-      <td><strong>02/10</strong></td>
-      <td><strong>23/10</strong></td>
-      <td><strong>13/11</strong></td>
-      <td><strong>09/12</strong></td>
+      <td><strong>13/05</strong></td>
+      <td><strong>27/05</strong></td>
+      <td><strong>17/06</strong></td>
+      <td><strong>08/07</strong></td>
     </tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana pos
   - Víctor Podberezski
   - Lucas Ludueño
   - Federico del Mazo
-  - Agustín Gaillard
+  - Kevin Untrojb
 
 ## Bibliografía
 
