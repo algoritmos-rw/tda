@@ -1,5 +1,5 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2019.
+La información que se presenta es respecto a la cursada del primer cuatrimestre del 2020.
 
 Las clases se dictarán de 19 a 22 hs los días lunes (teórica) en el aula 509 y miércoles (práctica) en el aula 302.
 
