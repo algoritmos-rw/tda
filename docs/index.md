@@ -54,7 +54,7 @@ Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana pos
 
 **Teórica**:
 
-  - Rosita Wachenchauzer
+  - Rosita Wachenchauzer (rositaw@gmail.com)
 
 **Práctica**:
 
