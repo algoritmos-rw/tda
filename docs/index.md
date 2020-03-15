@@ -3,6 +3,8 @@ La información que se presenta es respecto a la cursada del primer cuatrimestre
 
 Las clases se dictarán de 19 a 22 hs los días lunes (teórica) en el aula 509 y miércoles (práctica) en el aula 302.
 
+<div style="color:red"><b>ATENCIÓN!: A raiz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta el 12 de Abril. No se dictarán clases hasta esa fecha.</b> Aquellos inscriptos pueden registrarse en el formulario de validación de inscripción. De esa forma podremos comunicarnos para brindar información sobre cómo continuarán las clases.</div>
+
 Formulario de validación de inscripción [1er Cuat. 2020](https://forms.gle/Hxi22PoLytvom17n8).
 
 Formulario de inscripción de [grupo de TP1](https://forms.gle/kgRUjWF1EbLja1q46)
@@ -56,7 +58,7 @@ Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana pos
 
 **Práctica**:
 
-  - Víctor Podberezski
+  - Víctor Podberezski (vdpode@gmail.com)
   - Lucas Ludueño
   - Federico del Mazo
   - Kevin Untrojb
