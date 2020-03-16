@@ -66,12 +66,12 @@ Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana pos
 ## Bibliografía
 
 ### Recomendada
-  - J. Kleinberg, E. Tardos, _Algorithm Design_, Addison Wesley (2006).
-  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (tercera edición), MIT Press (2009).
-  - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013).
+  - J. Kleinberg, E. Tardos, _Algorithm Design_, Addison Wesley (2006). **[KT]**
+  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (tercera edición), MIT Press (2009). **[CLRS]**
+  - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013). **[S]**
 
 ### Sugerida
-  - S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani, _Algorithms_ (2006) [[descarga gratuita](http://cseweb.ucsd.edu/~dasgupta/book/)].
+  - S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani, _Algorithms_ (2006) [[descarga gratuita](http://cseweb.ucsd.edu/~dasgupta/book/)]. **[DPV]**
   - J. Erickson, _Models of Computation_ (2015) [[descarga gratuita](http://jeffe.cs.illinois.edu/teaching/algorithms/)].
   - R. Sedgewick, K. Wayne, _Algorithms_ (cuarta edición), Addison Wesley (2011).
   - M. A. Weiss, _Data Structures and Algorithm Analysis in Java_  (tercera edición), Pearson (2012).
