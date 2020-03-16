@@ -15,19 +15,19 @@ Trabajo Práctico 2
 
 - Incluir en el informe los requisitos y procedimientos para su compilación y ejecución. La ausencia de esta información no permite probar el trabajo y deberá ser re-entregado con esta información.
 
-- El informe debe presentar carátula con el nombre del grupo y número de hoja cada página
+- El informe debe presentar carátula con el nombre del grupo y número de hoja cada página.
 
 ## Parte 1: El productor agropecuario
 
-Un productor agropecuario tiene un terreno de X hectareas disponible para la siembra. Sabe que puede producir diferentes cultivos ocupando una determinada porción del campo. Cada elección le resultará en una determinada ganancia. Cada cultivo i tiene un tiempo determinado de siembra  Ts(i) y otro de cosecha Tc(i). Su objectivo es maximizar la ganancia. En total tiene "n" opciones.
+Un productor agropecuario tiene un terreno de X hectareas disponible para la siembra. Sabe que puede producir diferentes cultivos ocupando una determinada porción del campo. Cada elección le resultará en una determinada ganancia. Cada cultivo i tiene un tiempo determinado de siembra Ts(i) y otro de cosecha Tc(i). Su objectivo es maximizar la ganancia. En total tiene "n" opciones.
 
 Se pide:
 
-1. Ayude al productor!. Presente una solucion utilizando programación dinámica que maximice la ganancia.
+1. Ayude al productor! Presente una solucion utilizando programación dinámica que maximice la ganancia.
 1. Cuál es el subproblema en su planteo?
 1. Presente y explique la relación de recurrencia.
 1. presente en pseudocódigo la solución de forma iterativa.
-1. Exprese la complejidad temporal y espacial de la solución presentada. 
+1. Exprese la complejidad temporal y espacial de la solución presentada.
 1. Programe su solución
 
 ### Interface de los programas:
@@ -52,10 +52,10 @@ Los parámetros de ejecución del programa son 2:
 ### Información extra:
 
 * Se puede discretizar los tiempos en unidades enteras. Siendo t=0 el tiempo inicial.
-* La cantidad a cultivar es un valor entero medido en hectarias. No se puede sembrar menos ni mas que lo que la opcion determina.
-* La ganancia por cultivo es global (no por hectaria)
+* La cantidad a cultivar es un valor entero medido en hectarias. No se puede sembrar menos ni más que lo que la opción determina.
+* La ganancia por cultivo es global (no por hectaria).
 * En ningun momento se puede cultivar más que la cantidad de hectarias disponibles.
-* Considerar a las fechas de inicio y fin como parte del tiempo de cultivo. 
+* Considerar a las fechas de inicio y fin como parte del tiempo de cultivo.
 
 ## Parte 2: Minimizando el costo del transporte
 
@@ -67,11 +67,11 @@ Se pide:
 
 1. Resolver el problema planteado utilizando una aproximación mediante flujo de redes.
 1. Calcular y explicar la complejidad temporal y espacial del problema.
-1. Explique si su solución es eficiente
+1. Explique si su solución es eficiente.
 1. Dar ejemplos completos donde se puedan ver las alternativas del problema. 
 
 ### Información extra:
 
 * El costo es un valor entero mayor o igual a cero.
-* Las cantidades a enviar y recibir son valores enteros positivos
-* La capacidad de cada ruta es un  valor enter 
+* Las cantidades a enviar y recibir son valores enteros positivos.
+* La capacidad de cada ruta es un valor entero.

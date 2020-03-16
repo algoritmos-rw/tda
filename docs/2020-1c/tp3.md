@@ -15,7 +15,7 @@ Trabajo Práctico 3
 
 - Incluir en el informe los requisitos y procedimientos para su compilación y ejecución. La ausencia de esta información no permite probar el trabajo y deberá ser re-entregado con esta información.
 
-- El informe debe presentar carátula con el nombre del grupo y número de hoja cada página
+- El informe debe presentar carátula con el nombre del grupo y número de hoja cada página.
 
 ## Parte 1: Manifestaciones seguras
 
@@ -23,7 +23,7 @@ En una decisión temeraria una ciudad decidió autorizar un conjunto de n manife
  
 Se pide:
 
-1. Demuestre que la solución pedida es np-completa
+1. Demuestre que la solución pedida es NP-completa
 
 ### Información adicional:
 
@@ -33,12 +33,11 @@ AYUDA 2: Pruebe con "3-SAT"
 
 ## Parte 2: División de Bienes
 
-Una de las parejas más ricas del mundo está pasando por un proceso de divorcio. Entre sus bienes cuentan con propiedades, autos, motos, estampillas raras y otros 
-coleccionables. Como no se ponen de acuerdo en la manera de dividirlos, el juez ha dictaminado que un tasador ponga valor a cada bien y luego se haga una partición por valores iguales. El juez nos pide que elaboremos un algoritmo que en forma eficiente haga este trabajo.
+Una de las parejas más ricas del mundo está pasando por un proceso de divorcio. Entre sus bienes cuentan con propiedades, autos, motos, estampillas raras y otros coleccionables. Como no se ponen de acuerdo en la manera de dividirlos, el juez ha dictaminado que un tasador ponga valor a cada bien y luego se haga una partición por valores iguales. El juez nos pide que elaboremos un algoritmo que en forma eficiente haga este trabajo.
 
 Se pide:
 
-1. Demuestre que la solución pedida en np-completa
+1. Demuestre que la solución pedida en NP-completa
 
 ### Información adicional:
 
@@ -52,8 +51,8 @@ AYUDA 2: Pruebe con "subset sum".
 
 1. Tenemos un problema A, un problema B y una caja negra NA y NB que resuelven el problema A y B respectivamente. Sabiendo que B es NP
 
-   1. Qué podemos decir de A si utilizamos NA para resolver el problema B (asumimos que la reducción realizada para adaptar el problema B al problema A el polinomial)
+   1. Qué podemos decir de A si utilizamos NA para resolver el problema B (asumimos que la reducción realizada para adaptar el problema B al problema A es polinomial)
 
-   1. Qué podemos decir de A si utilizamos NB para resolver el problema A (asumimos que la reducción realizada para adaptar el problema A al problema B el polinomial)
+   1. Qué podemos decir de A si utilizamos NB para resolver el problema A (asumimos que la reducción realizada para adaptar el problema A al problema B es polinomial)
 
-   1. Qué pasa con los puntos anteriores si no conocemos la complejidad de B, pero sabemos que A es P?.
+   1. Qué pasa con los puntos anteriores si no conocemos la complejidad de B, pero sabemos que A es P?
