@@ -1,67 +1,18 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
 La información que se presenta es respecto a la cursada del primer cuatrimestre del 2020.
 
-Las clases se dictarán de 19 a 22 hs los días lunes (teórica) en el aula 509 y miércoles (práctica) en el aula 302.
+<div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta el 1 de Junio.</b> Las clases se llevan a cabo en forma en forma remota.</div>
 
-<div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta el 12 de Abril. No se dictarán clases hasta esa fecha.</b> Aquellos inscriptos pueden registrarse en el formulario de validación de inscripción. De esa forma podremos comunicarnos para brindar información sobre cómo continuarán las clases.</div>
-
-Formulario de validación de inscripción [1er Cuat. 2020](https://forms.gle/Hxi22PoLytvom17n8).
-
-Formulario de inscripción de [grupo de TP1](https://forms.gle/kgRUjWF1EbLja1q46)
-
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSBr-Z_buHz4qEIR3WozwkgZobRt6dVczZiNISrNmwKXY_7HNCFTmDWpC_CesC2ZamLillGUStuziJs/pubhtml?gid=8&single=true).
-
-Calendario de trabajos prácticos:
-
-<table class="table table-striped">
-    <thead>
-      <tr>
-        <td><strong>Trabajo</strong></td>
-        <td><strong>Presentación/Enunciado</strong></td>
-        <td><strong>Entrega</strong></td>
-        <td><strong>1era Reentrega</strong></td>
-        <td><strong>2da Reentrega</strong></td>
-      </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td><strong>TP1</strong></td>
-      <td><strong>08/04</strong></td>
-      <td><strong>22/04</strong></td>
-      <td><strong>20/05</strong></td>
-      <td><strong>08/07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TP2</strong></td>
-      <td><strong>29/04</strong></td>
-      <td><strong>13/05</strong></td>
-      <td><strong>03/06</strong></td>
-      <td><strong>08/07</strong></td>
-    </tr>
-    <tr>
-      <td><strong>TP3</strong></td>
-      <td><strong>13/05</strong></td>
-      <td><strong>27/05</strong></td>
-      <td><strong>17/06</strong></td>
-      <td><strong>08/07</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-Nota: **Todo trabajo/reentrega tiene su corrección, _presencial_ una semana posterior a su entrega.**
+Los alumnos para cursar se tienen que matricular en el campus de la facultad.
 
 ## Docentes
 
-**Teórica**:
-
-  - Rosita Wachenchauzer (rositaw@gmail.com)
-
-**Práctica**:
-
-  - Víctor Podberezski (vdpode@gmail.com)
+  - Víctor Podberezski (vpodberezski@fi.uba.ar)
   - Lucas Ludueño
   - Federico del Mazo
+  - Rocio Gallo
   - Kevin Untrojb
+  
 
 ## Bibliografía
 
@@ -92,7 +43,6 @@ Para aprobar la materia, el alumno deberá aprobar:
 Con las siguientes consideraciones:
 
   - Las clases no son obligatorias, pero se recomienda la asistencia.
-  - Este es un curso presencial, por lo que las correcciones se entregarán en clase.
   - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega. 
   - No aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
   - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico.
