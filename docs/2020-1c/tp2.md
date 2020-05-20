@@ -57,11 +57,13 @@ Los parámetros de ejecución del programa son 2:
 * En ningun momento se puede cultivar más que la cantidad de hectarias disponibles.
 * Considerar a las fechas de inicio y fin como parte del tiempo de cultivo.
 
-## Parte 2: Minimizando el costo del transporte
+## Parte 2: La explotación minera
 
-Una empresa  tiene que programar el envio de productos en un determinado día. Tiene un conjunto de centros de elaboración cada uno con un numero determinado de productos a enviar y un conjunto de centros de consumo que similarmente requieren un número determinado de productos (a recibir).
-Para el envio existe una red de distribucion conformada por centros de transbordo y rutas que los conectan. Cada ruta tiene un costo de uso y una limitante de cantidad de piezas que se pueden enviar. 
-La empresa nos solicite que le ayudemos a maximizar el envío de sus productos y al mismo tiempo minimizar el costo de transporte.
+Una compañia minera nos pide que la ayudemos a analizar su nueva explotación.
+Ha realizado el estudio de suelos de diferentes vetas y porciones del subsuelo. Con estos datos a construido una regionalizacion del mismo. 
+Cada región cuenta con un costo de procesamiento y una ganancia por extracción de mateles preciosos. (En algunos casos el costo supera al beneficio). Al ser un procesamiento en profundidad ciertas regiones requieren previamente procesar otras para acceder a ellas.
+ 
+La compañia nos solicite que le ayudemos a maximizar su ganancia, determinando cuales son las regiones que tiene que trabajar.
 
 Se pide:
 
@@ -72,6 +74,5 @@ Se pide:
 
 ### Información extra:
 
-* El costo es un valor entero mayor o igual a cero.
-* Las cantidades a enviar y recibir son valores enteros positivos.
-* La capacidad de cada ruta es un valor entero.
+* El costo y ganancia de cada región es un valor entero.
+* Para cada region sabemos cuales son aquellas regiones que le preceden.
