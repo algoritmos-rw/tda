@@ -9,7 +9,7 @@ Trabajo Práctico 2
 
 - El trabajo se realizará en grupos de cuatro personas (excepcionalmente de tres).
 
-- La fecha de entrega es Miércoles 13 de Mayo. Se debe entregar en el horario de clase en papel (informe), más una entrega en digital de código (.zip) e informe (.pdf) a la clase de Google ClassRoom de la materia.
+- Se debe entregar el informe en formato pdf y código fuente en (.zip) en el aula virtual de la materia.
 
 - El lenguaje de implementación es libre. Recomendamos utilizar C, C++ o Python. Sin embargo si se desea utilizar algún otro, se debe pactar con los docentes.
 

@@ -1,11 +1,13 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
 La información que se presenta es respecto a la cursada del primer cuatrimestre del 2020.
 
-<div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta el 1 de Junio.</b> 
+<div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta nuevo aviso.</b> 
 Las clases se llevan a cabo en forma remota y virtual.</div> 
 
 
 Los alumnos para cursar se tienen que matricular en el campus de la facultad. 
+
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vSBr-Z_buHz4qEIR3WozwkgZobRt6dVczZiNISrNmwKXY_7HNCFTmDWpC_CesC2ZamLillGUStuziJs/pubhtml?gid=73725090&single=true).
 
 
 ## Docentes
