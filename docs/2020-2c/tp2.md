@@ -44,16 +44,16 @@ Ejemplo:
 	apellido: smith
 	password: r_1k!smi7t
 	
-	Comparando username “rsmith” con password “r_1k!smi7t”.
-	La subcadena más larga es: r_1k!smi7t → longitud 6
+	Comparando username “rksmith” con password “r_1k!smi7t”.
+	La subcadena más larga es: (r)_1(k)!(smi)7(t) → longitud 6
 	Porcentaje de coincidencia: (100 * longitud subcadena más larga / longitud username ): 100 * 6 / 7 = 81,71%
 	
 	Comparando nombre “rick” con password “r_1k!smi7t”.
-	La subcadena más larga es: r_1k!smi7t → longitud 2
+	La subcadena más larga es: (r)_1k!sm(i)7t → longitud 2
 	Porcentaje de coincidencia: 100 * 2 / 4 = 50%
 	
 	Comparando apellido “smith” con password “r_1k!smi7t”.
-	La subcadena más larga es: r_1k!smi7t → longitud 4
+	La subcadena más larga es: r_1k!(smi)7(t) → longitud 4
 	Porcentaje de coincidencia: 100 * 4 / 5 = 80%
 	
 	Mayor longitud de coincidencia: 6
