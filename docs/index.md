@@ -7,14 +7,16 @@ Las clases se llevan a cabo en forma remota y virtual.</div>
 
 Los alumnos para cursar se tienen que matricular en el campus de la facultad. 
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRL6igK8-Uo7RV729_BlvO2KmsYbMuoUPX_aL3NkWnhZZsnvVoatcwbm39BVPYTMSDbhSs3skM603al/pubhtml?gid=73725090&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuVqJq4r9zYBBCGbI-ZevmLzLFdv61JLAgk1UmWrCF0xBXbrvhu-SLpZWIFojpi-Lryad-EQWwGD43/pubhtml?gid=73725090&single=true).
 
 
 ## Docentes
 
   - Víctor Podberezski (vpodberezski@fi.uba.ar)
-  - Lucas Ludueño
+  - Lucas Ludueño (lludueno@fi.uba.ar)
   - Kevin Untrojb
+  - Jose Sbruzzi
+  - Ernesto Alvarez
   
 
 ## Bibliografía
