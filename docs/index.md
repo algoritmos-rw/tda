@@ -4,7 +4,6 @@ La información que se presenta es respecto a la cursada del primer cuatrimestre
 <div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta nuevo aviso.</b> 
 Las clases se llevan a cabo en forma remota y virtual.</div> 
 
-
 Los alumnos para cursar se tienen que matricular en el campus de la facultad. 
 
 El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuVqJq4r9zYBBCGbI-ZevmLzLFdv61JLAgk1UmWrCF0xBXbrvhu-SLpZWIFojpi-Lryad-EQWwGD43/pubhtml?gid=73725090&single=true).
