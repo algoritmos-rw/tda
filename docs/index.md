@@ -1,12 +1,12 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2021.
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2021.
 
 <div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta nuevo aviso.</b> 
 Las clases se llevan a cabo en forma remota y virtual.</div> 
 
 Los alumnos para cursar se tienen que matricular en el campus de la facultad. 
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRuVqJq4r9zYBBCGbI-ZevmLzLFdv61JLAgk1UmWrCF0xBXbrvhu-SLpZWIFojpi-Lryad-EQWwGD43/pubhtml?gid=73725090&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTcRG1YpMs9mC0b-hp7LUldXyhz8tSSnYREYaFuQrl0hhPmWUNSSi9swNqhECOYQSRp5Y9C9NqAqL5q/pubhtml?gid=1108136240&single=true).
 
 
 ## Docentes
@@ -14,7 +14,6 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Víctor Podberezski (vpodberezski@fi.uba.ar)
   - Lucas Ludueño (lludueno@fi.uba.ar)
   - Kevin Untrojb
-  - Jose Sbruzzi
   - Ernesto Alvarez
   
 ## Bibliografía
@@ -25,6 +24,7 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013). **[S]**
 
 ### Sugerida
+  - Tim Roughgarden. Algorithms Illuminted (Part 1, 2, 3 , 4), DIY Book (2017, 2018, 2019, 2020) 
   - S. Dasgupta, C. H. Papadimitriou, and U. V. Vazirani, _Algorithms_ (2006) [[descarga gratuita](http://cseweb.ucsd.edu/~dasgupta/book/)]. **[DPV]**
   - J. Erickson, _Models of Computation_ (2015) [[descarga gratuita](http://jeffe.cs.illinois.edu/teaching/algorithms/)].
   - R. Sedgewick, K. Wayne, _Algorithms_ (cuarta edición), Addison Wesley (2011).
@@ -39,8 +39,9 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
 
 Para aprobar la materia, el alumno deberá aprobar:
 
-  - Tres trabajos prácticos grupales cuyos enunciados se publicarán durante el transcurso del cuatrimestre.
-  - Una exposición oral e individual sobre los trabajos.
+  - Un trabajo práctico individual cuyo enunciado se publicará durante el transcurso del cuatrimestre.
+  - Dos trabajos prácticos grupales cuyos enunciados se publicarán durante el transcurso del cuatrimestre.
+  - Una defensa individual sobre los trabajos prácticos.
   - Un examen integrador.
 
 Con las siguientes consideraciones:
@@ -49,6 +50,7 @@ Con las siguientes consideraciones:
   - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega. 
   - No aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
   - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico.
-  - La última clase del cuatrimestre se establecerá como fecha de la exposición oral. De no poder presentarse o no contar aun con todos los trabajos practicos aprobado, será pactada una fecha alternativa con el cuerpo docente al finalizar las clases de la materia.
+  - La última clase del cuatrimestre se establecerá como fecha de defensa. De no poder presentarse o no contar aun con todos los trabajos practicos aprobados, será pactada una fecha alternativa con el cuerpo docente al finalizar las clases de la materia.
   - La nota de la cursada será el promedio de la nota de los tres trabajos prácticos.
-  - La nota final corresponde a una ponderación entre la nota de la cursada, la nota de la exposición oral y la nota del examen integrador.
+  - La nota final corresponde a una ponderación entre la nota de la cursada y la nota del examen integrador.
+  - Más detalles en el campus de la materia
