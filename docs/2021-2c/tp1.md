@@ -2,7 +2,7 @@ Trabajo Práctico n.º 1
 ======================
 {:.no_toc}
 
-Teoría de Algoritmos 1 - 2c 2022
+Teoría de Algoritmos 1 - 2c 2021
 Trabajo Práctico 1
 
 ## Lineamientos básicos
