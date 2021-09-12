@@ -41,9 +41,11 @@ Se pide:
 
 1. Resuelva la multiplicación paso a paso utilizando el algoritmo de Karatsuba.
 
-1. Cuente la cantidad de sumas y multiplicaciones que realiza y relaciónelo con la complejidad temporal del método
+1. Cuente la cantidad de sumas y multiplicaciones que realiza y relaciónelo con la complejidad temporal del método.
 
-1. Comparar lo obtenido con el método de multiplicación tradicional. Observa alguna mejora? Analice.
+1. Comparar lo obtenido con el método de multiplicación tradicional. ¿Observa alguna mejora? Analice.
+
+1. ¿Por qué se puede considerar al algoritmo de Karatsuba como de "división y conquista"?
 
 ## Parte 2: Cuestión de complejidad...
 
@@ -54,14 +56,14 @@ Dado la siguiente relación de recurrencia
 Con:
 
     a: los dos dígitos del padrón de la izquierda mod 9
-	 b: los dos dígitos del padrón de la izquierda mod 7
-	 c: “n” si su padrón es múltiplo de 4, 
-        sino “nlogn” si su padrón es múltiplo de 3
-    	  sino “n2”  
+    b: los dos dígitos del padrón de la izquierda mod 7
+    c: “n” si su padrón es múltiplo de 4, 
+       sino “nlogn” si su padrón es múltiplo de 3,
+       sino “n2”  
 
 Se pide:
 
-1. calcular la complejidad temporal utilizando el teorema maestro. 
+1. Calcular la complejidad temporal utilizando el teorema maestro. 
 
-1. Explique paso a paso cómo llega a la misma
+1. Explique paso a paso cómo llega a la misma.
 
