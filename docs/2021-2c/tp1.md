@@ -55,13 +55,15 @@ Dado la siguiente relación de recurrencia
 
 Con:
 
-    a: los dos dígitos del padrón de la izquierda mod 9
-    b: los dos dígitos del padrón de la izquierda mod 7
+    a: 1 + (los dos dígitos del padrón de la izquierda mod 9)
+	 b: 2 + (los dos dígitos del padrón de la izquierda mod 7)
     c: “n” si su padrón es múltiplo de 4, 
        sino “nlogn” si su padrón es múltiplo de 3,
        sino “n2”  
 
 Se pide:
+
+1. Responda y complete: ¿Qué le falta a la relación de recurrencia para que se pueda aplicar el teorema maestro?
 
 1. Calcular la complejidad temporal utilizando el teorema maestro. 
 
