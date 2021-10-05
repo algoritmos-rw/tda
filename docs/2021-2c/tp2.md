@@ -56,8 +56,6 @@ Ejemplo: “depositos.txt”
 	B,C,8
 	...
 
-(!) si en el archivo está la dupla A,B (ruta A-B) se considera que también existe la ruta B-A
-
 Debe resolver el problema y retornar por pantalla la solución. Debe mostrar por consola en en que ciudad colocar el depósito. Además imprimir en forma de matriz los costos mínimos entre cada uno de los depósitos.
 
 ## Parte 2: Un poco de teoría
