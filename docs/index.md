@@ -1,12 +1,11 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2021.
+La información que se presenta es respecto a la cursada del primer cuatrimestre del 2022.
 
-<div style="color:red"><b>ATENCIÓN!: A raíz de la pandemia de Coronavirus la Facultad permanecerá cerrada hasta nuevo aviso.</b> 
-Las clases se llevan a cabo en forma remota y virtual.</div> 
+<b>ATENCIÓN!: A partir del corriente cuatrimestre se re incorporaron las clases y actividades presenciales de la Facultad, siguiendo [los protocolos de covid](https://www.fi.uba.ar/institucional/secretarias/secretaria-de-habitat/area-de-coordinacion-en-higiene-y-seguridad-en-el-trabajo/protocolo-covid) establecidos por la institución.</b> 
 
 Los alumnos para cursar se tienen que matricular en el campus de la facultad. 
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTcRG1YpMs9mC0b-hp7LUldXyhz8tSSnYREYaFuQrl0hhPmWUNSSi9swNqhECOYQSRp5Y9C9NqAqL5q/pubhtml?gid=1108136240&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vREqB1kbGZylS2_EBR-h7OHfBmCO-QCyi3AJU04j1uoRVcDieVVwKu1oncbxZMp9YU1LMB0q3-jcniU/pubhtml?gid=381044700&single=true).
 
 
 ## Docentes
