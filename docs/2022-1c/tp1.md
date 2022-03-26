@@ -55,6 +55,6 @@ Ejemplo "contratos.txt":
 	4, 100, 80
 	5, 80, 80
 	6, 300, 160
-	7 150, 30
+	7, 150, 30
 
 El programa debe mostrar en pantalla en una misma línea los números de contrato seleccionados
