@@ -14,6 +14,7 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Lucas Ludueño (lludueno@fi.uba.ar)
   - Kevin Untrojb
   - Ernesto Alvarez
+  - Martín Suarez
   
 ## Bibliografía
 

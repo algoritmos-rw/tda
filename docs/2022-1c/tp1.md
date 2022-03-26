@@ -49,12 +49,12 @@ El archivo de los contratos corresponde a un archivo de texto que tiene una lín
 
 Ejemplo "contratos.txt":
 
-	1, 44, 50
-	2, 402, 150
-	3, 219, 35
-	4, 100, 80
-	5, 80, 80
-	6, 300, 160
-	7, 150, 30
+	1,44,50
+	2,402,150
+	3,219,35
+	4,100,80
+	5,80,80
+	6,300,160
+	7,150,30
 
 El programa debe mostrar en pantalla en una misma línea los números de contrato seleccionados
