@@ -38,9 +38,9 @@ Ejemplo:
 	En este caso el problema debería retornar:
 	
 	A → 1 (1)
-	B → 2	(1)
-	C → 3	(0)
-	D → 4	(2)
+	B → 2 (1)
+	C → 3 (0)
+	D → 4 (2)
 	E → 5 (1)
 	F → 6 (0)
 
