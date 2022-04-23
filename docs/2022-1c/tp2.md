@@ -106,6 +106,6 @@ A,E,D → costo: -1”
 
    1. ¿Cuál es la mejor de las 3? ¿Podría elegir una técnica sobre las otras?
 
-1. Un determinado problema puede ser resuelto tanto por un algoritmo Greedy, como por un algoritmo de División y Conquista. El algoritmo greedy realiza N^3 operaciones sobre una matriz, mientras que el algoritmo de Programación Dinámica realiza N^2 operaciones en total, pero divide el problema en N^2 subproblemas a su vez, los cuales debe ir almacenando mientras se ejecuta el algoritmo. Teniendo en cuenta los recursos computacionales involucrados (CPU, memoria, disco) ¿Qué algoritmo elegiría para resolver el problema y por qué?
+1. Un determinado problema puede ser resuelto tanto por un algoritmo Greedy, como por un algoritmo de Programación Dinámica. El algoritmo greedy realiza N^3 operaciones sobre una matriz, mientras que el algoritmo de Programación Dinámica realiza N^2 operaciones en total, pero divide el problema en N^2 subproblemas a su vez, los cuales debe ir almacenando mientras se ejecuta el algoritmo. Teniendo en cuenta los recursos computacionales involucrados (CPU, memoria, disco) ¿Qué algoritmo elegiría para resolver el problema y por qué?
 
 Pista: probablemente no haya una respuesta correcta para este problema, solo justificaciones correctas
