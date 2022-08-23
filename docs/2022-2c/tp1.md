@@ -21,7 +21,7 @@ Trabajo Práctico 1
 
 ## Parte 1: La fiesta del club de amigos
 
-El club de amigos de la república Antillense prepara un ágape en sus instalaciones en la que desea invitar a la máxima cantidad de sus “n” socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si conoce a otras 4 personas invitadas 
+El club de amigos de la república Antillense prepara un ágape en sus instalaciones en la que desea invitar a la máxima cantidad de sus “n” socios. Sin embargo por protocolo cada persona invitada debe cumplir un requisito: Sólo puede asistir si conoce a al menos otras 4 personas invitadas 
 
 Nos solicitan seleccionar el mayor número posible de invitados.
 
@@ -38,7 +38,7 @@ Resuelva:
 
 1. ¿Su programa mantiene la complejidad espacial y temporal de su algoritmo? Justifique referenciando a la documentación del lenguaje si es necesario.
  
-1. Los organizadores desean que cada invitado pueda conocer nuevas personas. Por lo que nos solicitan que adicionemos una nueva restricción a la invitación: Sólo puede asistir si NO conoce a otras 4 personas invitadas. Modifique su propuesta para satisfacer esta nueva solución. ¿Impacta en su complejidad?
+1. Los organizadores desean que cada invitado pueda conocer nuevas personas. Por lo que nos solicitan que adicionemos una nueva restricción a la invitación: Sólo puede asistir si NO conoce al menos otras 4 personas invitadas. Modifique su propuesta para satisfacer esta nueva solución. ¿Impacta en su complejidad?
 
 
 ### Formato de los archivos:
