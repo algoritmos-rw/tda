@@ -28,7 +28,7 @@ Nos solicitan seleccionar el mayor número posible de invitados.
 
 Resuelva:
 
-1. Proponga una estrategia greedy óptima para resolver el problema con la menor complejidad espacial y temporal posible. Justifique su optimalidad.
+1. Proponga una estrategia greedy óptima para resolver el problema con la menor complejidad espacial y temporal posible. Justifique su optimalidad. Justifique que sea greedy.
 
 1. Explique cómo implementar algorítmicamente esa estrategia. Brinde pseudocódigo y estructuras de datos a utilizar.
 
@@ -52,7 +52,7 @@ Ejemplo “socios.txt”:
 	2,Elaine Marley,1,3,4,6,7,8
 	3,Largo LaGrande,1,2,4,5,6,9
 	4,LeChuck,1,2,3,6,8
-	5,Wally B. Feed,1,5,8,6
+	5,Wally B. Feed,1,3,8,6
 	6,Murray,1,2,3,4,9
 	7,Alfredo Fettucini,2,8,9
 	8,Gobernador Phatt,2,4,5,7
