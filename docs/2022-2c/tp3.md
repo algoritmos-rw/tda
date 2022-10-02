@@ -30,15 +30,15 @@ Se desea minimizar el costo total del desarrollo del problema.
 
 Se pide:
 
-1.  Construya una estrategia utilizando redes de flujo que solucione el problema. Explíquela con sus palabras.
+1. Construya una estrategia utilizando redes de flujo que solucione el problema. Utilice gráficos para representar la red de flujo diseñada. Explíquela con sus palabras.
 
 1. Brinde pseudocódigo que explique cada uno de los pasos de su solución.
 
-1. Analice la complejidad temporal y espacial de su propuesta
+1. Analice la complejidad temporal y espacial de su propuesta.
 
 1. Brinde al menos un ejemplo paso a paso donde se aprecie el funcionamiento del mismo.
 
-1. Programe el algoritmo
+1. Programe el algoritmo.
 
 1. Analice: su programa mantiene la complejidad temporal y espacial teórica?
 
@@ -46,7 +46,7 @@ Se pide:
 
 El programa debe recibir por parámetro el path del archivo con los procesos a realizar. El archivo de los procesos es un archivo de texto donde cada línea corresponde a un proceso, sus costos y dependencias. 
 
-El formato de la línea es: CÓDIGO_PROCESO,COSTO_,EQUIPO1,COSTO_,EQUIPO2,[LISTA DE DEPENDENCIAS CON SUS COSTOS]
+El formato de la línea es: CÓDIGO_PROCESO,COSTO_EQUIPO1,COSTO_EQUIPO2,[LISTA DE DEPENDENCIAS CON SUS COSTOS]
 
 La lista de dependencias corresponde a los procesos que siguen al mismo y el costo asociado de que esta la realice el otro equipo. 
 
@@ -67,7 +67,7 @@ Debe resolver el problema y retornar por pantalla la solución. Debe mostrar que
 
 Para el cálculo del costo mínimo con costos negativos se utiliza el algoritmo Bellman-Ford. El mismo tiene como precondición para llegar a la solución óptima la ausencia de ciclos negativos en el grafo. Ante su presencia, en la búsqueda del camino, podemos quedar atrapados dentro de estos. En ese caso la longitud del camino será infinita y el costo termina infinito negativo.
 
-Deseamos un algoritmo que ante esta misma situación no brinde un camino que no ingrese en los ciclos. Llamaremos a este problema como “camino simple mínimo en un grafo con ciclos negativos” (shortest simple-path in a graph with negative-cycles: “SSPGNC” ). Podemos expresarlo como problema de decisión de la siguiente manera: “Dado un grafo con peso en sus ejes y un par de nodos al que llamaremos origen y destino. Queremos saber si existe un camino simple de costo menor a C que los una”.
+Deseamos un algoritmo que ante esta misma situación nos brinde un camino que no ingrese en los ciclos. Llamaremos a este problema como “camino simple mínimo en un grafo con ciclos negativos” (shortest simple-path in a graph with negative-cycles: “SSPGNC” ). Podemos expresarlo como problema de decisión de la siguiente manera: “Dado un grafo con peso en sus ejes y un par de nodos al que llamaremos origen y destino. Queremos saber si existe un camino simple de costo menor a C que los una”.
 
 No se conoce un algoritmo eficiente que resuelva este problema.
 
