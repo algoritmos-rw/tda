@@ -67,7 +67,7 @@ Debe resolver el problema y retornar por pantalla la solución. Debe mostrar que
 
 Para el cálculo del costo mínimo con costos negativos se utiliza el algoritmo Bellman-Ford. El mismo tiene como precondición para llegar a la solución óptima la ausencia de ciclos negativos en el grafo. Ante su presencia, en la búsqueda del camino, podemos quedar atrapados dentro de estos. En ese caso la longitud del camino será infinita y el costo termina infinito negativo.
 
-Deseamos un algoritmo que ante esta misma situación nos brinde un camino que no ingrese en los ciclos. Llamaremos a este problema como “camino simple mínimo en un grafo con ciclos negativos” (shortest simple-path in a graph with negative-cycles: “SSPGNC” ). Podemos expresarlo como problema de decisión de la siguiente manera: “Dado un grafo con peso en sus ejes y un par de nodos al que llamaremos origen y destino. Queremos saber si existe un camino simple de costo menor a C que los una”.
+Deseamos un algoritmo que ante esta misma situación nos brinde un camino que NO ingrese en los ciclos. Llamaremos a este problema como “camino simple mínimo en un grafo con ciclos negativos” (shortest simple-path in a graph with negative-cycles: “SSPGNC” ). Podemos expresarlo como problema de decisión de la siguiente manera: “Dado un grafo con peso en sus ejes y un par de nodos al que llamaremos origen y destino. Queremos saber si existe un camino simple de costo menor a C que los una”.
 
 No se conoce un algoritmo eficiente que resuelva este problema.
 
