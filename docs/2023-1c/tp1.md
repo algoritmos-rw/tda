@@ -19,7 +19,7 @@ Trabajo Práctico 1
 
 - En caso de re-entrega, entregar un apartado con las correcciones mencionadas
 
-## Parte 1: Parte 1: Maximización del emparejamiento
+## Parte 1: Maximización del emparejamiento
 
 Sean A y B dos sets de “n” puntos en el plano p=(x,y). Un punto ai=(xi,yi) de A domina a un punto bj=(xj,yj) de B si y sólo si xi≥xj y yi ≥ yj. Un emparejamiento (match) entre un punto ai de A y uno bj B es posible si ai domina a bj. Llamamos matching M a un conjunto de emparejamientos(a1 , b1 ), (a2 , b2), . . . , (ak , bk )} y su tamaño corresponde a k. Un matching es máximo si no existe otro posible mátiching con major cantidad de puntos.  
 
