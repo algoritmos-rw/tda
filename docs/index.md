@@ -1,9 +1,9 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2022.
+La información que se presenta es respecto a la cursada del primer cuatrimestre del 2023.
 
 Los alumnos para cursar tienen que estar matriculados en el campus de la facultad. 
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vSYmMFTm_p5HGKDO8Mo_j6yp5_vxewzba4Gh8XAR23f4JZ1SfmMdMYxyQ13NhkrgQU-_jdh-rUSqgOE/pubhtml?gid=381044700&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_y0OEGJypItRWrem-mM5rwJjmxymBGLGHfNalA76lCmb_rxvoT2sMGhD9pRhUq9kxALTK6_Nw9Toh/pubhtml?gid=381044700&single=true).
 
 
 ## Docentes
@@ -11,9 +11,9 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Víctor Podberezski (vpodberezski@fi.uba.ar)
   - Lucas Ludueño (lludueno@fi.uba.ar)
   - Kevin Untrojb
-  - Ernesto Alvarez
   - Martín Suarez
   - Luciano Duarte
+  - Juan Pablo Aschieri
   
 ## Bibliografía
 
