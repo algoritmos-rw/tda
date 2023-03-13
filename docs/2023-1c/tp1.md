@@ -38,6 +38,8 @@ Resuelva:
 
 1. ¿Su programa mantiene la complejidad espacial y temporal de su algoritmo? Justifique referenciando a la documentación del lenguaje si es necesario.
 
+1. Analice la solución obtenida por su algoritmo. Es única? ¿Qué podría decir sobre ella? ¿Prevalece cierto emparejamiento frente a otro posible?
+
 
 ### Formato de los archivos:
 
