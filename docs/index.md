@@ -1,20 +1,21 @@
 Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2023.
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2023.
 
-Los alumnos para cursar tienen que estar matriculados en el campus de la facultad. 
+Los alumnos para cursar tienen que estar matriculados en el campus de la facultad.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_y0OEGJypItRWrem-mM5rwJjmxymBGLGHfNalA76lCmb_rxvoT2sMGhD9pRhUq9kxALTK6_Nw9Toh/pubhtml?gid=381044700&single=true).
-
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRlvCep9AWhk1Rii4jr1EgPC7EMRM5jJgmOLzI_68CqspQT6c-hqw3rXTPgvEaGm58A5bN3UZqQlZhm/pubhtml?gid=381044700&single=true).
 
 ## Docentes
 
   - Víctor Podberezski (vpodberezski@fi.uba.ar)
   - Lucas Ludueño (lludueno@fi.uba.ar)
-  - Kevin Untrojb
-  - Martín Suarez
+  - Martín Andrés Suárez
   - Luciano Duarte
   - Juan Pablo Aschieri
-  
+  - Azul Zaietz
+  - Santiago Biach
+  - Tomás Leonel Apaldetti
+
 ## Bibliografía
 
 ### Recomendada
@@ -38,18 +39,18 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
 
 Para aprobar la materia, el alumno deberá aprobar:
 
-  - Un trabajo práctico individual cuyo enunciado se publicará durante el transcurso del cuatrimestre.
-  - Dos trabajos prácticos grupales cuyos enunciados se publicarán durante el transcurso del cuatrimestre.
-  - Una defensa individual sobre los trabajos prácticos.
-  - Un examen integrador.
+  - Una evaluación parcial
+  - Dos trabajos prácticos grupales
+  - Un trabajo práctico final
 
 Con las siguientes consideraciones:
 
-  - Las clases no son obligatorias, pero se recomienda la asistencia.
-  - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega. 
-  - No aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia.
-  - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico.
-  - La última clase del cuatrimestre se establecerá como fecha de defensa. De no poder presentarse o no contar aun con todos los trabajos practicos aprobados, será pactada una fecha alternativa con el cuerpo docente al finalizar las clases de la materia.
-  - La nota de la cursada será el promedio de la nota de los tres trabajos prácticos.
-  - La nota final corresponde a una ponderación entre la nota de la cursada y la nota del examen integrador.
+  - Las clases no son obligatorias, pero se recomienda la asistencia
+  - La evaluación es un único parcial y cuenta con 2 instancias de recuperatorio
+  - No aprobar la evaluación parcial en ninguna de las instancias implica desaprobar la cursada y por lo tanto la materia
+  - Cada trabajo práctico cuenta con una fecha de entrega y 2 de reentrega
+  - No aprobar de un trabajo práctico en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
+  - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico
+  - La nota de la cursada será el promedio de la nota del parcial y de los dos trabajos prácticos
+  - La nota final corresponde a una ponderación entre la nota de la cursada y la nota del trabajo final
   - Más detalles en el campus de la materia
