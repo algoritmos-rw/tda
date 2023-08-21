@@ -14,13 +14,12 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Juan Pablo Aschieri
   - Azul Zaietz
   - Santiago Biach
-  - Tomás Leonel Apaldetti
 
 ## Bibliografía
 
 ### Recomendada
   - J. Kleinberg, E. Tardos, _Algorithm Design_, Addison Wesley (2006). **[KT]**
-  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (tercera edición), MIT Press (2009). **[CLRS]**
+  - T. Cormen, C. Leiserson, R. Rivest, C. Stein, _Introduction to Algorithms_ (cuarta edición), MIT Press (2022). **[CLRS]**
   - M. Sipser, _Introduction to the Theory of Computation_ (tercera edición), Cengage Learning (2013). **[S]**
 
 ### Sugerida
