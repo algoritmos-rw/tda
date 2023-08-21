@@ -100,7 +100,7 @@ Se pide:
 
 1.  Analice si la complejidad de su programa es equivalente a la expuesta en el punto 2.
 
-###Formato de los archivos:
+### Formato de los archivos:
 
 El programa debe recibir por parámetro un archivo con los posibles participantes y la posición del capitán dentro del mismo.  Ejemplo:
 
