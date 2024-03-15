@@ -66,7 +66,6 @@ Debe resolver el problema y retornar por pantalla la solución. Primero el valor
 	Suncho
 	Tucho
 	Fercho
-	
 
 
 ## Parte 2: Reunión de camaradería 
