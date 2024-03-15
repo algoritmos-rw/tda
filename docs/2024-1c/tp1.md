@@ -57,6 +57,7 @@ El archivo de influencers corresponde a un archivo de texto donde cada línea co
 	6,Fercho,9
 	s
 Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de penetración de mercado obtenido y luego el nombre de los influencers seleccionados uno por línea. Siguiendo el ejemplo esta podría ser la solución:
+
 	Valor conseguido: 89
 
 	Puchoy
