@@ -49,21 +49,22 @@ El programa debe recibir por parámetro un archivo con los influencers. Ejemplo:
 
 El archivo de influencers corresponde a un archivo de texto donde cada línea corresponde a un candidato a contratar. Está definido por un código numérico separado incremental, luego su nombre, su valor de penetración de mercado y finalmente una lista numérica de los influencers con los que no puede trabajar. Cada uno de estos valores separados por coma. Ejemplo:
 
-	1,Cacho,8,3,4 r
-	2,Lucho,10,5 s
-	3,Suncho,15,1a
-	4,Pucho,40,1a
-	5,Tucho,25,2o
+	1,Cacho,8,3,4 
+	2,Lucho,10,5 
+	3,Suncho,15,1
+	4,Pucho,40,1
+	5,Tucho,25,2
 	6,Fercho,9
-	s
+
+s
 Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de penetración de mercado obtenido y luego el nombre de los influencers seleccionados uno por línea. Siguiendo el ejemplo esta podría ser la solución:
+
 
 	Valor conseguido: 89
 
-	Puchoy
-	Sunchos
+	Pucho
+	Suncho
 	Tucho
-	
 	Fercho
 	
 
@@ -107,13 +108,10 @@ El programa debe recibir por parámetro la cantidad de traductores, de obras y u
 El archivo de obras corresponde a un archivo de texto donde cada línea corresponde a la cantidad de páginas que tienen las obras. Ejemplo:
 
 	89
-	
-	1508
-	2017
+	150
+	201
 	225
-	
 	246
-	
 	303
 
 Debe resolver el problema y retornar por pantalla la cantidad de paginas máximas asignadas.
