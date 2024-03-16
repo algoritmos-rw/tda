@@ -85,7 +85,7 @@ Se pide:
 1.  Demuestre que su solución es óptima.
 
 ## Parte 3: La regionalizacion del campo 
-Una compañia agrícola debe determinar la separación en regiones de campos de n*n hectómetros (si, solo de este tamaño y además cuando “n” es un número entero potencia de 2 y mayor o igual a 2). Cada región debe tener forma en L (como se muestra en celeste en la figura). Se puede ver la region como conformada por 3 cuadrados cada uno de 1x1 (1 hectarea). Dentro del campos existe una hectarea donde se ubican los silos de almacenamiento y no se puede cultivar (Se muestra en la figura de ejemplo como un cuadrado negro).
+Una compañia agrícola debe determinar la separación en regiones de campos de n*n hectómetros (si, solo de este tamaño y además cuando “n” es un número entero potencia de 2 y mayor o igual a 2). Cada región debe tener forma en L (como se muestra en celeste en la figura). Se puede ver la region como conformada por 3 cuadrados cada uno de 1x1 (1 hectarea). Dentro del campo existe una hectarea donde se ubican los silos de almacenamiento y no se puede cultivar (Se muestra en la figura de ejemplo como un cuadrado negro).
 
 Nos piden que, dado un campo con un valor “n” y una ubicación de los silos en una posición x,y (medido desde la punta superior izquierda), determinemos como separarlo en regiones.
 
@@ -96,7 +96,10 @@ Se pide:
 1. Presentar un algoritmo que lo resuelva utilizando división y conquista.
 
 
-1. Mostrar la relacion de recurrencia
+1. Mostrar la relación de recurrencia
+
+
+1. Presentar pseudocódigo
 
 
 1.  Analice la complejidad del algoritmo utilizando el teorema maestro y desenrollando la recurrencia
