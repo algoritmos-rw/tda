@@ -55,8 +55,10 @@ El archivo de influencers corresponde a un archivo de texto donde cada línea co
 	4,Pucho,40,1
 	5,Tucho,25,2
 	6,Fercho,9
-s
-Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de penetración de mercado obtenido y luego el nombre de los influencers seleccionados uno por línea. Siguiendo el ejemplo esta podría ser la solución:
+s
+
+Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de penetración de mercado obtenido y luego el nombre de los influencers seleccionados uno por línea. Siguiendo el ejemplo esta podría ser la solución:
+
 
 
 	Valor conseguido: 89
@@ -73,7 +75,8 @@ Una gran empresa realizará una reunión de camaradería para sus empleados. Sin
 
 Se pide:
 
-1.  Determinar y explicar cómo se resolvería este problema utilizando la metodología greedy. 
+1.  Determinar y explicar cómo se resolvería este problema utilizando la metodología greedy. 
+
 
 1.  Brinde pseudocódigo y estructuras de datos a utilizar.  
 
@@ -84,7 +87,8 @@ Se pide:
 
 1.  Demuestre que su solución es óptima.
 
-## Parte 3: La regionalizacion del campo 
+## Parte 3: La regionalizacion del campo 
+
 Una compañia agrícola debe determinar la separación en regiones de campos de n*n hectómetros (si, solo de este tamaño y además cuando “n” es un número entero potencia de 2 y mayor o igual a 2). Cada región debe tener forma en L (como se muestra en celeste en la figura). Se puede ver la region como conformada por 3 cuadrados cada uno de 1x1 (1 hectarea). Dentro del campo existe una hectarea donde se ubican los silos de almacenamiento y no se puede cultivar (Se muestra en la figura de ejemplo como un cuadrado negro).
 
 Nos piden que, dado un campo con un valor “n” y una ubicación de los silos en una posición x,y (medido desde la punta superior izquierda), determinemos como separarlo en regiones.
@@ -116,10 +120,11 @@ Se pide:
 
 ### Formato de los archivos:
 
-El programa debe recibir por parámetro el tamaño n del campos y loa posición de los silos.  Ejemplo:
+El programa debe recibir por parámetro el tamaño n del campos y la posición de los silos.  Ejemplo:
 
-	python regionalizar.py 4 2 1 4
-
+	python regionalizar.py 4 2 1
+
+
 Corresponde a un campo de 4x4 donde los silos se encuentran en la hectarea (2,1).
 
 Debe resolver el problema y retornar por pantalla la regionalización de forma que se puede entender visualmente. 
