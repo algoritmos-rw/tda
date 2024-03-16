@@ -84,35 +84,39 @@ Se pide:
 
 1.  Demuestre que su solución es óptima.
 
-## Parte 3: Distribución balanceada 
-Se cuenta con m obras en latín que deben ser traducidas. Cada obra contiene un número determinado de páginas. El listado de obras se encuentra ordenado de menor a mayor según este valor. Disponemos de n traductores que pueden realizar el trabajo. A cada autor se le pueden dar obras consecutivas. Deseamos asignar a cada autor obras a traducir de forma tal que la máxima cantidad de paginas entregada a los mismos sea la menor posible.
+## Parte 3: La regionalizacion del campo 
+Una compañia agrícola debe determinar la separación en regiones de campos de n*n hectómetros (si, solo de este tamaño y además cuando “n” es un número entero potencia de 2 y mayor o igual a 2). Cada región debe tener forma en L (como se muestra en celeste en la figura). Se puede ver la region como conformada por 3 cuadrados cada uno de 1x1 (1 hectarea). Dentro del campos existe una hectarea donde se ubican los silos de almacenamiento y no se puede cultivar (Se muestra en la figura de ejemplo como un cuadrado negro).
 
+Nos piden que, dado un campo con un valor “n” y una ubicación de los silos en una posición x,y (medido desde la punta superior izquierda), determinemos como separarlo en regiones.
+
+![patio](/tda/images/cuadrado.png)
 
 Se pide:
 
-1.  Proponer un algoritmo utilizando división y conquista que lo resuelva. Incluir pseudocódigoo
+1. Presentar un algoritmo que lo resuelva utilizando división y conquista.
 
-1.  Analice la complejidad del algoritmo utilizando el teorema maestro y desenrollando la recurrencia.
 
-1.  Brindar un ejemplo de funcionamiento.
+1. Mostrar la relacion de recurrencia
 
-1.  Programe su soluciónn
 
-1.  Analice si la complejidad de su programa es equivalente a la expuesta en el punto 2.
+1.  Analice la complejidad del algoritmo utilizando el teorema maestro y desenrollando la recurrencia
+
+
+1.  Brindar un ejemplo de funcionamiento
+
+
+1.  Programe su solución
+
+
+1.  Analice si la complejidad de su programa es equivalente a la expuesta en el punto 2
+
 
 ### Formato de los archivos:
 
-El programa debe recibir por parámetro la cantidad de traductores, de obras y un archivo con las paginas de cada obra. Ejemplo:
+El programa debe recibir por parámetro el tamaño n del campos y loa posición de los silos.  Ejemplo:
 
-	python distribuir.py 4 6 obras.txt 4
+	python regionalizar.py 4 2 1 4
+
+Corresponde a un campo de 4x4 donde los silos se encuentran en la hectarea (2,1).
 
-El archivo de obras corresponde a un archivo de texto donde cada línea corresponde a la cantidad de páginas que tienen las obras. Ejemplo:
-
-	89
-	150
-	201
-	225
-	246
-	303
-
-Debe resolver el problema y retornar por pantalla la cantidad de paginas máximas asignadas.
+Debe resolver el problema y retornar por pantalla la regionalización de forma que se puede entender visualmente. 
