@@ -55,7 +55,6 @@ El archivo de influencers corresponde a un archivo de texto donde cada línea co
 	4,Pucho,40,1
 	5,Tucho,25,2
 	6,Fercho,9
-
 s
 Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de penetración de mercado obtenido y luego el nombre de los influencers seleccionados uno por línea. Siguiendo el ejemplo esta podría ser la solución:
 
@@ -74,7 +73,10 @@ Una gran empresa realizará una reunión de camaradería para sus empleados. Sin
 
 Se pide:
 
-1.  Determinar y explicar cómo se resolvería este problema utilizando la metodología greedy. 
+1.  Determinar y explicar cómo se resolvería este problema utilizando la metodología greedy. 
+
+1.  Brinde pseudocódigo y estructuras de datos a utilizar.  
+
 
 1.  De un ejemplo paso a paso. ¿Qué complejidad temporal y espacial tiene la solución?
 
@@ -83,7 +85,7 @@ Se pide:
 1.  Demuestre que su solución es óptima.
 
 ## Parte 3: Distribución balanceada 
-Se cuenta con m obras en latín que deben ser traducidas. Cada obra contiene un numero determinado de páginas. El listado de obras se encuentra ordenado de mejor a mayor segun este valor. Disponemos de n traductores que pueden realizar el trabajo. A cada autor se le pueden dar obras consecutivas. Deseamos asignar a cada autor que obras traducir de forma tal que la máxima cantidad de paginas entregada a los mismos sea la menor posible.
+Se cuenta con m obras en latín que deben ser traducidas. Cada obra contiene un número determinado de páginas. El listado de obras se encuentra ordenado de menor a mayor según este valor. Disponemos de n traductores que pueden realizar el trabajo. A cada autor se le pueden dar obras consecutivas. Deseamos asignar a cada autor obras a traducir de forma tal que la máxima cantidad de paginas entregada a los mismos sea la menor posible.
 
 
 Se pide:
