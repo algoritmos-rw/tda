@@ -10,7 +10,6 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Víctor Podberezski (vpodberezski@fi.uba.ar)
   - Lucas Ludueño (lludueno@fi.uba.ar)
   - Martín Andrés Suárez
-  - Luciano Duarte
   - Juan Pablo Aschieri
   - Santiago Biach
   - Juan Francisco Stenghele
