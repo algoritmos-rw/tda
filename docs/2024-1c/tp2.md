@@ -97,22 +97,23 @@ Ejemplo: “red.txt”
 	Luis Sandrini,3,95,4,400,5,400
 	Fidel Pintos,2,100,3,2004	Adriana Aizemberg,6,200,7,100
 	Julieta Díaz,1,200,3,300,6,2002	China Zorrilla,3,140,7,100
-	...
+	...	
+
 Debe resolver el problema y retornar por pantalla la respuesta los actores seleccionados y para qué papel. Además mostrar el valor conseguido de potencialidad de espectadores. .
 
 ## Parte 3: El evento continental distribuido ("ECD") 
 Contamos con "n" centros de convención dispersos por la ciudad para un próximo evento continental. Este evento se realizará durante vaíios días en forma simultánea en cada uno de ellos. Los asistentes deben poder trasladarse en forma gratuita a su voluntad de un centro a otro. Para se han propuesto un conjunto de "m" puntos de interconexión. Cada centro se puede unir con un subconjunto de estos puntos de forma bidireccional. Asimismo  cada punto de traslado se comunica con otro subconjunto de puntos de traslado de forma bidireccional. Conocemos el valor económico de habilitar cada tramo de conexión (tanto centro-punto de interconexión como punto de interconexión-punto de interconexión). 
 Nos solicitan determinar si es posible contratar la menor cantidad de tramos de forma que todos los centros queden interconectados y gastando menos que un valor "v" dado por la organización.
 
-Se pide::
+Se pide:
 
 1. Realice un análisis teórico entre las clases de complejidad P, NP, NP-H y NP-C y la relación entre ellos.
 
-1. Demostrar que, dada una posible solución al problema "ECD", se puede algorítmicamente  determinar si se cumple o no con los requerimientos de solución válida de forma "buena"..
+1. Demostrar que, dada una posible solución al problema "ECD", se puede algorítmicamente  determinar si se cumple o no con los requerimientos de solución válida de forma "buena".
 
-1. Demostrar que el problema no es fácil de resolver. Utilizar para eso el problema “Steiner Tree Problem” (suponiendo que sabemos que este es NP-C)..
+1. Demostrar que el problema no es fácil de resolver. Utilizar para eso el problema “Steiner Tree Problem” (suponiendo que sabemos que este es NP-C).
 
-1. Demostrar que el problema "Steiner Tree Problem" pertenece a NP-C. (Para la demostración puede ayudarse con diferentes problemas, recomendamos “Exact Cover by 3-SET” (X3C). Puede investigar cómo realizar esta reducción.)
+1. Demostrar que el problema "Steiner Tree Problem" pertenece a NP-C. (Para la demostración puede ayudarse con diferentes problemas, recomendamos “Exact Cover by 3-SET” (X3C). Puede investigar cómo realizar esta reducción)
 
 1. En base a los puntos anteriores a qué clases de complejidad pertenece el problema de “ECD”? Justificar
 
