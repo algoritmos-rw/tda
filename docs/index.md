@@ -13,6 +13,7 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Juan Pablo Aschieri
   - Santiago Biach
   - Juan Francisco Stenghele
+  - Lucas Lavandeira
 
 ## Bibliografía
 
