@@ -1,5 +1,5 @@
-Este es el sitio de la materia Teoría de Algoritmos I (75.29 / 95.06) de FIUBA. 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2024.
+Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06) de FIUBA. 
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2024.
 
 Los alumnos para cursar tienen que estar matriculados en el campus de la facultad.
 
