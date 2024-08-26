@@ -71,7 +71,7 @@ Ejemplo:
 	4,4,5,2,8,15,20,10
 	5,12,12,10,5,4,7,9
 	6,1,2,3,4,3,2,1
-	7,30,10,12,5,15,5
+	7,30,10,12,5,15,10,5
 
 
 Debe resolver el problema y retornar por pantalla la solución. Primero el valor total de ganancia obtenido y luego el orden de las tareas a realizar con la ganancia obtenida por ella.
