@@ -59,7 +59,7 @@ El archivo de ganancias corresponde a un archivo de texto donde se representa en
 
 El programa deberá mostrar por pantalla las manzanas seleccionadas según su coordenadas y la ganancia total.:
 
-	Manzanas: (5,5) (4,5) (4,4) (1,3) 
+	Manzanas: (4,5) (3,5) (3,4) (1,3) 
 	Ganancia: 50 + 100 + 120 + 300 = 4700
 
 
