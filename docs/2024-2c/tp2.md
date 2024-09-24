@@ -89,7 +89,8 @@ Compare la complejidad de su algoritmo con la del programa.
 El programa debe recibir por parámetro el path del archivo de caminos entre ciudades.
 Ejemplo
 
-	python transporte.py rutas.txt .
+	python transporte.py rutas.txt
+
 El formato de la línea es: ciudad origen, ciudad destino.]
 
 Ejemplo: "rutas.txt"
@@ -127,7 +128,8 @@ Se pide::
 
 1. Un tercer problema al que llamaremos X se puede reducir polinomialmente al problema de “Casting del reality”, qué podemos decir acerca de su complejidad?
 
-### Definiciones útiles: 
+
+### Definiciones útiles: 
 
 **Mínimum Node Deletion bipartite Subgraph**: Dado un grafo G=(V,E) y un valor k entero positivo. Queremos determinar si es posible construir un grafo bipartito eliminando no más de k nodos.
 
