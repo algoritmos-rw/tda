@@ -47,7 +47,7 @@ Se pide:
 
 El programa debe recibir por parametro tres parametros. El primero la cantidad de cuadras de este a oeste. Luego la cantidad de cuadras de norte a sur. Finalmente un archivo que contenga las ganancias por cuadras Ejemplo:
 
-	python tareas.py 5 4 manzanas.txt 0
+	python tareas.py 5 4 manzanas.txt
 
 El archivo de ganancias corresponde a un archivo de texto donde se representa en una matriz las ganancias. cada línea corresponde a una fila de manzanas. Separado por comas se encuentran la manzana de cada columna. La ganancia es un numero entero. Ejemplo:
 
@@ -60,7 +60,7 @@ El archivo de ganancias corresponde a un archivo de texto donde se representa en
 El programa deberá mostrar por pantalla las manzanas seleccionadas según su coordenadas y la ganancia total.:
 
 	Manzanas: (4,5) (3,5) (3,4) (1,3) 
-	Ganancia: 50 + 100 + 120 + 300 = 4700
+	Ganancia: 50 + 100 + 120 + 300 = 570
 
 
 ## Parte 2: La fortaleza de la red de transporte.o
