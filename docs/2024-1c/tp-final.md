@@ -49,10 +49,9 @@ Se pide:
 
 1. Investigar al menos dos algoritmos de aproximación/heurísticos/randomizados que solucionen el problema.  Explicar y brindar pseudocódigo.
 
-1. Realizar análisis de su ejecución (Tener en cuenta su complejidad y optimalidad).
+1. Seleccionar uno de ellos y realizar análisis de su ejecución (Tener en cuenta su complejidad y optimalidad).
 
-1. Realizar un ejemplo paso a paso de su utilización.
-
+1. Realizar un ejemplo paso a paso de su utilización del algoritmo seleccionado.
 
 ## Parte 3: Autómatas finitos
 

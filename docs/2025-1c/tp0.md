@@ -20,7 +20,7 @@ Trabajo Práctico 0
 
 ## Parte 1: ¿Funciona o no funciona?
 
-Contamos con una mochila con una capacidad de K kilos y queremos introducir dentro de ellas un subconjunto del conjunto E de “n” elementos con el objetivo de maximizar la ganancia. Cada elemento i tiene un peso de ki kilos y un valor de vi. Los elementos no pueden ser divididos y el peso total seleccionado no puede superar la capacidad de la mochila.
+Contamos con una mochila con una capacidad de K kilos y queremos introducir dentro de ellas un subconjunto del conjunto E de “n” elementos con el objetivo de maximizar la ganancia. Cada elemento i tiene un peso de ki kilos y un valor de vi. Los elementos NO pueden ser divididos y el peso total seleccionado no puede superar la capacidad de la mochila.
 
 Nos brindan dos estrategias para resolver el problema:
 
@@ -37,8 +37,8 @@ def mochila_algoritmo_A(capacidad_mochila, elementos):
 `Algoritmo mochila B:`
 ```
 def mochila_algoritmo_B(capacidad_mochila, elementos):
-	obtener el peso por kilo de cada elemento
-	ordenar los elementos de mayor a menor segun el peso por kilo
+	obtener el valor por kilo de cada elemento
+	ordenar los elementos de mayor a menor segun el valor por kilo
 	por cada elemento en elementos:
     	si elemento entra en la mochila:
         	agregar elemento a la mochila
