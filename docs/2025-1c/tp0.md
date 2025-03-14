@@ -30,7 +30,7 @@ def mochila_algoritmo_A(capacidad_mochila, elementos):
 	ordenar los elementos de mayor a menor segun valor
 	por cada elemento en elementos:
     		Mientras el elemento entra en la mochila:
-        			agregar elemento a la mochila
+    			agregar elemento a la mochila
 	devolver peso total en mochila
 ```
 
@@ -40,8 +40,8 @@ def mochila_algoritmo_B(capacidad_mochila, elementos):
 	obtener el valor por kilo de cada elemento
 	ordenar los elementos de mayor a menor segun el valor por kilo
 	por cada elemento en elementos:
-    	Mientras el elemento entra en la mochila:
-        	agregar elemento a la mochila
+		Mientras el elemento entra en la mochila:
+			agregar elemento a la mochila
 	devolver peso total en mochila
 ```
 
