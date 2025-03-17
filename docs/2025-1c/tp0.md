@@ -31,7 +31,7 @@ def mochila_algoritmo_A(capacidad_mochila, elementos):
 	por cada elemento en elementos:
     		Mientras el elemento entra en la mochila:
     			agregar elemento a la mochila
-	devolver peso total en mochila
+	devolver valor total en mochila
 ```
 
 `Algoritmo mochila B:`
@@ -42,10 +42,10 @@ def mochila_algoritmo_B(capacidad_mochila, elementos):
 	por cada elemento en elementos:
 		Mientras el elemento entra en la mochila:
 			agregar elemento a la mochila
-	devolver peso total en mochila
+	devolver valor total en mochila
 ```
 
-Estos algoritmos se pueden ejecutar en mi compiler: https://www.mycompiler.io/view/6EZJTDrfuzF.
+Estos algoritmos se pueden ejecutar en [mi compiler](https://www.mycompiler.io/view/6EZJTDrfuzF).
 
 
 ### Se pide:
