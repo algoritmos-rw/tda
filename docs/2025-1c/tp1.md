@@ -57,7 +57,7 @@ Se pide:
 
 ### Formato de los archivos:
 
-El archivo a ejecutar se debe llamar “puenes_dq.py”
+El archivo a ejecutar se debe llamar “puentes_dq.py”
 
 Debe recibir por parámetro el nombre de un archivo que contenga el nombre de los barrios ordenados y un segundo archivo con las propuestas.
 
@@ -83,6 +83,8 @@ El archivo de las propuestas contiene una línea por cada propuesta. Las propues
 	San Pedro, Barrio Este.
 	Palo seco, Torre verde.
 
+Están todos los barrios emparejados (no hay barrios en más ni menos que en una propuesta) 
+
 La salida del programa debe ser por pantalla y solo contener un número con la cantidad de cruces.
 
 ## Parte 3: Maximizando los puentes 
@@ -107,7 +109,7 @@ Se pide:
 
 ### Formato de los archivos:
 
-El archivo a ejecutar se debe llamar “puenes_pd.py”
+El archivo a ejecutar se debe llamar “puentes_pd.py”
 
 Debe recibir por parámetro los mismos que en el programa de división y  conquista.
 Debe mostrar por pantalla: la cantidad de puentes que se pueden construir y los puentes seleccionados.
