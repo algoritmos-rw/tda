@@ -77,7 +77,7 @@ El formato del archivo de barrios es de texto. Una línea por barrio. Primero lo
 
 El archivo de las propuestas contiene una línea por cada propuesta. Las propuestas corresponden a un par de barrios separados por coma. Primero la del norte y luego la del sur. Ejemplo:
 
-	Puente viejo, Portuario
+	Puente viejo, Don Corleone
 	Barrancas, Cienagas
 	El hurón, Portuario
 	San Pedro, Barrio Este.
