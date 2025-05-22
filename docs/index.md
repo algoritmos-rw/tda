@@ -1,4 +1,7 @@
-Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06) de FIUBA. 
+Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06). 
+Facultad de Ingenieria - Universidad de Buenos Aires (FIUBA)
+
+
 La información que se presenta es respecto a la cursada del primer cuatrimestre del 2025.
 
 Los alumnos para cursar tienen que estar matriculados en el campus de la facultad.
