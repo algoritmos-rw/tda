@@ -117,6 +117,9 @@ Se pide:
 Año 2030. Los programadores son la única salvación para terminar con la 5ta guerra mundial, esta vez contra extraterrestres. Se han interceptado mensajes de los alienígenas donde todos tienen un factor en común: las frases contienen palabras que se leen igual de izquierda a derecha que de derecha a izquierda. Se cree que es su forma de comunicación. La palabra más larga de cada frase que cumple con estas características es la que buscamos.
 Diseñar un algoritmo que permita detectar estas palabras es vital para acticipar sus movimientos. Pero hay un problema, dichas palabras pueden existir en cualquier lugar de la frase (incluso considerando el final y el comienzo de la misma)
 
+<img width="256" height="256" alt="reconocer" src="https://github.com/user-attachments/assets/0920ae9b-c1a1-4abd-be84-8b4511ad5629" />
+
+
 Ya que para el corriente año no existen problemas de memoria, el algoritmo diseñado debe ser de programación dinámica.
 
 
