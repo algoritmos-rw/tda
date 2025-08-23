@@ -11,9 +11,9 @@ Trabajo Práctico 1
 
 - Un integrante del grupo deberá entregar el informe en formato pdf en nombre del grupo en el aula virtual de la materia..
 
-- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia.
+- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia. El .zip no debe contener carpetas en su interior, si no, solo 2 archivos ("escenario.py" y "acertijo.py").
 
-- El lenguaje de implementación a utilizar es Python.
+- El lenguaje de implementación a utilizar es Python. No está permitido utilizar librerías externas.
 
 - El programa a entregarse debe cumplir con los lineamientos mencionados en el enunciado. Si los mismos no son cumplidos con exactitud, el trabajo no será aprobado y deberá ser re-entregado con las correcciones.
 
@@ -37,9 +37,13 @@ Se pide:
 
 1. Desarrollar un algoritmo Greedy que indique cómo ubicar cada sector en el escenario en O(N), tanto de complejidad temporal como espacial.
 
-2. Explicar y justificar tanto el algoritmo como las complejidades y optimalidad del mismo.
+2. Explicar y justificar tanto el algoritmo como las complejidades
+  
+3. Explicar y justificar la ptimalidad del algoritmo.
 
-3. Programar la solución.
+5. Explicar y justificar por qué es Greedy el algoritmo.
+
+6. Programar la solución.
 
 
 ### Formato de los archivos:
@@ -82,7 +86,30 @@ debe retornar `no es posible realizar el escenario` por pantalla
 
 
 
-## Parte 2: 
+## Parte 2: Detectores de mentiras
+
+El profesor Charles Lying tiene N detectores de mentiras que, en "teoría", son capaces de probarse entre sí. Y para hacerlo, se realiza de a pares. Cuando el equipo está cargado, cada detector prueba al otro y reporta si es confiable o no. Un detector confiable siempre informa con precisión si el otro detector es confiable o no, pero el profesor no puede confiar en la respuesta de un detector no confiable. Así, los cuatro posibles resultados de una prueba son los siguientes:
+
+| Detector 1     | Detector 2     | Resultado |
+|----------------|----------------|-----------|
+| D2 funciona    | D1 funciona    | Ambos funcionan correctamente |
+| D2 funciona    | D1 no funciona | Al menos alguno de los dos falla   |
+| D2 no funciona | D1 funciona    | Al menos alguno de los dos falla   |
+| D2 no funciona | D2 no funciona | Al menos alguno de los dos falla   |
+
+
+Se sabe que más de la mitad de los detectores funcionan correctamente. Ayudar al profesor a encontrar 1 detector que con seguridad funcione correctamente.
+
+
+Se pide:
+
+1. Presentar una propuesta mediante división y conquista que resuelva este problema.
+
+2. Brindar la ecuación de recurrencia y obtener su complejidad mediante el teorema maestro.
+
+3. Presentar pseudocódigo.
+
+4. Brindar un ejemplo de funcionamiento.
 
 
 
