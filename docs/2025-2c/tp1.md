@@ -10,7 +10,7 @@ Trabajo Práctico 1
 
 - Un integrante del grupo deberá entregar el informe en formato pdf en nombre del grupo en el aula virtual de la materia..
 
-- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia. El .zip no debe contener carpetas en su interior, si no, solo 2 archivos ("escenario.py" y "acertijo.py").
+- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia. El .zip no debe contener carpetas en su interior, si no, solo 2 archivos ("escenario.py" y "extraterrestres.py").
 
 - El lenguaje de implementación a utilizar es Python. No está permitido utilizar librerías externas.
 
@@ -32,7 +32,7 @@ Al tener un escenario en forma de V, solo podrá haber 1 sector ubicado a la izq
 Para no tener problemas, en caso de la empresa no pueda construir un escenario espejado, comunicará que no podrá realizarlo. Caso contrario, deberá indicar cómo construir el escenario
 
 
-Se pide:
+**Se pide:**
 
 1. Desarrollar un algoritmo Greedy que indique cómo ubicar cada sector en el escenario en O(N), tanto de complejidad temporal como espacial.
 
@@ -100,7 +100,7 @@ El profesor Charles Lying tiene N detectores de mentiras que, en "teoría", son 
 Se sabe que más de la mitad de los detectores funcionan correctamente. Ayudar al profesor a encontrar 1 detector que con seguridad funcione correctamente.
 
 
-Se pide:
+**Se pide:**
 
 1. Presentar una propuesta mediante división y conquista que resuelva este problema.
 
@@ -123,7 +123,7 @@ Diseñar un algoritmo que permita detectar estas palabras es vital para acticipa
 Ya que para el corriente año no existen problemas de memoria, el algoritmo diseñado debe ser de programación dinámica.
 
 
-Se pide:
+**Se pide:**
 
 1. Presentar una propuesta mediante programación dinámica que resuelva este problema.
 
@@ -145,7 +145,7 @@ Debe recibir por parámetro la frase. Por ejemplo "extraterrestres.py reconocerl
 
 La salida del programa debe ser por pantalla indicando cuál es la palabra.
 
-Ejemplos de ejecución:
+**Ejemplos de ejecución:**
 
 `extraterrestres.py reconocerlapalabrasecreta`
 
