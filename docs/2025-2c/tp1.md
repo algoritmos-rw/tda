@@ -1,6 +1,5 @@
 Trabajo Práctico n.º 1
 ======================
-{:.no_toc}
 
 Teoría de Algoritmos - 2c 2025
 Trabajo Práctico 1
@@ -113,7 +112,43 @@ Se pide:
 
 
 
-## Parte 3: 
+## Parte 3: Programación mundial
+
+Año 2030. Los programadores son la única salvación para terminar con la 5ta guerra mundial, esta vez contra extraterrestres. Se han interceptado mensajes de los alienígenas donde todos tienen un factor en común: las frases contienen palabras que se leen igual de izquierda a derecha que de derecha a izquierda. Se cree que es su forma de comunicación. La palabra más larga de cada frase que cumple con estas características es la que buscamos.
+Diseñar un algoritmo que permita detectar estas palabras es vital para acticipar sus movimientos. Pero hay un problema, dichas palabras pueden existir en cualquier lugar de la frase (incluso considerando el final y el comienzo de la misma)
+
+Ya que para el corriente año no existen problemas de memoria, el algoritmo diseñado debe ser de programación dinámica.
+
+
+Se pide:
+
+1. Presentar una propuesta mediante programación dinámica que resuelva este problema.
+
+2. Analice la complejidad espacial y temporal de su propuesta.
+
+3. De un breve ejemplo paso a paso de funcionamiento de su propuesta.
+
+4. Programe su solución.
+
+5. Analice: ¿La complejidad de su propuesta es igual a la de su programa?
+
 
 
 ### Formato de los archivos:
+
+El archivo a ejecutar se debe llamar “extraterrestres.py”
+
+Debe recibir por parámetro la frase. Por ejemplo "extraterrestres.py reconocerlapalabrasecreta"
+
+La salida del programa debe ser por pantalla indicando cuál es la palabra.
+
+Ejemplos de ejecución:
+
+`extraterrestres.py reconocerlapalabrasecreta`
+
+debe retornar `reconocer` por pantalla
+
+
+`extraterrestres.py quenlaprovinciaainvidiresneu`
+
+debe retornar `neuquen` por pantalla
