@@ -1,18 +1,19 @@
+- 2025/2:
+  TP1: /2025-2c/tp1/
+  
 - 2025/1:
   TP0: /2025-1c/tp0/
   TP1: /2025-1c/tp1/
   TP2: /2025-1c/tp2/
   TP Final: /2025-1c/tp-final/
       
-- 2024/2:
-  TP1: /2024-2c/tp1/
-  TP2: /2024-2c/tp2/
-  TP Final: /2024-2c/tp-final/
-  
-- 2024/1:
-  TP1: /2024-1c/tp1/
-  TP2: /2024-1c/tp2/
-  TP Final: /2024-1c/tp-final/
+- 2024:
+  2024-c2-TP1: /2024-2c/tp1/
+  2024-c2-TP2: /2024-2c/tp2/
+  2024-c2-TP Final: /2024-2c/tp-final/
+  2024-c1-TP1: /2024-1c/tp1/
+  2024-c1-TP2: /2024-1c/tp2/
+  2024-c1-TP Final: /2024-1c/tp-final/
   
 - 2023:
   2023-c2-TP1: /2023-2c/tp1/
