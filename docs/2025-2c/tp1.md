@@ -60,7 +60,7 @@ Además, dentro del archivo se debe implementar una función llamada `ejecucion(
 
 `escenario.py 978695587655`
 
-debe retornar `978655556789` por pantalla para formar el siguiente escenario en forma de V
+debe retornar `978655556879` por pantalla para formar el siguiente escenario en forma de V
 
 ```
 9          9
