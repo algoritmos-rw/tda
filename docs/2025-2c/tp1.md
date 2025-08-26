@@ -71,7 +71,7 @@ debe retornar `978655556879` por pantalla para formar el siguiente escenario en 
      55
 ```
 
-Otras posibilidades válidas también son 559786678955, 597856675895, etc
+Otras posibilidades válidas también son 559786687955, 598756657895, etc
 
 `escenario.py 113`
 
@@ -157,6 +157,6 @@ Además, dentro del archivo se debe implementar una función llamada `ejecucion(
 debe retornar `reconocer` por pantalla
 
 
-`extraterrestres.py provincianeuqueninvidir`
+`extraterrestres.py provincianeuqueninvadir`
 
 debe retornar `neuquen` por pantalla
