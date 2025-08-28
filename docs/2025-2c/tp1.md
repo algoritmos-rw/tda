@@ -29,6 +29,8 @@ Se cuenta con un conjunto N de sectores, los cuales continenen una cantidad Y de
 La empresa debe ubicar cada sector en una fila del escenario, con la restricción que cada sector a derecha e izquierda del mismo contenga la misma cantidad de butacas, es decir, que sea espejado.
 Al tener un escenario en forma de V, solo podrá haber 1 sector ubicado a la izquierda del escenario y 1 sector a la derecha. A excepción de la primera fila, que puede contener 1 sector o no tener ninguno.
 
+El valor de venta de las entradas será mayor cuanto más alejado del centro se encuentre el sector. Obviamente la empresa busca maximizar las ganancias.
+
 Para no tener problemas, en caso de la empresa no pueda construir un escenario espejado, comunicará que no podrá realizarlo. Caso contrario, deberá indicar cómo construir el escenario
 
 
