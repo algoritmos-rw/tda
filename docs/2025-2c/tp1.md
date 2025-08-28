@@ -73,7 +73,7 @@ debe retornar `978655556879` por pantalla para formar el siguiente escenario en 
      55
 ```
 
-Otras posibilidades válidas también son 559786687955, 598756657895, etc
+Otras posibilidades factibles también son 559786687955, 598756657895, etc
 
 `escenario.py 113`
 
