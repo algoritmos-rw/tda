@@ -95,7 +95,7 @@ El profesor Charles Lying tiene N detectores de mentiras que, en "teoría", son 
 
 | Detector 1     | Detector 2     | Resultado |
 |----------------|----------------|-----------|
-| D2 funciona    | D1 funciona    | Ambos funcionan correctamente |
+| D2 funciona    | D1 funciona    | O ambos funcionan correctamente o ambos fallan |
 | D2 funciona    | D1 no funciona | Al menos alguno de los dos falla   |
 | D2 no funciona | D1 funciona    | Al menos alguno de los dos falla   |
 | D2 no funciona | D2 no funciona | Al menos alguno de los dos falla   |
