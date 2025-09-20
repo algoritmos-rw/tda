@@ -11,7 +11,7 @@ Trabajo Práctico 2
 
 - Un integrante del grupo deberá entregar el informe en formato pdf en nombre del grupo en el aula virtual de la materia..
 
-- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia. El .zip no debe contener carpetas en su interior, si no, solo 2 archivos ("escenario.py" y "extraterrestres.py").
+- Cada integrante del grupo deberá entregar código fuente en (.zip) en el aula virtual de la materia. El .zip no debe contener carpetas en su interior, si no, solo 2 archivos ("transporte.py" y "extraterrestres.py").
 
 - El lenguaje de implementación a utilizar es Python. No está permitido utilizar librerías externas.
 
@@ -25,61 +25,42 @@ Trabajo Práctico 2
 
 
 
-## Parte 1: 
+## Parte 1: Distribución eficiente
 
-El prestigioso restaurante “Altezzoso” de 3 estrellas “Michi Inn” se especializa en la elaboración de pizzas gigantes. Una vez por año realiza una recaudación por causas caritativas. Invita a “n” de las personas mas ricas del planeta y realiza una subasta de una pizza tamaño XXXL cortada en “m” porciones (n>m). Los invitados tienen un presupuesto de “p” liras que pueden dividir en “ofertas” para las diferentes porciones. La pizza ocupa una mesa circular donde se encuentra una silla frente a cada porción. Quien obtiene una determinada porción debe sentarse en su lugar para comerla. Un invitado solo puede acceder a una única porción. No necesariamente quien ofrece más plata por una porción la obtiene. La decisión es única y exclusivamente potestad del restaurante. Ellos quieren maximizar la ganancia.  Pero deben tener en cuenta una cuestión adicional: algunos de los invitados están enemistados con otros y no quieren sentarse a su lado. Por lo que informan que prefieren no comer a tener que soportarlos.
+Una empresa de transportes pretende determina cómo realizar sus próximas distribuciones a lo largo de la provincia en centros de distribución. La misma cuenta con un conjunto de productos y con listas de combinaciones (subconjuntos) de estos productos.
+Dado que se tienen que distribuir todos los elementos a lo largo de los centros y no cuentan con muchos camiones, se debe determinar la mínima cantidad de combinaciones tales que pueden repartir todos los productos. Cabe aclarar que los productos no se pueden repetir entre combinaciones.
 
-Nos contratan para que, en base a la información provista, determinemos qué porción asignar a cada invitado de forma tal de maximizar la ganancia cumpliendo las restricciones del problema.
-
-Nos sugieren la siguiente la solución: Mediante backtracking determinar todas las posibles ubicaciones factibles (sin considerar las rotaciones en la mesa). Luego, por cada una de ellas calcular las ganancias de cada una de las rotaciones posibles.
-
-Queremos Proponer una solución alternativa utilizando branch and bound.
+Nos sugieren que utilicemos la técnica más eficiente que conocen, Branch & Bound.
 
 Se pide:
 
-1. Explique brevemente cada una de las soluciones. Defina la función costo y límite cuando corresponda.
+1. Explique brevemente la solución. Defina la función costo y límite cuando corresponda.
 
-1. Dar el pseudocódigo y estructuras de datos a utilizar en ambas propuestas.
+2. Dar el pseudocódigo y estructuras de datos a utilizar.
 
-1. Realice el análisis de complejidad temporal y espacial de ambas soluciones. Compararlas.
+3. Realice el análisis de complejidad temporal y espacial de la solución.
 
-1. Brinde un ejemplo simple paso a paso del funcionamiento de las soluciones.
+4. Brinde un ejemplo simple paso a paso del funcionamiento de la solución.
 
-1. Programe ambas propuestas
+5. Programe la solución.
 
-1. Determine si los programas tienen la misma complejidad que su propuesta teórica. 
+6. Determine si el programa tienen la misma complejidad que su propuesta teórica. 
 
 ### Formato de los archivos:
 
-Los programas a ejecutar se deben llamar “subasta_bt” y “subasta_bb”. Deben recibir por parámetro 2 archivos. El primero de las ofertas y el segundo de las restricciones de los invitados.
+El archivo a ejecutar se debe llamar “transporte.py”
 
-El archivo de ofertas es un archivo de texto. La primera línea corresponde a la cantidad de porciones. Luego cada línea corresponde a un invitado. Tiene separado por comas su nombre y la oferta por cada una de las porciones que realiza. La suma de todas las ofertas suma “p”.
+Debe recibir 2 parámetros (strings). El primer string corresponderá a los productos separados por coma y el segundo a los subconjuntos también separados por coma. Por ejemplo "transporte.py '1,2,3,4' '(1,2),(1,4,3),(1,3),(1,4)'"
 
-Ejemplo:
+La salida del programa debe ser por pantalla indicando los subconjuntos elegidos.
 
-	4
-	Elon,10,0,10,5
-	Steve,5,5,5,10
-	Mark,7,7,7,4
-	Jeff,0,0,25,0
-	Larry,0,15,5,5
-	Bill,8,7,10,0
+Además, dentro del archivo se debe implementar una función llamada `ejecucion(productos, subconjuntos)` que reciba por parámetro los productos y los subconjuntos (strings).
 
-El archivo de restricciones es un archivo de texto. Tiene una línea por invitado. En la línea se presenta el nombre del invitado y separado por coma a partir de este una lista con quienes no se quiere sentar. 
+**Ejemplos de ejecución:**
 
-Ejemplo:
+`transporte.py '1,2,3,4' '(1,2),(1,4,3),(1,3),(1,4),(2),(1)'`
 
-	Elon,Jeff,Larry
-	Steve,Elon
-	Mark,Bill,Larry
-	Jeff,Elon
-	Larry
-	Bill,Mark
-
-La respuesta se debe mostrar por pantalla y debe ser siguiendo el siguiente formato:
-
-	La ganancia máxima a obtener es: [poner aquí la ganancia]
-	Los invitados ganadores son: [poner aquí los ganadores separados por coma que brindan la mayor ganancia ordenados por número de porción
+debe retornar `(2),(1,4,3)` por pantalla
 
 
 
