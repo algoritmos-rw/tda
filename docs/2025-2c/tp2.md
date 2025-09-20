@@ -34,7 +34,7 @@ Nos sugieren que utilicemos la técnica más eficiente que conocen, Branch & Bou
 
 Se pide:
 
-1. Explique brevemente la solución. Defina la función costo y límite cuando corresponda.
+1. Explique brevemente la solución. Defina la función costo y límite.
 
 2. Dar el pseudocódigo y estructuras de datos a utilizar.
 
@@ -64,7 +64,7 @@ debe retornar `(2),(1,4,3)` por pantalla
 
 
 
-## Parte 2: 
+## Parte 2: Guerras intergalácticas
 
 Contamos con un “n” agentes secretos que deben realizar el traslado de información importante. Cada agente se encuentra distribuido en diferentes ciudades (algunos podrían estar en la misma). Cada uno de ellos debe llevar la información a alguno de los “n” centros de investigación. Estos centros se encuentran cada uno en diferentes ciudades. Para viajar utilizarán como medio de transporte la red de líneas aéreas disponibles. Existe un subconjunto de ciudades seguras en las que podrían realizar escalas. Como medio de seguridad quieren que no más de “s” agentes pasen por la misma ciudad. Todas los vuelos son bidireccionales (es decir si existe el vuelo de la ciudad A a la B. También existe el vuelo de la ciudad B a la A)
 
@@ -118,16 +118,16 @@ Si es posible, se debe mostrar en pantalla la ruta de traslados de cada espía. 
 
 
 
-## Parte 3: 
+## Parte 3: Redes antisociales
 
 Una famosa red social llamada HeadBook desarrolló una solución para maximizar las conexiones entre dos grupos de usuarios. Dada una red social, se realiza una partición de los usuarios en dos grupos de manera que el número de conexiones (amistades) entre los dos grupos es máximo.
 
 Se pide:
 
-1. Demostrar que el problema que se planteó c NP-C. Utilizar NAE-3SAT para demostrarlo.
+1. Demostrar que el problema "Redes antisociales" que se planteó pertenece a NP-C. Utilizar NAE-3SAT para demostrarlo.
 
-2. Lejos de plantear un problema más sencillo, HeadBook busca que además de maximizar la cantidad de conexiones entre dos grupos de usuarios, los dos grupos tengan la misma cantidad de usuarios. Demostrar que este nuevo problema también maximizar las conexiones entre dos grupos de usuarios NP-C. Utilizar el problema anterior para demostrarlo.
+2. Lejos de plantear un problema más sencillo, HeadBook busca que además de maximizar la cantidad de conexiones entre dos grupos de usuarios, los dos grupos tengan la misma cantidad de usuarios. Demostrar que este nuevo problema también maximizar las conexiones entre dos grupos de usuarios pertenece a NP-C. Utilizar el problema anterior para demostrarlo.
 
 3. Una persona afirma tener un método eficiente para responder si es posible o no cualquiera sea la instancia. Utilizando el concepto de transitividad y la definición de NP-C explique qué ocurriría si se demuestra que la afirmación es correcta.
 
-4. Un tercer problema al que llamaremos X se puede reducir polinomialmente al problema de “Las 2 jornadas de capacitación”, qué podemos decir acerca de su complejidad?
+4. Un tercer problema al que llamaremos X se puede reducir polinomialmente al problema de “Redes antisociales”, qué podemos decir acerca de su complejidad?
