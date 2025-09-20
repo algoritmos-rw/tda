@@ -64,70 +64,66 @@ debe retornar `(2),(1,4,3)` por pantalla
 
 
 
-## Parte 2: Guerras intergalácticas
+## Parte 2: La guerra continúa..
 
-Contamos con un “n” agentes secretos que deben realizar el traslado de información importante. Cada agente se encuentra distribuido en diferentes ciudades (algunos podrían estar en la misma). Cada uno de ellos debe llevar la información a alguno de los “n” centros de investigación. Estos centros se encuentran cada uno en diferentes ciudades. Para viajar utilizarán como medio de transporte la red de líneas aéreas disponibles. Existe un subconjunto de ciudades seguras en las que podrían realizar escalas. Como medio de seguridad quieren que no más de “s” agentes pasen por la misma ciudad. Todas los vuelos son bidireccionales (es decir si existe el vuelo de la ciudad A a la B. También existe el vuelo de la ciudad B a la A)
-
-Determinar si es posible que los agentes puedan realizar el envío y en caso positivo determinar qué ruta debe seguir cada uno de ellos.
-
+Luego de haber haber descifrado los mensajes alienígenas, la Tierra debe ser quien planee su próximo movimiento.
+Actualmente cuenta con servidores espaciales, capaces de enviar mensajes entre ellos. Cada servidor cuenta con una velocidad máxima para transmitir mensajes a otro. Algunos de ellos a su vez están conectados a un servidor principal ubicado en la Tierra, y hay otros conectados a un receptor espacial.
+Los terrícolas saben que para derrotar a los aliens se debe mejorar la velocidad de algunas conexiones, y así incrementar la velocidad entre en servidor principal y el receptor, pero no saben cuáles. Debemos ayudarlos.
 
 Se pide:
 
-1.  Generar una propuesta mediante redes de flujo que solucione el problema. Explicar la idea de esta.
+1. Realizar una reducción polinomial del problema planteado a uno de redes de flujo
 
-1.  Presentar pseudocódigo.
+2. Resolver el problema utilizando redes de flujo.
 
-1.  Realizar un análisis de optimalidad.
+3. Realizar análisis de complejidad temporal y espacial.
 
-1.  Realizar análisis de complejidad temporal y espacial. Considere las estructuras de datos que utiliza para llegar a estos.
+4. Realice un ejemplo paso a paso de resolución. Utilice redes de flujo gráficas.
 
-1. Programar la solución. Incluya la información necesaria para su ejecución. Compare la complejidad de su algoritmo con la del programa.
+5. Programar la solución.
 
-1. ¿Es posible expresar su solución como una reducción polinomial? En caso afirmativo explique cómo y en caso negativo justifique su respuesta.
+6. El servidor principal de la Tierra fue eliminado y se debe elegir algún otro servidor como principal. ¿Qué proponen para elegir el servidor que permita la mayor velocidad para llegar al receptor? Explicar la idea
 
 
 ### Formato de los archivos:
 
-El programa a ejecutar se debe llamar “traslado”. Debe recibir por parámetros 2 números y 2 archivos. El primer número es la cantidad “n” de espías y centros. El segundo número corresponde a “s” la restricción por ciudad. El primer archivo corresponde a las ciudades y vuelos. El segundo de espías y centros de investigación.
+El archivo a ejecutar se debe llamar “extraterrestres.py”
 
-El archivo de ciudades y vuelos es un archivo de texto. Y contiene una línea por vuelo entre ciudades
-El formato de la línea es: ciudad origen, ciudad destino.
+Debe recibir como parámetro el nombre de un archivo txt que contendrá información sobre los servidores y sus conexiones.
+Cada línea corresponde a una conexión entre dos servidores y su velocidad. Ejemplo: 1,2,100.
+El servidor principal se identifica como P, el receptor se identifica como R. Los servidores se identifican por un número.
 
-Ejemplo: “ciudades.txt”
+La salida del programa debe ser por pantalla indicando las conexiones a mejorar entre paréntesis y separadas por coma. Ejemplo: `(P,5),(5,6),(6,7),(8,R)`.
 
-	A,B
-	A,D
-	A,E
-	B,C
-	C,D
-	C,E
-	D,E
+Además, dentro del archivo se debe implementar una función llamada `ejecucion(archivo)` que reciba por parámetro el archivo.
 
-El archivo de espías y centro de investigación es un archivo de texto. Contiene “2n” líneas. Las primeras “n” son los espías y en la ciudad en la que inicia. Las últimas “n” son los centros y la posición en las que se encuentran.
+**Ejemplos de ejecución:**
 
-Ejemplo: “espias.txt”
+`aliens.py red.txt`
 
-	Espia 1,A
-	Espia 2,B
-	Centro 1,C
-	Centro 2,D
-
-Si no es posible lograr el objetivo el programa debe mostrar en pantalla: “Es imposible lograr el objetivo”.
-
-Si es posible, se debe mostrar en pantalla la ruta de traslados de cada espía. Cada ruta debe estar separada por coma. El primer ítem es el nombre del espía, el último el nombre de los centros y los intermedios las ciudades por la que pasa.
+Donde red.txt contiene
+```
+P,1,10
+P,2,10
+P,3,10
+1,2,10
+2,1,10
+1,3,10
+2,R,10
+```
 
 
 
 ## Parte 3: Redes antisociales
 
-Una famosa red social llamada HeadBook desarrolló una solución para maximizar las conexiones entre dos grupos de usuarios. Dada una red social, se realiza una partición de los usuarios en dos grupos de manera que el número de conexiones (amistades) entre los dos grupos es máximo.
+Una famosa red social llamada HeadBook desea poder desarrollar una solución para maximizar las conexiones entre dos grupos de usuarios. Dada una red social (usuarios y amistades), se busca realizar una partición de los usuarios en dos grupos de manera que el número de conexiones (amistades) entre los dos grupos es máximo.
 
 Se pide:
 
-1. Demostrar que el problema "Redes antisociales" que se planteó pertenece a NP-C. Utilizar NAE-3SAT para demostrarlo.
+1. Demostrar que el problema "Redes antisociales" que desea resolver HeadBook pertenece a NP-C. Utilizar NAE-3SAT para demostrarlo.
 
 2. Lejos de plantear un problema más sencillo, HeadBook busca que además de maximizar la cantidad de conexiones entre dos grupos de usuarios, los dos grupos tengan la misma cantidad de usuarios. Demostrar que este nuevo problema también maximizar las conexiones entre dos grupos de usuarios pertenece a NP-C. Utilizar el problema anterior para demostrarlo.
 
 3. Una persona afirma tener un método eficiente para responder si es posible o no cualquiera sea la instancia. Utilizando el concepto de transitividad y la definición de NP-C explique qué ocurriría si se demuestra que la afirmación es correcta.
 
-4. Un tercer problema al que llamaremos X se puede reducir polinomialmente al problema de “Redes antisociales”, qué podemos decir acerca de su complejidad?
+4. Un tercer problema al que llamaremos X se puede reducir polinomialmente al problema de “Redes antisociales”, ¿qué podemos decir acerca de su complejidad?
