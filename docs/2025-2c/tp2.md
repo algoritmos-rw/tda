@@ -27,8 +27,11 @@ Trabajo Práctico 2
 
 ## Parte 1: Distribución eficiente
 
-Una empresa de transportes pretende determina cómo realizar sus próximas distribuciones a lo largo de la provincia en centros de distribución. La misma cuenta con un conjunto de productos y con listas de combinaciones (subconjuntos) de estos productos.
-Dado que se tienen que distribuir todos los elementos a lo largo de los centros y no cuentan con muchos camiones, se debe determinar la mínima cantidad de combinaciones tales que pueden repartir todos los productos. Cabe aclarar que los productos no se pueden repetir entre combinaciones.
+Una empresa de transportes pretende determinar cómo realizar sus próximas distribuciones a lo largo de la provincia en centros de distribución.
+La misma cuenta con productos y con listas combinaciones de los mismos (ejemplo: lista 1 include producto 1 y producto 2, lista 2 include producto 2 y 4).
+Se tienen que distribuir todos los productos a lo largo de los centros y no cuentan con muchos camiones, por lo cual se deben minimizar los mismos.
+Cada camión solo puede transportar solo una combinación de productos.
+Cabe aclarar que cada producto solo puede ir en un camión.
 
 Nos sugieren que utilicemos la técnica más eficiente que conocen, Branch & Bound.
 
@@ -116,13 +119,13 @@ P,3,10
 
 ## Parte 3: Redes antisociales
 
-Una famosa red social llamada HeadBook desea poder desarrollar una solución para maximizar las conexiones entre dos grupos de usuarios. Dada una red social (usuarios y amistades), se busca realizar una partición de los usuarios en dos grupos de manera que el número de conexiones (amistades) entre los dos grupos es máximo.
+Una famosa red social llamada HeadBook desea poder desarrollar una solución para generar conexiones entre dos grupos de usuarios. Dada una red social (usuarios y amistades), se busca realizar una partición de los usuarios en dos grupos de manera que el número de conexiones (amistades) entre los dos grupos sea al menos K.
 
 Se pide:
 
 1. Demostrar que el problema "Redes antisociales" que desea resolver HeadBook pertenece a NP-C. Utilizar NAE-3SAT para demostrarlo.
 
-2. Lejos de plantear un problema más sencillo, HeadBook busca que además de maximizar la cantidad de conexiones entre dos grupos de usuarios, los dos grupos tengan la misma cantidad de usuarios. Demostrar que este nuevo problema también maximizar las conexiones entre dos grupos de usuarios pertenece a NP-C. Utilizar el problema anterior para demostrarlo.
+2. Lejos de plantear un problema más sencillo, HeadBook busca que además, los dos grupos formados tengan la misma cantidad de usuarios. Demostrar que este nuevo problema también pertenece a NP-C. Utilizar el problema anterior para demostrarlo.
 
 3. Una persona afirma tener un método eficiente para responder si es posible o no cualquiera sea la instancia. Utilizando el concepto de transitividad y la definición de NP-C explique qué ocurriría si se demuestra que la afirmación es correcta.
 
