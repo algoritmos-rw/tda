@@ -71,7 +71,7 @@ debe retornar `(2),(1,4,3)` por pantalla
 
 Luego de haber haber descifrado los mensajes alienígenas, la Tierra debe ser quien planee su próximo movimiento.
 Actualmente cuenta con servidores espaciales, capaces de enviar mensajes entre ellos. Cada servidor cuenta con una velocidad máxima para transmitir mensajes a otro. Algunos de ellos a su vez están conectados a un servidor principal ubicado en la Tierra, y hay otros conectados a un receptor espacial.
-Los terrícolas saben que para derrotar a los aliens se debe mejorar la velocidad de algunas conexiones, y así incrementar la velocidad entre en servidor principal y el receptor, pero no saben cuáles. Debemos ayudarlos.
+Los terrícolas saben que para derrotar a los aliens tienen que incrementar los mensajes a transmitir entre en servidor principal y el receptor. Para ello deben mejorar la velocidad de las conexiones, pero no pueden elegir todas. Debemos ayudarlos teniendo en cuenta que no se pueden aumentar más de K.
 
 Se pide:
 
@@ -85,14 +85,14 @@ Se pide:
 
 5. Programar la solución.
 
-6. El servidor principal de la Tierra fue eliminado y se debe elegir algún otro servidor como principal. ¿Qué proponen para elegir el servidor que permita la mayor velocidad para llegar al receptor? Explicar la idea
+7. El servidor principal de la Tierra fue eliminado y se debe elegir algún otro servidor como principal. ¿Qué proponen para elegir el servidor que permita la mayor velocidad para llegar al receptor? Explicar la idea
 
 
 ### Formato de los archivos:
 
 El archivo a ejecutar se debe llamar “extraterrestres.py”
 
-Debe recibir como parámetro el nombre de un archivo txt que contendrá información sobre los servidores y sus conexiones.
+Debe recibir como parámetro el parámetro K y el nombre de un archivo txt (siempre es red.txt) que contendrá información sobre los servidores y sus conexiones.
 Cada línea corresponde a una conexión entre dos servidores y su velocidad. Ejemplo: 1,2,100.
 El servidor principal se identifica como P, el receptor se identifica como R. Los servidores se identifican por un número.
 
@@ -102,7 +102,7 @@ Además, dentro del archivo se debe implementar una función llamada `ejecucion(
 
 **Ejemplos de ejecución:**
 
-`aliens.py red.txt`
+`aliens.py 5 red.txt`
 
 Donde red.txt contiene
 ```
