@@ -71,11 +71,11 @@ debe retornar `(2),(1,4,3)` por pantalla
 
 Luego de haber haber descifrado los mensajes alienígenas, la Tierra debe ser quien planee su próximo movimiento.
 Actualmente cuenta con servidores espaciales, capaces de enviar mensajes entre ellos. Cada servidor cuenta con una velocidad máxima para transmitir mensajes a otro. Algunos de ellos a su vez están conectados a un servidor principal ubicado en la Tierra, y hay otros conectados a un receptor espacial.
-Los terrícolas saben que para derrotar a los aliens tienen que incrementar los mensajes a transmitir entre en servidor principal y el receptor. Para ello deben mejorar la velocidad de las conexiones, pero no pueden elegir todas. Debemos ayudarlos teniendo en cuenta que no se pueden aumentar más de K.
+Los terrícolas saben que para derrotar a los aliens tienen que mantener la red firme. Para ello deben conocer cuáles son la mínima cantidad de conexiones que se pueden romper antes de perder la comunicación. A su vez, necesitan saber cuál es LA conexión más crítica, en el sentido que más disminuye la velocidad.
 
 Se pide:
 
-1. Realizar una reducción polinomial del problema planteado a uno de redes de flujo
+1. Realizar una reducción polinomial del problema planteado a uno de redes de flujo.
 
 2. Resolver el problema utilizando redes de flujo.
 
@@ -92,17 +92,17 @@ Se pide:
 
 El archivo a ejecutar se debe llamar “extraterrestres.py”
 
-Debe recibir como parámetro el parámetro K y el nombre de un archivo txt (siempre es red.txt) que contendrá información sobre los servidores y sus conexiones.
+Debe recibir como parámetro el nombre de un archivo txt (siempre es red.txt) que contendrá información sobre los servidores y sus conexiones.
 Cada línea corresponde a una conexión entre dos servidores y su velocidad. Ejemplo: 1,2,100.
 El servidor principal se identifica como P, el receptor se identifica como R. Los servidores se identifican por un número.
 
-La salida del programa debe ser por pantalla indicando las conexiones a mejorar entre paréntesis y separadas por coma. Ejemplo: `(P,5),(5,6),(6,7),(8,R)`.
+La salida del programa debe ser por pantalla indicando las conexiones críticas y entre ellas la más crítica. Ejemplo: `[(P,5),(5,6),(6,7),(8,R)],(5,6)`.
 
 Además, dentro del archivo se debe implementar una función llamada `ejecucion(archivo)` que reciba por parámetro el archivo.
 
 **Ejemplos de ejecución:**
 
-`aliens.py 5 red.txt`
+`aliens.py red.txt`
 
 Donde red.txt contiene
 ```
