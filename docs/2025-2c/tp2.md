@@ -70,7 +70,7 @@ debe retornar `(2),(1,4,3)` por pantalla
 ## Parte 2: La guerra continúa..
 
 Luego de haber haber descifrado los mensajes alienígenas, la Tierra debe ser quien planee su próximo movimiento.
-Actualmente cuenta con servidores espaciales, capaces de enviar mensajes entre ellos. Cada servidor cuenta con una velocidad máxima para transmitir mensajes a otro. Algunos de ellos a su vez están conectados a un servidor principal ubicado en la Tierra, y hay otros conectados a un receptor espacial.
+Actualmente cuenta con servidores espaciales, capaces de enviar mensajes entre ellos (la conexión puede ser bidireccional). Cada servidor cuenta con una velocidad máxima para transmitir mensajes a otro. Algunos de ellos a su vez están conectados a un servidor principal ubicado en la Tierra, y hay otros conectados a un receptor espacial.
 Los terrícolas saben que para derrotar a los aliens tienen que mantener la red firme. Para ello deben conocer cuáles son la mínima cantidad de conexiones que se pueden romper antes de perder la comunicación. A su vez, necesitan saber cuál es LA conexión más crítica, en el sentido que más disminuye la velocidad.
 
 Se pide:
