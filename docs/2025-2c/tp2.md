@@ -102,7 +102,7 @@ Además, dentro del archivo se debe implementar una función llamada `ejecucion(
 
 **Ejemplos de ejecución:**
 
-`aliens.py red.txt`
+`extraterrestres.py red.txt`
 
 Donde red.txt contiene
 ```
