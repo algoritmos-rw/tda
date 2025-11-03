@@ -2,11 +2,11 @@ Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06).
 Facultad de Ingenieria - Universidad de Buenos Aires (FIUBA)
 
 
-La información que se presenta es respecto a la cursada del primer cuatrimestre del 2025.
+La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2025.
 
 Los alumnos para cursar tienen que estar matriculados en el campus de la facultad.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vRJPzmY69tgWPa11Em614GglranETeAosHSDE3CK7t3MSf-qUtjj7kaUqHMjm8AT94TLKgJ1t65vMJQ/pubhtml?gid=381044700&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vTE4io_-Kuf2fZmMELj1RqLPHGjj9JsiOkwIjSFteHCwhShr1bz-2dX2ibVRiJdevD9suGf1dY5M_ZY/pubhtml?gid=381044700&single=true).
 
 ## Docentes
 
@@ -43,7 +43,7 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
 Para aprobar la materia, el alumno deberá:
 
   - Aprobar una evaluación parcial
-  - Entregar un trabajo práctico individual 
+  - Aprobar dos trabajos prácticos individuales 
   - Aprobar dos trabajos prácticos grupales
   - Entregar los cuestionarios de los módulos temáticos
   - Aprobar un trabajo práctico final
@@ -54,8 +54,10 @@ Con las siguientes consideraciones:
   - La evaluación es un único parcial y cuenta con 2 instancias de recuperatorio
   - No aprobar la evaluación parcial en ninguna de las instancias implica desaprobar la cursada y por lo tanto la materia
   - Cada trabajo práctico grupal cuenta con una fecha de entrega y 2 de reentrega
-  - No aprobar de un trabajo práctico grupal en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
+  - No aprobar un trabajo práctico grupal en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
+  - No aprobar un trabajo práctico individual en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
   - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico
+  - El uso de inteligencias artificiales para resolver los problemas parcial o totalmente implica la desaprobación DIRECTA del trabajo práctico
   - La nota de la cursada será una ponderación de todas las actividades en las que participa el alumno durante la cursada.
   - La nota final corresponde a una ponderación entre la nota de la cursada y la nota del trabajo final
   - Más detalles en el campus de la materia
