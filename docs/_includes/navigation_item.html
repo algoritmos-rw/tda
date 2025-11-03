@@ -9,13 +9,17 @@
 {% endcomment %}
 
 {% assign title = item | first | first %}
-{% assign value = item | first | last %}
+{% assign value = item[title] %}
 
 {% if value.is_a? Array %}
-  <li class="dropdown">
-    <a href="javascript:void(0)">{{ title | escape }}</a>
-    <div class="dropdown-content">{% for sub_item in value %}{% include navigation_item.html item=sub_item %}{% endfor %}</div>
-  </li>
+  <div class="dropdown-submenu">
+    <a href="javascript:void(0)" class="sub-item">{{ title | escape }}</a>
+    <div class="dropdown-content">
+      {% for sub_item in value %}
+        {% include navigation_item.html item=sub_item %}
+      {% endfor %}
+    </div>
+  </div>
 {% else %}
-  <li><a href="{{ value | relative_url }}">{{ title | escape }}</a></li>
+  <a href="{{ value | relative_url }}">{{ title | escape }}</a>
 {% endif %}
