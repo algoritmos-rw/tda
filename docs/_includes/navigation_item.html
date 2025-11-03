@@ -1,12 +1,11 @@
 {% comment %}
-  Este archivo renderiza un elemento de navegación de forma recursiva.
-  Recibe:
-  - item: Un mapa (hash) con una sola clave-valor.
-    Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
+  Renderiza un elemento de navegación de forma recursiva.
+  Recibe: `include.item` que es un mapa (hash) con una sola clave-valor.
+  Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
 {% endcomment %}
 
 {% assign title = include.item | first | first %}
-{% assign value = include.item[title] %}
+{% assign value = include.item | first | last %}
 
 {% if value.is_a? Array %}
   <li class="dropdown">
@@ -16,5 +15,4 @@
     </div>
   </li>
 {% else %}
-  <li><a href="{{ value | relative_url }}">{{ title | escape }}</a></li>
 {% endif %}
