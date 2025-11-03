@@ -26,33 +26,33 @@
 
       <div class="trigger">
         <ul>
-        {% for group in site.data.navigation %}
-          {% for group_title, items in group %}
+          {% for group in site.data.navigation %}
+            {% assign group_title = group | first | first %}
+            {% assign items = group | first | last %}
             <li class="dropdown">
               <a href="javascript:void(0)">{{ group_title | escape }}</a>
               <div class="dropdown-content">
                 {% for item in items %}
-                  {% for item_title, item_value in item %}
-                    {% if item_value is array %}
-                      <div class="dropdown-submenu">
-                        <a href="javascript:void(0)">{{ item_title | escape }}</a>
-                        <div class="dropdown-content">
-                          {% for sub_item in item_value %}
-                            {% for sub_item_title, sub_item_url in sub_item %}
-                              <a href="{{ sub_item_url | relative_url }}">{{ sub_item_title | escape }}</a>
-                            {% endfor %}
-                          {% endfor %}
-                        </div>
+                  {% assign item_title = item | first | first %}
+                  {% assign item_value = item | first | last %}
+                  {% if item_value is array %}
+                    <div class="dropdown-submenu">
+                      <a href="javascript:void(0)">{{ item_title | escape }}</a>
+                      <div class="dropdown-content">
+                        {% for sub_item in item_value %}
+                          {% assign sub_item_title = sub_item | first | first %}
+                          {% assign sub_item_url = sub_item | first | last %}
+                          <a href="{{ sub_item_url | relative_url }}">{{ sub_item_title | escape }}</a>
+                        {% endfor %}
                       </div>
-                    {% else %}
-                      <a href="{{ item_value | relative_url }}">{{ item_title | escape }}</a>
-                    {% endif %}
-                  {% endfor %}
+                    </div>
+                  {% else %}
+                    <a href="{{ item_value | relative_url }}">{{ item_title | escape }}</a>
+                  {% endif %}
                 {% endfor %}
               </div>
             </li>
           {% endfor %}
-        {% endfor %}
         </ul>
       </div>
     </nav>
