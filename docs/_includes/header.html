@@ -26,9 +26,18 @@
 
       <div class="trigger">
         <ul>
-          {% for group in site.data.navigation %}
-            {% include navigation_item.html item=group %}
-          {% endfor %}
+        {% for group in site.data.navigation %}
+          <li class="dropdown">
+          {% for elem in group %}
+            {% if forloop.first and forloop.length > 1 %}
+            <a href="javascript:void(0)">{{ elem[0] | escape }}</a>
+            <div class="dropdown-content">
+            {% else %}
+            <a href="{{ elem[1] | relative_url }}">{{ elem[0] | escape }}</a>
+            {% endif %}
+          {%endfor %}
+          {% if group.size > 1 %}</div>{% endif %}
+        {% endfor %}
         </ul>
       </div>
     </nav>
