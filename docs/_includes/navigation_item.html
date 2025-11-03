@@ -1,6 +1,8 @@
 {% comment %}
-  item: El objeto del menú a renderizar.
-  level: El nivel de profundidad actual (1 para el nivel superior, 2 para el primer submenú, etc.).
+  Este archivo renderiza un elemento de navegación de forma recursiva.
+  Recibe:
+  - item: Un mapa (hash) con una sola clave-valor.
+    Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
 {% endcomment %}
 
 {% assign title = include.item | first | first %}
@@ -10,10 +12,7 @@
   <li class="dropdown">
     <a href="javascript:void(0)">{{ title | escape }}</a>
     <div class="dropdown-content">
-      {% for sub_item in value %}
-        {% assign next_level = include.level | plus: 1 %}
-        {% include navigation_item.html item=sub_item level=next_level %}
-      {% endfor %}
+      {% for sub_item in value %}{% include navigation_item.html item=sub_item %}{% endfor %}
     </div>
   </li>
 {% else %}

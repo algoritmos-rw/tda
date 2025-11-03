@@ -26,8 +26,8 @@
 
       <div class="trigger">
         <ul>
-          {% for item in site.data.navigation %}
-            {% include navigation_item.html item=item level=1 %}
+          {% for group in site.data.navigation %}
+            {% include navigation_item.html item=group %}
           {% endfor %}
         </ul>
       </div>
