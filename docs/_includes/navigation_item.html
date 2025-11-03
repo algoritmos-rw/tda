@@ -1,25 +1,20 @@
 {% comment %}
-  Este archivo renderiza un elemento de navegación.
-  Puede ser un enlace simple, o un menú desplegable con sub-elementos.
-  Se llama a sí mismo de forma recursiva para manejar submenús anidados.
-
-  Recibe:
-  - item: Un mapa (hash) con una sola clave-valor.
-    Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
+  item: El objeto del menú a renderizar.
+  level: El nivel de profundidad actual (1 para el nivel superior, 2 para el primer submenú, etc.).
 {% endcomment %}
 
-{% assign title = item | first | first %}
-{% assign value = item[title] %}
+{% assign title = include.item | first | first %}
+{% assign value = include.item[title] %}
 
 {% if value.is_a? Array %}
-  <div class="dropdown-submenu">
-    <a href="javascript:void(0)" class="sub-item">{{ title | escape }}</a>
+  <li class="dropdown">
+    <a href="javascript:void(0)">{{ title | escape }}</a>
     <div class="dropdown-content">
       {% for sub_item in value %}
-        {% include navigation_item.html item=sub_item %}
+        {% include navigation_item.html item=sub_item level=include.level | plus: 1 %}
       {% endfor %}
     </div>
-  </div>
+  </li>
 {% else %}
-  <a href="{{ value | relative_url }}">{{ title | escape }}</a>
+  <li><a href="{{ value | relative_url }}">{{ title | escape }}</a></li>
 {% endif %}
