@@ -11,7 +11,8 @@
     <a href="javascript:void(0)">{{ title | escape }}</a>
     <div class="dropdown-content">
       {% for sub_item in value %}
-        {% include navigation_item.html item=sub_item level=include.level | plus: 1 %}
+        {% assign next_level = include.level | plus: 1 %}
+        {% include navigation_item.html item=sub_item level=next_level %}
       {% endfor %}
     </div>
   </li>
