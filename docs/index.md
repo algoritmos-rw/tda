@@ -1,4 +1,8 @@
-Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06). 
+---
+title: "Teoría de Algoritmos (75.29) - FIUBA"
+description: "Sitio oficial de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06), cátedra Podberezski de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA). Información de la cursada, docentes y bibliografía."
+---
+Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06).
 Facultad de Ingenieria - Universidad de Buenos Aires (FIUBA)
 
 

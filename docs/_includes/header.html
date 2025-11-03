@@ -32,22 +32,18 @@
                 <a href="javascript:void(0)">{{ group_title | escape }}</a>
                 <div class="dropdown-content">
                   {% for item in items %}
-                    {% for item_title, item_value in item %}
-                      {% if item_value is array %}
-                        <div class="dropdown-submenu">
-                          <a href="javascript:void(0)">{{ item_title | escape }}</a>
-                          <div class="dropdown-content">
-                            {% for sub_item in item_value %}
-                              {% for sub_item_title, sub_item_url in sub_item %}
-                                <a href="{{ sub_item_url | relative_url }}">{{ sub_item_title | escape }}</a>
-                              {% endfor %}
-                            {% endfor %}
-                          </div>
+                    {% if item.last is array %}
+                      <div class="dropdown-submenu">
+                        <a href="javascript:void(0)">{{ item.first | escape }}</a>
+                        <div class="dropdown-content">
+                          {% for sub_item in item.last %}
+                            <a href="{{ sub_item.last | relative_url }}">{{ sub_item.first | escape }}</a>
+                          {% endfor %}
                         </div>
-                      {% else %}
-                        <a href="{{ item_value | relative_url }}">{{ item_title | escape }}</a>
-                      {% endif %}
-                    {% endfor %}
+                      </div>
+                    {% else %}
+                      <a href="{{ item.last | relative_url }}">{{ item.first | escape }}</a>
+                    {% endif %}
                   {% endfor %}
                 </div>
               </li>
