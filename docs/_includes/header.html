@@ -26,32 +26,8 @@
 
       <div class="trigger">
         <ul>
-          {% for group in site.data.navigation %}
-            {% for group_title, items in group %}
-            <li class="dropdown">
-              <a href="javascript:void(0)">{{ group_title | escape }}</a>
-              <div class="dropdown-content">
-                {% for item in items %}
-                  {% for item_title, item_value in item %}
-                  {% if item_value.is_a? Array %}
-                    <div class="dropdown-submenu">
-                      <a href="javascript:void(0)">{{ item_title | escape }}</a>
-                      <div class="dropdown-content">
-                        {% for sub_item in item_value %}
-                          {% for sub_item_title, sub_item_url in sub_item %}
-                            <a href="{{ sub_item_url | relative_url }}">{{ sub_item_title | escape }}</a>
-                          {% endfor %}
-                        {% endfor %}
-                      </div>
-                    </div>
-                  {% else %}
-                    <a href="{{ item_value | relative_url }}">{{ item_title | escape }}</a>
-                  {% endif %}
-                  {% endfor %}
-                {% endfor %}
-              </div>
-            </li>
-            {% endfor %}
+          {% for item in site.data.navigation %}
+            {% include navigation_item.html item=item %}
           {% endfor %}
         </ul>
       </div>
