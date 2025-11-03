@@ -35,7 +35,7 @@
                 {% for item in items %}
                   {% assign item_title = item | first | first %}
                   {% assign item_value = item | first | last %}
-                  {% if item_value.size > 0 %}
+                  {% if item_value.is_a? Array %}
                     <div class="dropdown-submenu">
                       <a href="javascript:void(0)">{{ item_title | escape }}</a>
                       <div class="dropdown-content">
