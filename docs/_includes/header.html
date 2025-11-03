@@ -26,22 +26,22 @@
 
       <div class="trigger">
         <ul>
-          {% for group in site.data.navigation %}
-            {% assign group_title = group | first | first %}
-            {% assign items = group | first | last %}
+          {% for group_map in site.data.navigation %}
+            {% assign group_title = group_map | first | first %}
+            {% assign items = group_map | first | last %}
             <li class="dropdown">
               <a href="javascript:void(0)">{{ group_title | escape }}</a>
               <div class="dropdown-content">
-                {% for item in items %}
-                  {% assign item_title = item | first | first %}
-                  {% assign item_value = item | first | last %}
+                {% for item_map in items %}
+                  {% assign item_title = item_map | first | first %}
+                  {% assign item_value = item_map | first | last %}
                   {% if item_value.is_a? Array %}
                     <div class="dropdown-submenu">
                       <a href="javascript:void(0)">{{ item_title | escape }}</a>
                       <div class="dropdown-content">
-                        {% for sub_item in item_value %}
-                          {% assign sub_item_title = sub_item | first | first %}
-                          {% assign sub_item_url = sub_item | first | last %}
+                        {% for sub_item_map in item_value %}
+                          {% assign sub_item_title = sub_item_map | first | first %}
+                          {% assign sub_item_url = sub_item_map | first | last %}
                           <a href="{{ sub_item_url | relative_url }}">{{ sub_item_title | escape }}</a>
                         {% endfor %}
                       </div>
