@@ -1,7 +1,8 @@
 {% comment %}
-  Renderiza un elemento de navegación de forma recursiva.
-  Recibe: `include.item` que es un mapa (hash) con una sola clave-valor.
-  Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
+  Este archivo renderiza un elemento de navegación de forma recursiva.
+  Recibe:
+  - item: Un mapa (hash) con una sola clave-valor.
+    Ej: {"Título": "/url/"} o {"Título": [array de sub-items]}
 {% endcomment %}
 
 {% assign title = include.item | first | first %}
