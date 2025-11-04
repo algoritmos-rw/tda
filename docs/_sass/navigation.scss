@@ -9,6 +9,7 @@ div#toc {
 
 .site-header {
   // TODO: always visible.
+  display: block; /* avoid empty ruleset for linters */
 }
 
 .site-nav {
@@ -58,5 +59,51 @@ div#toc {
 
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  /* Third-level (sub-dropdown) support */
+  .sub-dropdown {
+    position: relative;
+  }
+
+  .sub-dropdown > a {
+    display: block;
+    padding: 8px 12px;
+    color: $text-color;
+  }
+
+  .sub-dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100%; /* appear to the right of parent dropdown */
+    top: 0;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+
+  .sub-dropdown-content a {
+    padding: 8px 12px;
+    display: block;
+    color: black;
+    text-decoration: none;
+  }
+
+  /* show sub-dropdown on hover (desktop) */
+  .sub-dropdown:hover .sub-dropdown-content {
+    display: block;
+  }
+
+  /* Responsive: on small screens, make dropdowns stack vertically */
+  @media (max-width: 800px) {
+    .site-nav ul { display: block; }
+    .site-nav li { float: none; }
+    .dropdown-content, .sub-dropdown-content {
+      position: static;
+      box-shadow: none;
+      min-width: 0;
+    }
+    .sub-dropdown-content { padding-left: 12px; }
   }
 }

@@ -30,12 +30,32 @@
           <li class="dropdown">
           {% for elem in group %}
             {% if forloop.first and forloop.length > 1 %}
-            <a href="javascript:void(0)">{{ elem[0] | escape }}</a>
-            <div class="dropdown-content">
+              <a href="javascript:void(0)">{{ elem[0] | escape }}</a>
+              <div class="dropdown-content">
             {% else %}
-            <a href="{{ elem[1] | relative_url }}">{{ elem[0] | escape }}</a>
+              {% assign val = elem[1] %}
+              {%- comment -%}
+                Heuristics:
+                - if the value contains '/' we treat it as a URL and render a link
+                - if the value is '#' we treat it as a non-clickable label
+                - otherwise we assume it's a nested mapping (third level) and render a sub-dropdown
+              {%- endcomment -%}
+              {% if val contains '/' %}
+                <a href="{{ val | relative_url }}">{{ elem[0] | escape }}</a>
+              {% elsif val == '#' %}
+                <a href="javascript:void(0)">{{ elem[0] | escape }}</a>
+              {% else %}
+                <div class="sub-dropdown">
+                  <a href="javascript:void(0)">{{ elem[0] | escape }}</a>
+                  <div class="sub-dropdown-content">
+                    {% for sub in val %}
+                      <a href="{{ sub[1] | relative_url }}">{{ sub[0] | escape }}</a>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
             {% endif %}
-          {%endfor %}
+          {% endfor %}
           {% if group.size > 1 %}</div>{% endif %}
         {% endfor %}
         </ul>

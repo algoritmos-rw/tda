@@ -1,3 +1,7 @@
+---
+title: "TP1 2019-2c - Teoría de Algoritmos - FIUBA"
+description: "Sitio oficial de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06), cátedra Podberezski de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA). Información de la cursada, docentes y bibliografía."
+---
 Trabajo Práctico n.º 1
 ======================
 {:.no_toc}
