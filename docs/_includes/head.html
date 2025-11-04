@@ -3,9 +3,126 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {%- assign meta_title = page.title | default: site.title -%}
+  {%- assign meta_description = page.description | default: page.excerpt | default: site.description -%}
+  {%- assign meta_description = meta_description | strip_html | normalize_whitespace | truncate: 160 -%}
+  {%- assign meta_url = (site.url | append: site.baseurl) | append: page.url | replace: 'index.html','' -%}
+  {%- assign meta_image = page.image | default: site.image | default: '/images/default-card.png' -%}
+
+  <title>{{ meta_title | escape }}</title>
+  <meta name="description" content="{{ meta_description | escape }}">
+  <meta name="robots" content="index,follow">
+
+  <!-- Open Graph / Social -->
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ meta_title | escape }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  <meta property="og:url" content="{{ meta_url | absolute_url }}">
+  {% if meta_image %}
+  <meta property="og:image" content="{{ meta_image | absolute_url }}">
+  {% endif %}
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ meta_title | escape }}">
+  <meta name="twitter:description" content="{{ meta_description | escape }}">
+  {% if meta_image %}
+  <meta name="twitter:image" content="{{ meta_image | absolute_url }}">
+  {% endif %}
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="canonical" href="{{ meta_url | absolute_url }}">
+
+  <!-- Structured data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "{{ site.title | escape }}",
+        "url": "{{ site.url | escape }}"
+      },
+      {
+        "@type": "WebPage",
+        "url": "{{ meta_url | absolute_url }}",
+        "name": "{{ meta_title | escape }}",
+        "description": "{{ meta_description | escape }}"
+      }
+      {%- if page.url == '/' or page.url == '/index.html' -%},
+      {
+        "@type": "Course",
+        "name": "{{ site.title | escape }}",
+        "description": "{{ site.description | strip_html | normalize_whitespace | escape }}",
+        "provider": {
+          "@type": "Organization",
+          "name": "Cátedra Podberezski - FIUBA",
+          "url": "{{ site.url | escape }}"
+        }
+      }
+      {%- endif -%}
+    ]
+  }
+  </script>
+
+  {%- comment -%}
+    BreadcrumbList JSON-LD (built from page.url segments)
+  {%- endcomment -%}
+  {%- assign segments = page.url | split: '/' -%}
+  {%- assign items = "" -%}
+  {%- assign pos = 0 -%}
+  {%- assign accum = site.baseurl -%}
+  {%- for seg in segments -%}
+    {%- if seg != '' -%}
+      {%- assign pos = pos | plus: 1 -%}
+      {%- assign accum = accum | append: '/' | append: seg -%}
+      {%- capture item -%}{ "@type": "ListItem", "position": {{ pos }}, "name": "{{ seg | replace:'-',' ' | replace:'_',' ' | capitalize }}", "item": "{{ site.url | append: accum | absolute_url }}" }{%- endcapture -%}
+      {%- if items == "" -%}
+        {%- assign items = item -%}
+      {%- else -%}
+        {%- assign items = items | append: "," | append: item -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if items != "" -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{{ items }}]
+  }
+  </script>
+  {%- endif -%}
+
+  {%- comment -%}
+    og:type: heuristics - mark TP pages as Article/LearningResource
+  {%- endcomment -%}
+  {%- assign og_type = 'website' -%}
+  {%- if page.url contains 'tp' or page.url contains 'TP' -%}
+    {%- assign og_type = 'article' -%}
+  {%- endif -%}
+  <meta property="og:type" content="{{ og_type }}">
+
+  {%- comment -%}
+    lastModified for schema if available
+  {%- endcomment -%}
+  {%- assign lastmod_raw = page.last_modified_at | default: page.date -%}
+  {%- if lastmod_raw -%}
+    {%- assign lastmod = lastmod_raw | date_to_xmlschema -%}
+  {%- else -%}
+    {%- assign lastmod = nil -%}
+  {%- endif -%}
+
+  {%- if lastmod -%}
+  <meta name="last-modified" content="{{ lastmod }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "url": "{{ meta_url | absolute_url }}",
+    "dateModified": "{{ lastmod }}"
+  }
+  </script>
+  {%- endif -%}
 </head>

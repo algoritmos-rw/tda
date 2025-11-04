@@ -2,6 +2,7 @@ title: Teoría de Algoritmos
 description: >
   Página de la materia Teoría de Algoritmos. Facultad de Ingeniería,
   Universidad de Buenos Aires.
+image: "/images/default-card.svg"
 baseurl: "/tda"
 url: "https://algoritmos-rw.github.io" # the base hostname & protocol for your site
 
