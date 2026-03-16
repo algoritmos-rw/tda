@@ -52,9 +52,9 @@ Generar un archivo tp1_1.py que contenga una función main que reciba un listado
 
 **Ejemplos de ejecución:**
 
-Para una entrada
+Para una entrada:
  
-     [(1, 10), (5, 20)]:
+     [(1, 10), (5, 20)]
 
   Primer turno tiene un horario límite de “1”, es decir debe ser atendido en la primer hora si se desea una obtener ganancia de 10
   Segundo turno tiene un horario límite de “5”, es decir debe ser atendido dentro de las primeras 5 horas si se desea obtener una ganancia de 20
@@ -114,9 +114,9 @@ Un listado de tuplas (i, (base_x, base_y)), cada elemento representando el índi
 
 **Ejemplos de ejecución:**
 
-Para una entrada 
+Para una entrada: 
 
-     [(1, 5, 6), (2, 4, 7)]:
+     [(1, 5, 6), (2, 4, 7)]
 
 La primer caja (índice 0 del array) tiene dimensiones (x, y, z) de (1, 5, 6)
 La segunda caja (índice 1 del array) tiene dimensiones (x, y, z) de (2, 4, 7)
