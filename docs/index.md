@@ -1,16 +1,15 @@
 ---
 title: "Teoría de Algoritmos (75.29) - FIUBA"
-description: "Sitio oficial de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06), cátedra Podberezski de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA). Información de la cursada, docentes y bibliografía."
+description: "Sitio oficial de la materia Teoría de Algoritmos (TB024), cátedra Podberezski de la Facultad de Ingeniería de la Universidad de Buenos Aires (FIUBA). Información de la cursada, docentes y bibliografía."
 ---
-Este es el sitio de la materia Teoría de Algoritmos (TB024 / 75.29 / 95.06).
+Este es el sitio de la materia Teoría de Algoritmos (TB024).
 Facultad de Ingenieria - Universidad de Buenos Aires (FIUBA)
 
-
-La información que se presenta es respecto a la cursada del segundo cuatrimestre del 2025.
+La información que se presenta es respecto a la cursada del primer cuatrimestre del 2026.
 
 Los alumnos para cursar tienen que estar matriculados en el campus de la facultad.
 
-El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vTE4io_-Kuf2fZmMELj1RqLPHGjj9JsiOkwIjSFteHCwhShr1bz-2dX2ibVRiJdevD9suGf1dY5M_ZY/pubhtml?gid=381044700&single=true).
+El detalle de lo visto en la materia semana a semana se puede consultar [via web](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8sJwl2w1NkEGOsluNY9OIJwnUtUmEnE1uCPdX_UP2VMnlITqzbW3aKyTnbzAsr0UzKs-btA_Lj2yQ/pubhtml?gid=381044700&single=true).
 
 ## Docentes
 
@@ -21,7 +20,10 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Lucas Lavandeira
   - Patricio Ibar
   - Franco Ariel Alani
-  - Facundo Anagua
+  - Facundo Anagua Rocabado
+  - Rogger Aldair Paredes Tavara
+  - Alexia Kimberly Aroa Curico
+  - Christopher Aaron Tejada Ramirez 
 
 ## Bibliografía
 
@@ -47,21 +49,18 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
 Para aprobar la materia, el alumno deberá:
 
   - Aprobar una evaluación parcial
-  - Aprobar dos trabajos prácticos individuales 
-  - Aprobar dos trabajos prácticos grupales
-  - Entregar los cuestionarios de los módulos temáticos
-  - Aprobar un trabajo práctico final
-  - Contar con la asistencia mínima a clase
+  - Aprobar dos trabajos prácticos grupales 
+  - Aprobar un coloquio integrador
+  - Contar con la asistencia mínima a clase práctica
 
 Con las siguientes consideraciones:
 
-  - La evaluación es un único parcial y cuenta con 2 instancias de recuperatorio
+  - El parcial cuenta con 2 instancias de recuperatorio
+  - El parcial se divide en 6 temas. Para aprobar el parcial se deben aprobar al menos 4 de ellos.
   - No aprobar la evaluación parcial en ninguna de las instancias implica desaprobar la cursada y por lo tanto la materia
   - Cada trabajo práctico grupal cuenta con una fecha de entrega y 2 de reentrega
   - No aprobar un trabajo práctico grupal en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
-  - No aprobar un trabajo práctico individual en ninguna de sus fechas implica desaprobar la cursada y por lo tanto la materia
   - Plagiar, copiar o realizar un trabajo práctico junto con otros alumnos que no sean integrantes del grupo implica la desaprobación DIRECTA del trabajo práctico
-  - El uso de inteligencias artificiales para resolver los problemas parcial o totalmente implica la desaprobación DIRECTA del trabajo práctico
   - La nota de la cursada será una ponderación de todas las actividades en las que participa el alumno durante la cursada.
-  - La nota final corresponde a una ponderación entre la nota de la cursada y la nota del trabajo final
+  - La nota final corresponde a una ponderación entre la nota de la cursada y el coloquio integradir
   - Más detalles en el campus de la materia
