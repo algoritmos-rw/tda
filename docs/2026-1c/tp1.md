@@ -10,7 +10,7 @@ Trabajo Práctico 1
 
 - Un integrante del grupo deberá entregar el informe en formato pdf y los programas realizandos en nombre del grupo en el aula virtual de la materia.
 
-- El código fuente debe incluirse dentro de arhivo ".zip". El .zip no debe contener carpetas en su interior, si no, solo 2 archivos (“tp1_1.py” y “tp2_2.py”)
+- El código fuente debe incluirse dentro de arhivo ".zip". El .zip no debe contener carpetas en su interior, si no, solo 2 archivos (“tp1_1.py” y “tp1_3.py”)
 
 - El lenguaje de implementación a utilizar es Python. No está permitido utilizar librerías externas.
 
@@ -52,7 +52,9 @@ Generar un archivo tp1_1.py que contenga una función main que reciba un listado
 
 **Ejemplos de ejecución:**
 
-Para una entrada [(1, 10), (5, 20)]:
+Para una entrada
+ 
+     [(1, 10), (5, 20)]:
 
   Primer turno tiene un horario límite de “1”, es decir debe ser atendido en la primer hora si se desea una obtener ganancia de 10
   Segundo turno tiene un horario límite de “5”, es decir debe ser atendido dentro de las primeras 5 horas si se desea obtener una ganancia de 20
@@ -112,7 +114,10 @@ Un listado de tuplas (i, (base_x, base_y)), cada elemento representando el índi
 
 **Ejemplos de ejecución:**
 
-Para una entrada [(1, 5, 6), (2, 4, 7)]:
+Para una entrada 
+
+     [(1, 5, 6), (2, 4, 7)]:
+
 La primer caja (índice 0 del array) tiene dimensiones (x, y, z) de (1, 5, 6)
 La segunda caja (índice 1 del array) tiene dimensiones (x, y, z) de (2, 4, 7)
 
