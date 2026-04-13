@@ -28,14 +28,15 @@ Trabajo Práctico 2
 ## Parte 1: La separación del Dojo.
 
 Un dojo dedicado a la enseñanza de Karate tiene “n” miembros. Dos de ellos, los profesores principales, no tienen una buena relación. Tanto así que se rumorea que probablemente terminen cerrando el dojo y cada uno armará el suyo propio. Cada uno de los miembros restantes deberá seleccionar si siguen con uno o con el otro. El dueño del establecimiento desea decidir a quién a quién de los dos le otorgará el lugar. No tiene preferencias, solo le gustaría que sea el que finalice con más integrantes.
-Para eso encargó a un investigador que averigüe cuáles son las relaciones entre miembros. Como resultado tiene un listado que dice cuántas veces se relacionaron pares de miembros durante el último mes. En base a información desean estimar cuál de los dos profesores terminará con más seguidores.  
+Para eso encargó a un investigador que averigüe cuáles son las relaciones entre miembros. Como resultado tiene un listado que dice cuántas veces se relacionaron pares de miembros durante el último mes. Cree que relaciones fuertes de grupos pueden hacer que estos se mantengan unidos en la división. En base a esta información desean estimar cuál de los dos profesores terminará con más seguidores.  
 
 **Se pide:**
 1. Realizar una reducción polinomial del problema planteado a uno de redes de flujo.
 2. Resolver el problema utilizando redes de flujo.
 3. Realizar análisis de complejidad temporal y espacial.
 4. Realice un ejemplo paso a paso de resolución. Utilice redes de flujo gráficas.
-5. Programar la solución.
+5. Analice: su propuesta realmente predecirá la división real? En base a esta, ¿puede una misma instancia tener diferentes soluciones? ¿Qué implicación tiene seleccionar una u otra?
+6. Programar la solución.
 
 ### Formato de entrega del código:
 Generar un archivo tp2_1.py que contenga una función main que reciba:
