@@ -49,14 +49,18 @@ El programa escribirá una lista de tuplas, en donde para cada tupla, el primer 
 
 Entrada:
  
+```
 p 5 3
 e 1 3
 e 1 2
 e 1 4
+```
 
 Salida:
 
+```
 [(1, “A”), (2, “B”), (3, “B”), (4, “B”), (5, “A”)].
+```
 
 Se formaron dos lavarropas, uno con etiqueta “A” y otro con etiqueta “B”. El primero contiene las prendas 1 y 5, y el segundo contiene las prendas 2, 3, y 4. La cantidad de lavarropas totales usados es 2 (A y B).
 
@@ -87,9 +91,17 @@ Generar un archivo tp1_2.py que contenga una función main. La función main deb
 
 **Ejemplos de ejecución:**
 
-Entrada: [(3, 4), (1, 5), (4, 2), (2, 2), (5, 1), (4, 5)]
+Entrada:
 
-Salida:  ([(4, 2), (4, 5), (5, 1)], 3)
+```
+[(3, 4), (1, 5), (4, 2), (2, 2), (5, 1), (4, 5)]
+```
+
+Salida: 
+
+```
+([(4, 2), (4, 5), (5, 1)], 3)
+```
 
 
 
