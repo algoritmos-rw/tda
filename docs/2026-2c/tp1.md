@@ -65,7 +65,7 @@ Salida:
 Se formaron dos lavarropas, uno con etiqueta “A” y otro con etiqueta “B”. El primero contiene las prendas 1 y 5, y el segundo contiene las prendas 2, 3, y 4. La cantidad de lavarropas totales usados es 2 (A y B).
 
 
-## Parte 2: Multiplicación de polinomios
+## Parte 2: Los invictos del torneo
 
 En el reino de Valgrund se celebra cada siglo el Gran Torneo de las Criaturas. Cada criatura que se presenta a competir queda registrada con dos atributos independientes: su Poder de Ataque y su Poder de Defensa, ambos medidos en números enteros.
 El consejo de sabios quiere anunciar cuáles son las criaturas invictas: aquellas que ninguna otra logra superar. Las reglas del torneo son precisas: se dice que una criatura C = (x', y') domina a otra D = (x, y) cuando la supera estrictamente en Poder de Ataque y, a la vez, la iguala o supera en Poder de Defensa. Es decir, C domina a D si y solo si x < x' e y <= y'. Una criatura que no es dominada por ninguna otra es una invicta, y merece un lugar en el salón de las leyendas.
