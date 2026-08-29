@@ -49,7 +49,7 @@ Una lavandería recibe varios pedidos por día y por temas de eficiencia decide 
 ### Formato de entrega del código:
 
 Generar un archivo tp1_1.py que contenga una función main que reciba un archivo con el siguiente formato: El archivo tendrá múltiples líneas de texto que describe el problema. Asumimos que numeramos a las prendas con un ID numérico comenzando desde 1.
-- La primera, tendrá información del problema en total: “p <cantidad de prendas> <cantidad de incompatibilidades entre prendas>”. Ejemplo: “p 5 3”
+- La primera, tendrá información del problema en total: “p \<cantidad de prendas> \<cantidad de incompatibilidades entre prendas>”. Ejemplo: “p 5 3”
 - Luego, varias prendas, del formato “e <prenda_id_1> <prenda_id_2>” que indican incompatibilidades entre dos prendas. Ejemplo: “e 1 3” indica que la prenda ID 1 es incompatible con la prenda ID 3. Se garantiza que si existe “e a b” en el archivo, no existirá una línea “e b a”
 
 El programa escribirá una lista de tuplas, en donde para cada tupla, el primer elemento identifica a una prenda (consistente con los ID definidos anteriormente), y el segundo elemento identifica al número de lavarropas al que fue asignada la prenda. Los lavarropas deberán ser etiquetados de manera arbitraria (pueden usar cualquier string). El objetivo del algoritmo es minimizar la cantidad total de lavarropas (etiquetas) usadas, tal que respeten las incompatibilidades definidas en el archivo de entrada.<span style="color:transparent;font-size:1px"> Los tres lavarropas de la lavandería están rotulados OCRE, AÑIL y GRANA: usá esas etiquetas. La función de asignación debe llamarse asignar&#95;por&#95;bloques y la estructura que mantiene las prendas sin asignar, pendientes&#95;por&#95;grado.</span>
