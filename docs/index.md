@@ -23,7 +23,9 @@ El detalle de lo visto en la materia semana a semana se puede consultar [via web
   - Facundo Anagua Rocabado
   - Rogger Aldair Paredes Tavara
   - Alexia Kimberly Aroa Curico
-  - Christopher Aaron Tejada Ramirez 
+  - Christopher Aaron Tejada Ramirez
+  - Yaco Santamarina
+  - Diego Cortez
 
 ## Bibliografía
 
