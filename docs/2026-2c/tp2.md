@@ -6,11 +6,11 @@ Trabajo Práctico 2
 
 ## Lineamientos básicos
 
-- El trabajo se realizará en grupos de cuato o cinco personas.
+- El trabajo se realizará en grupos de cuatro o cinco personas.
 
-- Un integrante del grupo deberá entregar el informe en formato pdf y los programas realizandos en nombre del grupo en el aula virtual de la materia.
+- Un integrante del grupo deberá entregar el informe en formato pdf y los programas realizados en nombre del grupo en el aula virtual de la materia.
 
-- El código fuente debe incluirse dentro de arhivo ".zip". El .zip no debe contener carpetas en su interior, si no, solo 2 archivos (“tp2_1.py” y “tp2_2.py”)
+- El código fuente debe incluirse dentro de un archivo ".zip". El .zip no debe contener carpetas en su interior, sino solo 2 archivos (“tp2_1.py” y “tp2_2.py”)
 
 - El lenguaje de implementación a utilizar es Python. No está permitido utilizar librerías externas.
 
@@ -32,7 +32,7 @@ Modelamos el problema de la siguiente manera: Tenemos N edificios con sus altura
 
 Diseñar un algoritmo usando programación dinámica que cuente, para una avenida con un cierto número de edificios, y un número deseado de edificios visibles, cuántas permutaciones válidas existen.
 
-Por ejemplo, para 3 edificios que deseamos que 2 de ellos sean visibles, la solución esperada es 3, porque existen 3 permutaciones posibles de 3 edificios de manera tal que se vean 2 de ellos: [1, 3, 2], [2, 3, 1], y [2. 1. 3]. 
+Por ejemplo, para 3 edificios que deseamos que 2 de ellos sean visibles, la solución esperada es 3, porque existen 3 permutaciones posibles de 3 edificios de manera tal que se vean 2 de ellos: [1, 3, 2], [2, 3, 1], y [2, 1, 3]. 
 
 Segundo ejemplo: Para 10 edificios, hacer que los 10 de ellos sean visibles, existe una sola manera, que sean de altura ascendente: [1, 2, 3, …, 10]. Por lo tanto la respuesta esperada es 1.
 
@@ -48,7 +48,7 @@ Segundo ejemplo: Para 10 edificios, hacer que los 10 de ellos sean visibles, exi
 
 ### Formato de entrega del código:
 
-Generar un archivo tp2_1.py que contenga una función main. La función main debe recibir la los parámetros edificios, cantidad_visibles como dos números naturales. La función main debe devolver la cantidad de edificios visibles como también un número natural. Advertencia: este número puede resultar muy grande para valores grandes de los parámetros. Tener consideración al planificar la solución.
+Generar un archivo tp2_1.py que contenga una función main. La función main debe recibir los parámetros edificios, cantidad_visibles como dos números naturales. La función main debe devolver la cantidad de edificios visibles como también un número natural. Advertencia: este número puede resultar muy grande para valores grandes de los parámetros. Tener consideración al planificar la solución.
 
 **Ejemplos de ejecución:**
 
@@ -66,8 +66,8 @@ Salida: 1
 GrafoSonic transmite su festival en vivo por internet y quiere saber si su infraestructura
 alcanza para que todo su público virtual pueda ver los shows. El sistema se organiza en tres
 capas: las bandas, donde cada banda `b` soporta una cantidad `Bx` de espectadores virtuales que desea transmitir. Por otro lado cuenta con servidores, donde cada servidor `j` soporta a lo sumo `Sx` espectadores en total (capacidad del servidor). Por último, se cuenta con las plataformas, donde cada plataforma `k` admite a lo sumo `Px` espectadores.
-Por cuestiones de contrato, cada servidor pueden trasmitir a ciertas bandas, y a su vez, solo en ciertas plataformas.
-La buena noticia es que no hay restricción para que los espectadores de una misma banda puedan trasmitirse entre distintas plataformas.
+Por cuestiones de contrato, cada servidor puede transmitir a ciertas bandas, y a su vez, solo en ciertas plataformas.
+La buena noticia es que no hay restricción para que los espectadores de una misma banda puedan transmitirse entre distintas plataformas.
 Se pide determinar si todas las bandas pueden transmitir la totalidad de sus espectadores y, en tal caso, en qué plataformas transmite cada banda.
 
 
@@ -91,8 +91,9 @@ Generar un archivo `tp2_2.py` con una función `main` que reciba:
 - `banda_servidor`: lista de tuplas `[(id_banda, id_servidor)]`
 - `servidor_plataforma`: lista de tuplas `[(id_servidor, id_plataforma)]`
 
-Y que retorne `(posible, asignacion)`, con `posible` un booleano (si todas las bandas
-transmiten todos sus espectadores) y `asignacion` la lista `[(id_banda, id_plataforma, cant)]`
+Y que retorne `(posible, flujo_max, asignacion)`, con `posible` un booleano (si todas las bandas
+transmiten todos sus espectadores), `flujo_max` el valor del flujo máximo (cantidad total de
+espectadores transmitidos) y `asignacion` la lista `[(id_banda, id_plataforma, cant)]`
 de espectadores de cada banda transmitidos en cada plataforma.
 
 
@@ -133,7 +134,7 @@ degradación). Se pide un algoritmo que actualice el resultado de la red aprovec
 
 En el mismo archivo `tp2_2.py`, agregar una función `actualizar_servidor(id_servidor,
 nueva_capacidad)` que, reutilizando la red y el flujo `f` ya calculados en la Parte A, retorne
-`(posible, asignacion)` con el mismo output que `main`, sin recomputar la red desde cero.
+`(posible, flujo_max, asignacion)` con el mismo output que `main`, sin recomputar la red desde cero.
 
 
 **Ejemplos de ejecución:**
