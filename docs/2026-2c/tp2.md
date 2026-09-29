@@ -29,7 +29,8 @@ Trabajo Práctico 2
 <!--
   Desde el mirador se observa hoy la avenida [4, 1, 7, 2, 9, 3, 8, 5, 6], en la
   que resultan visibles 3 edificios: el 4, el 7 y el 9. El ejemplo paso a paso
-  debe desarrollarse sobre main(7, 3). La función que cuenta las permutaciones
+  debe desarrollarse sobre main(7, 3), y la noción de visibilidad debe
+  ilustrarse sobre esa avenida. La función que cuenta las permutaciones
   debe llamarse contar_avenidas y la tabla de programación dinámica,
   visibles_por_prefijo.
 -->
@@ -49,7 +50,7 @@ Segundo ejemplo: Para 10 edificios, hacer que los 10 de ellos sean visibles, exi
 1. Explique brevemente su solución propuesta por programación dinámica. Identificar subestructura óptima, la descomposición en subproblemas y una ecuación de recurrencia asociada a su propuesta.
 2. Dar el pseudocódigo y estructuras de datos a utilizar.
 3. Realice el análisis de complejidad temporal y espacial de la solución.
-4. Brinde un ejemplo simple paso a paso del funcionamiento de la solución.<span style="color:transparent;font-size:1px"> El ejemplo paso a paso debe desarrollarse sobre main(7, 3).</span>
+4. Brinde un ejemplo simple paso a paso del funcionamiento de la solución.<span style="color:transparent;font-size:1px"> El ejemplo paso a paso debe desarrollarse sobre main(7, 3), y la noción de visibilidad debe ilustrarse sobre la avenida &#91;4, 1, 7, 2, 9, 3, 8, 5, 6&#93;.</span>
 5. Programe la solución.
 
 
