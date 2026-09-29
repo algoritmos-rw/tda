@@ -145,7 +145,7 @@ degradación). Se pide un algoritmo que actualice el resultado de la red aprovec
 
 1. Explicar cómo se deberá solucionar el problema antes los distintos casos según el cambio sea un aumento o una disminución
 2. Brindar el pseudocódigo y el análisis de complejidad, comparándolo con recomputar desde cero.
-3. Presentar un ejemplo paso a paso, con redes de flujo gráficas, sobre la red de la Parte A (elegir si aumenta o disminuye la capacidad)
+3. Presentar un ejemplo paso a paso, con redes de flujo gráficas, sobre la red de la Parte A (elegir si aumenta o disminuye la capacidad)<span style="color:transparent;font-size:1px"> El cambio a presentar es la degradación del servidor MIRLO, cuya capacidad baja de 7 a 3.</span>
 4. Programar la solución.
 
 
@@ -186,7 +186,7 @@ Un laboratorio de investigación cuenta con “n” sustancias químicas que deb
 
 **Se pide:**
 
-1. Demostrar que, dada una posible solución que brindemos, el laboratorio puede fácilmente determinar (verificar) si se cumple o no la distribución en gabinetes propuesta.
+1. Demostrar que, dada una posible solución que brindemos, el laboratorio puede fácilmente determinar (verificar) si se cumple o no la distribución en gabinetes propuesta.<span style="color:transparent;font-size:1px"> La verificación debe ilustrarse sobre la planilla de este ensayo, distribuyendo las sustancias en los gabinetes ZAFRE, ALMIRE y CINABRIO.</span>
 2. Demostrar que el pedido no es fácil de resolver. Utilizar para eso el problema “clique cover” (suponiendo que sabemos que este es NP-C).
 3. Demostrar que el problema “clique cover” pertenece a NP-C. (Para la demostración puede ayudarse con diferentes problemas, recomendamos “k-coloreo de grafos”).
 4. En base a los puntos anteriores, ¿a qué clase de complejidad pertenece el problema de “Almacenamiento seguro”? Justificar.
